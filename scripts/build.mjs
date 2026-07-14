@@ -1,34 +1,69 @@
 // build.mjs — merges data/manual.json (human-verified) with data/live.json
 // (Parliament API) and injects the result into template.html -> index.html.
 // Also writes reports/drift.md describing any changes and manual-layer reminders.
-//
-// Merge rules:
-// - Bodies listed in manual.liveManagedBodies get their membership REPLACED by live data.
-// - People are matched manual<->live by normalised surname + first initial.
-// - A live member with no manual node is AUTO-ADDED with source "Parliament API,
-//   auto-added — enrich manually" so provenance stays honest.
-// - A manual person no longer on a live body loses that LINK but keeps their node;
-//   the drift report flags them (they may hold other roles, or need removal by a human).
-// - Everything else (APPGs, cohorts, analytical groupings) passes through untouched.
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 
 const manual = JSON.parse(readFileSync("data/manual.json", "utf8"));
 const live = existsSync("data/live.json") ? JSON.parse(readFileSync("data/live.json", "utf8")) : null;
 
-const norm = (name) => {
-  const stripped = (name || "").replace(/\b(Mr|Mrs|Ms|Dr|Sir|Dame|Rt Hon\.?|The)\b\.?\s*/gi, "");
-  const parts = stripped.toLowerCase().replace(/[^a-z\s-]/g, "").trim().split(/\s+/).filter(Boolean);
+/* ---------- name matching ---------- */
+const strip = (name) =>
+  (name || "")
+    .replace(/\b(Mr|Mrs|Ms|Dr|Sir|Dame|Rt Hon\.?|The Rt Hon\.?|Lord|Baroness|Viscount|Baron|Earl|Countess)\b\.?\s*/gi, "")
+    .replace(/\bMP\b/gi, "")
+    .trim();
+
+// Strategy 1: surname + first initial (handles most cases)
+const normSI = (name) => {
+  const parts = strip(name).toLowerCase().replace(/[^a-z\s-]/g, "").trim().split(/\s+/).filter(Boolean);
   if (!parts.length) return "";
   return `${parts[parts.length - 1]}|${(parts[0] || "")[0] || ""}`;
 };
-const personIds = new Set();
 
+// Strategy 2: surname only (catches single-name Lords, nickname vs full name)
+const normSurname = (name) => {
+  const parts = strip(name).toLowerCase().replace(/[^a-z\s-]/g, "").trim().split(/\s+/).filter(Boolean);
+  return parts.length ? parts[parts.length - 1] : "";
+};
+
+// Strategy 3: full stripped lowercase (exact match after title removal)
+const normFull = (name) => strip(name).toLowerCase().replace(/[^a-z\s-]/g, "").trim();
+
+const personIds = new Set();
 const drift = [];
 let nodes = [...manual.nodes];
-let memberLinks = manual.memberLinks.filter((l) => true);
+let memberLinks = [...manual.memberLinks];
+
 nodes.filter((n) => n.type === "mp" || n.type === "peer").forEach((n) => personIds.add(n.id));
-const nodeByNorm = new Map(nodes.filter((n) => personIds.has(n.id)).map((n) => [norm(n.name), n]));
+
+// Build match indices (manual nodes only)
+const bySI = new Map();
+const bySurname = new Map();
+const byFull = new Map();
+nodes.filter((n) => personIds.has(n.id)).forEach((n) => {
+  const si = normSI(n.name);
+  const sur = normSurname(n.name);
+  const full = normFull(n.name);
+  if (si) bySI.set(si, n);
+  // For surname-only, only use if unique (avoid collisions like two Martins)
+  if (sur) {
+    if (bySurname.has(sur)) bySurname.set(sur, null); // collision → disable
+    else bySurname.set(sur, n);
+  }
+  if (full) byFull.set(full, n);
+});
+
+function findManualNode(apiName) {
+  // Try most-specific first
+  const full = normFull(apiName);
+  if (full && byFull.has(full) && byFull.get(full)) return byFull.get(full);
+  const si = normSI(apiName);
+  if (si && bySI.has(si) && bySI.get(si)) return bySI.get(si);
+  const sur = normSurname(apiName);
+  if (sur && bySurname.has(sur) && bySurname.get(sur)) return bySurname.get(sur);
+  return null;
+}
 
 if (live) {
   const bodyConfig = {
@@ -45,9 +80,9 @@ if (live) {
       continue;
     }
     const cfg = bodyConfig[bodyId];
+
     // Replace only person->body links; keep institution-to-institution edges
-    // (e.g. sub-committee of) and links flagged protected (e.g. Shadow PPS,
-    // which never appears in the posts API).
+    // and links flagged protected (e.g. Shadow PPS not in the Posts API).
     const replaceable = (l) => l.target === bodyId && personIds.has(l.source) && !l.protected;
     const oldLinks = memberLinks.filter(replaceable);
     const oldIds = new Set(oldLinks.map((l) => l.source));
@@ -55,20 +90,29 @@ if (live) {
     const newIds = new Set();
 
     for (const m of liveMembers) {
-      let node = nodeByNorm.get(norm(m.name));
+      let node = findManualNode(m.name);
       if (!node) {
-        const id = "auto_" + norm(m.name).replace(/[^a-z]/g, "");
-        node = {
-          id, name: m.name, type: m.house === "lords" ? "peer" : "mp",
-          party: m.party || "Unknown", house: m.house || "commons",
-          sector: cfg.sector, role: cfg.label(m),
-          detail: "Auto-added from Parliament API during nightly sync — enrich and verify manually.",
-          source: `Parliament API (${bodyId}), fetched ${live.fetchedAt.slice(0, 10)} — auto-added, enrich manually`,
-          verified: true, autoAdded: true,
-        };
-        nodes.push(node);
-        nodeByNorm.set(norm(m.name), node);
-        drift.push(`- **NEW on ${bodyId}**: ${m.name} (${m.party || "party unknown"}) — auto-added; enrich node manually.`);
+        // Auto-add, but use party from API; never overwrite a manual node's party
+        const id = "auto_" + strip(m.name).toLowerCase().replace(/[^a-z]/g, "").slice(0, 30);
+        // Check we haven't already auto-added this id
+        const existing = nodes.find((n) => n.id === id);
+        if (existing) { node = existing; }
+        else {
+          node = {
+            id, name: strip(m.name), type: m.house === "lords" ? "peer" : "mp",
+            party: m.party || "Unknown", house: m.house || "commons",
+            sector: cfg.sector, role: cfg.label(m),
+            detail: "Auto-added from Parliament API during nightly sync — enrich and verify manually.",
+            source: `Parliament API (${bodyId}), fetched ${live.fetchedAt.slice(0, 10)} — auto-added, enrich manually`,
+            verified: true, autoAdded: true,
+          };
+          nodes.push(node);
+          personIds.add(node.id);
+          // Add to indices so subsequent bodies can match
+          const si2 = normSI(node.name); if (si2 && !bySI.has(si2)) bySI.set(si2, node);
+          const full2 = normFull(node.name); if (full2 && !byFull.has(full2)) byFull.set(full2, node);
+          drift.push(`- **NEW on ${bodyId}**: ${m.name} (${m.party || "party unknown"}) — auto-added; enrich node manually.`);
+        }
       }
       newIds.add(node.id);
       memberLinks.push({ source: node.id, target: bodyId, kind: "member", label: cfg.label(m) });
@@ -87,7 +131,7 @@ const ageDays = Math.floor((Date.now() - new Date(manual.lastVerified)) / 864000
 if (ageDays > 30)
   drift.push(`- **Manual layers ${ageDays} days old** (last verified ${manual.lastVerified}). Check: new APPG register edition (publications.parliament.uk/pa/cm/cmallparty), GOV.UK PPS list, AFC APPG chair vacancy, new defence debates for interest cohorts.`);
 
-// Inject
+// Inject into template
 const template = readFileSync("template.html", "utf8");
 const DATA = {
   builtAt: new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }),
