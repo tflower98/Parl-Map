@@ -22,7 +22,7 @@
    "type": "committee",
    "sector": "bridge",
    "detail": "Value-for-money scrutiny across public spending; running an inquiry into the affordability of the Defence Investment Plan.",
-   "source": "General knowledge \u2014 verify before external use",
+   "source": "General knowledge — verify before external use",
    "verified": false
   },
   {
@@ -30,7 +30,7 @@
    "name": "MoD Ministerial Team",
    "type": "committee",
    "sector": "defence",
-   "detail": "Defence ministers following the 11 June 2026 reshuffle triggered by John Healey's resignation over Defence Investment Plan funding. PPS positions: both defence PPSs (Pamela Nash, Rachel Hopkins) resigned on 11 June; no successor appointments published as of 7 July 2026 \u2014 the Defence Secretary's PPS slots appear unfilled, which is itself engagement-relevant intelligence.",
+   "detail": "Defence ministers following the 11 June 2026 reshuffle triggered by John Healey's resignation over Defence Investment Plan funding. PPS positions: both defence PPSs (Pamela Nash, Rachel Hopkins) resigned on 11 June; no successor appointments published as of 7 July 2026 — the Defence Secretary's PPS slots appear unfilled, which is itself engagement-relevant intelligence.",
    "source": "GOV.UK, Ministry of Defence ministers (3 Jul 2026)",
    "verified": true
   },
@@ -57,7 +57,7 @@
    "name": "Sub-Cttee on Economic Security, Arms & Export Controls",
    "type": "committee",
    "sector": "bridge",
-   "detail": "B&T sub-committee scrutinising economic security, arms exports and export controls \u2014 the formal seam between trade and defence scrutiny. Full membership not yet in this dataset.",
+   "detail": "B&T sub-committee scrutinising economic security, arms exports and export controls — the formal seam between trade and defence scrutiny. Full membership not yet in this dataset.",
    "source": "members.parliament.uk, member career page (accessed 7 Jul 2026)",
    "verified": true
   },
@@ -116,15 +116,6 @@
    "verified": true
   },
   {
-   "id": "appg_shoot",
-   "name": "APPG Shooting & Conservation",
-   "type": "appg",
-   "sector": "defence",
-   "detail": "Sustainable shooting and conservation. Secretariat: BASC. Relevant to the sporting and small arms sector.",
-   "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
-   "verified": true
-  },
-  {
    "id": "appg_steel",
    "name": "APPG Steel & Metals-Related Industries",
    "type": "appg",
@@ -147,7 +138,7 @@
    "name": "Select Committee on the Armed Forces Bill",
    "type": "committee",
    "sector": "defence",
-   "detail": "Ad hoc select committee examining the Armed Forces Bill 2024\u201326 (Service Justice System, defence housing, Reserve Forces). Only members with other defence relevance are mapped; full membership not yet in this dataset.",
+   "detail": "Ad hoc select committee examining the Armed Forces Bill 2024–26 (Service Justice System, defence housing, Reserve Forces). Only members with other defence relevance are mapped; full membership not yet in this dataset.",
    "source": "Parliament committee data via TheyWorkForYou / parallelparliament (accessed 8 Jul 2026)",
    "verified": true
   },
@@ -182,10 +173,10 @@
    "constituency": "Plymouth Sutton & Devonport",
    "sector": "defence",
    "role": "Minister of State, Defence Readiness & Industry",
-   "detail": "Lead minister for defence industry engagement \u2014 the primary ministerial audience for industrial and sovereign manufacturing arguments. Sits wholly within the defence zone: the industrial dimension is his portfolio, not a separate structural tie.",
+   "detail": "Lead minister for defence industry engagement — the primary ministerial audience for industrial and sovereign manufacturing arguments. Sits wholly within the defence zone: the industrial dimension is his portfolio, not a separate structural tie.",
    "source": "GOV.UK, Ministry of Defence ministers (3 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "coaker",
@@ -245,7 +236,7 @@
    "constituency": "South Suffolk",
    "sector": "defence",
    "role": "Shadow Secretary of State for Defence",
-   "detail": "Former Minister for Defence Procurement (2023\u201324). Tabled the 10 June urgent question on the DIP.",
+   "detail": "Former Minister for Defence Procurement (2023–24). Tabled the 10 June urgent question on the DIP.",
    "source": "members.parliament.uk, Official Opposition: Ministry of Defence (accessed 7 Jul 2026)",
    "verified": true
   },
@@ -271,7 +262,7 @@
    "house": "lords",
    "sector": "defence",
    "role": "Shadow Defence Minister (Lords)",
-   "detail": "Former Defence Minister in the Lords 2019\u201323.",
+   "detail": "Former Defence Minister in the Lords 2019–23.",
    "source": "members.parliament.uk, Official Opposition: Ministry of Defence (accessed 7 Jul 2026)",
    "verified": true
   },
@@ -284,11 +275,11 @@
    "constituency": "Bexhill & Battle",
    "sector": "defence",
    "role": "Shadow Defence Minister",
-   "detail": "Opened the Opposition Day debate on Defence Spending and Readiness for the Opposition, 23 June 2026. Not yet shown on the published opposition MoD page \u2014 exact portfolio title to be confirmed.",
+   "detail": "Opened the Opposition Day debate on Defence Spending and Readiness for the Opposition, 23 June 2026. Not yet shown on the published opposition MoD page — exact portfolio title to be confirmed.",
    "source": "Hansard, HC Deb 23 Jun 2026, Defence Spending and Readiness (Opposition Day)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use",
-   "roleSource": "Portfolio title: General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use",
+   "roleSource": "Portfolio title: General knowledge — verify before external use"
   },
   {
    "id": "dhesi",
@@ -433,7 +424,7 @@
    "detail": "Former Royal Marine. Chairs the principal armed forces APPG.",
    "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "foster",
@@ -447,7 +438,7 @@
    "detail": "Former Army officer.",
    "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "amartin",
@@ -461,7 +452,7 @@
    "detail": "Royal Navy city constituency.",
    "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "obesejecty",
@@ -475,8 +466,8 @@
    "detail": "Former infantry officer; prominent Conservative voice on defence procurement and personnel. Appointed Shadow Parliamentary Private Secretary for Defence in June 2025 (additionally covering Justice from July 2025); ranked the most active new MP of the 2024 intake for parliamentary contributions.",
    "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use",
-   "roleSource": "Shadow PPS: reported by James Heale, The Spectator, Jun\u2013Jul 2025; no change reported since"
+   "constituencySource": "General knowledge — verify before external use",
+   "roleSource": "Shadow PPS: reported by James Heale, The Spectator, Jun–Jul 2025; no change reported since"
   },
   {
    "id": "walney",
@@ -514,7 +505,7 @@
    "detail": "Former Security Minister; former Chair, Foreign Affairs Committee.",
    "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "downie",
@@ -528,7 +519,7 @@
    "detail": "Constituency adjacent to Rosyth; active on defence industrial policy.",
    "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "trenchard",
@@ -550,52 +541,11 @@
    "house": "commons",
    "constituency": "North Cotswolds",
    "sector": "bridge",
-   "role": "Chair, APPG Shooting & Conservation; Chair, Public Accounts Committee",
-   "detail": "PAC chairmanship gives value-for-money scrutiny of major defence procurement, including the PAC's DIP affordability inquiry; the APPG role connects to the sporting firearms sector.",
+   "role": "Chair, Public Accounts Committee",
+   "detail": "PAC chairmanship gives value-for-money scrutiny of major defence procurement, including the PAC's DIP affordability inquiry.",
    "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
    "verified": true,
-   "roleSource": "PAC chairmanship: General knowledge \u2014 verify before external use"
-  },
-  {
-   "id": "glasman",
-   "name": "Lord Glasman",
-   "type": "peer",
-   "party": "Labour",
-   "house": "lords",
-   "sector": "defence",
-   "role": "Co-Chair, APPG Shooting & Conservation",
-   "detail": "Founder of Blue Labour.",
-   "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
-   "verified": true,
-   "faction": "Blue Labour founder (reported)"
-  },
-  {
-   "id": "macdonald",
-   "name": "Angus MacDonald",
-   "type": "mp",
-   "party": "Liberal Democrat",
-   "house": "commons",
-   "constituency": "Inverness, Skye & W Ross-shire",
-   "sector": "defence",
-   "role": "Secretary, APPG Shooting & Conservation",
-   "detail": "",
-   "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
-   "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
-  },
-  {
-   "id": "lowe",
-   "name": "Rupert Lowe",
-   "type": "mp",
-   "party": "Independent",
-   "house": "commons",
-   "constituency": "Great Yarmouth",
-   "sector": "defence",
-   "role": "Treasurer, APPG Shooting & Conservation",
-   "detail": "Elected for Reform UK; sits as an Independent.",
-   "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
-   "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "roleSource": "PAC chairmanship: General knowledge — verify before external use"
   },
   {
    "id": "byrne",
@@ -752,7 +702,7 @@
    "detail": "Teesside steel constituency.",
    "source": "Register of All-Party Parliamentary Groups, 18 May 2026 edition",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "hunt",
@@ -775,11 +725,11 @@
    "constituency": "Llanelli",
    "sector": "bridge",
    "role": "Officer, APPG Steel & Metals; former Shadow Defence Secretary",
-   "detail": "Sits precisely on the defence-industrial seam: steel constituency advocate with front-rank defence policy history (Shadow Defence Secretary 2016\u201320).",
+   "detail": "Sits precisely on the defence-industrial seam: steel constituency advocate with front-rank defence policy history (Shadow Defence Secretary 2016–20).",
    "source": "Register of All-Party Parliamentary Groups, 18 May 2026 edition",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use",
-   "roleSource": "Former Shadow Defence Secretary: General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use",
+   "roleSource": "Former Shadow Defence Secretary: General knowledge — verify before external use"
   },
   {
    "id": "brackenridge",
@@ -793,7 +743,7 @@
    "detail": "Black Country metals constituency.",
    "source": "Register of All-Party Parliamentary Groups, 18 May 2026 edition",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "morgan",
@@ -843,7 +793,7 @@
    "constituency": "Walsall & Bloxwich West",
    "sector": "defence",
    "role": "Interest signal: publicly welcomed the DIP",
-   "detail": "Published a statement welcoming the DIP, highlighting personnel pay, \u00a39bn for military family housing and the defence export facility.",
+   "detail": "Published a statement welcoming the DIP, highlighting personnel pay, £9bn for military family housing and the defence export facility.",
    "source": "Valerie Vaz MP website, Defence Investment Plan statement response, Jul 2026",
    "verified": true
   },
@@ -856,7 +806,7 @@
    "constituency": "Stockport",
    "sector": "defence",
    "role": "Interest signal: raised KNDS UK in the DIP statement",
-   "detail": "Made representations on behalf of KNDS during the 30 June DIP statement; the Defence Secretary undertook to visit Stockport. Attribution is by constituency reference in Hansard, not by name \u2014 verify before external use.",
+   "detail": "Made representations on behalf of KNDS during the 30 June DIP statement; the Defence Secretary undertook to visit Stockport. Attribution is by constituency reference in Hansard, not by name — verify before external use.",
    "source": "Hansard, HC Deb 30 Jun 2026, Defence Investment Plan statement",
    "verified": false
   },
@@ -872,7 +822,7 @@
    "detail": "Resigned as John Healey's PPS over Defence Investment Plan funding, citing 'delays and difficulties' damaging public trust. A defence-committed backbencher now free of PPS speaking restrictions, with a public position on the defining defence argument of this Parliament.",
    "source": "Press reporting of MoD PPS resignations, 11 Jun 2026 (ITV News; The News, Portsmouth)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "hopkins",
@@ -886,7 +836,7 @@
    "detail": "Resigned as a defence team PPS on the same day as Healey and Nash over DIP funding. Same analytical profile: demonstrated defence commitment, now unconstrained by PPS restrictions.",
    "source": "Press reporting of MoD PPS resignations, 11 Jun 2026 (ITV News; The News, Portsmouth)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "josan",
@@ -900,7 +850,7 @@
    "detail": "NATO PA delegate; Black Country constituency with metals and manufacturing supply-chain interests.",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "akehurst",
@@ -925,10 +875,10 @@
    "constituency": "Hamble Valley",
    "sector": "defence",
    "role": "Opposition Whip; Shadow PUS (Housing, Communities & Local Government)",
-   "detail": "No formal defence role on the parliamentary record \u2014 current portfolio is housing and whipping, with prior PPS roles at the Home Office, Housing and the Foreign Office. Included for the Hamble Valley constituency's Solent aerospace and marine cluster and practitioner-identified defence interest.",
+   "detail": "No formal defence role on the parliamentary record — current portfolio is housing and whipping, with prior PPS roles at the Home Office, Housing and the Foreign Office. Included for the Hamble Valley constituency's Solent aerospace and marine cluster and practitioner-identified defence interest.",
    "source": "members.parliament.uk, member career page (accessed 7 Jul 2026)",
    "verified": true,
-   "roleSource": "Defence interest: Practitioner-identified defence interest, 8 Jul 2026 \u2014 corroborate before external use"
+   "roleSource": "Defence interest: Practitioner-identified defence interest, 8 Jul 2026 — corroborate before external use"
   },
   {
    "id": "fclark",
@@ -942,7 +892,7 @@
    "detail": "Former minister for AI and digital government.",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "kingsmill",
@@ -968,7 +918,7 @@
    "detail": "",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "jcampbell",
@@ -982,7 +932,7 @@
    "detail": "",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "beamish",
@@ -995,7 +945,7 @@
    "detail": "As Kevan Jones, decades of defence work: former defence minister and long-serving Defence Committee member.",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "roleSource": "Background: General knowledge \u2014 verify before external use"
+   "roleSource": "Background: General knowledge — verify before external use"
   },
   {
    "id": "brickell",
@@ -1009,7 +959,7 @@
    "detail": "",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "roca",
@@ -1023,7 +973,7 @@
    "detail": "",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "qureshi",
@@ -1037,7 +987,7 @@
    "detail": "",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "shelbrooke",
@@ -1051,8 +1001,8 @@
    "detail": "Former defence procurement minister; long-standing NATO PA figure.",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use",
-   "roleSource": "Background: General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use",
+   "roleSource": "Background: General knowledge — verify before external use"
   },
   {
    "id": "lancaster",
@@ -1065,7 +1015,7 @@
    "detail": "Former Armed Forces Minister; senior Army Reserve officer.",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "roleSource": "Background: General knowledge \u2014 verify before external use"
+   "roleSource": "Background: General knowledge — verify before external use"
   },
   {
    "id": "sanderson",
@@ -1079,7 +1029,7 @@
    "detail": "Former Army; veterans advocate.",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "lordfox",
@@ -1105,8 +1055,8 @@
    "detail": "Former Army officer; former Lib Dem defence spokesperson.",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use",
-   "roleSource": "Background: General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use",
+   "roleSource": "Background: General knowledge — verify before external use"
   },
   {
    "id": "dodds",
@@ -1129,7 +1079,7 @@
    "constituency": "Fylde",
    "sector": "defence",
    "role": "Opposition Assistant Whip; secured the Typhoon Sovereign Capability debate",
-   "detail": "BAE Warton in-constituency. Secured the Westminster Hall debate on Typhoon sovereign capability (12 Nov 2025), pressed the Typhoon order at Defence Questions and in the Speciality Steel statement \u2014 the most persistent Typhoon voice in the House.",
+   "detail": "BAE Warton in-constituency. Secured the Westminster Hall debate on Typhoon sovereign capability (12 Nov 2025), pressed the Typhoon order at Defence Questions and in the Speciality Steel statement — the most persistent Typhoon voice in the House.",
    "source": "Hansard, HC Deb (Westminster Hall) 12 Nov 2025, Typhoon Fighter Sovereign Capability",
    "verified": true,
    "roleSource": "Whip role: members.parliament.uk, member career page (accessed 7 Jul 2026)"
@@ -1146,7 +1096,7 @@
    "detail": "Filton aerospace cluster (MBDA, Airbus, Rolls-Royce) in-constituency; contributed to the 12 Nov 2025 Typhoon debate on export and procurement impacts.",
    "source": "Hansard, HC Deb (Westminster Hall) 12 Nov 2025, Typhoon Fighter Sovereign Capability",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "shanker",
@@ -1157,10 +1107,10 @@
    "constituency": "Derby South",
    "sector": "defence",
    "role": "Rolls-Royce Submarines constituency advocate",
-   "detail": "Former Rolls-Royce project manager. Hosted a Nuclear Week event in Parliament showcasing Derby's submarine reactor work and joined the Defence Secretary for the \u00a39bn reactor deal announcement. Chamber contribution not individually cited in this dataset \u2014 engagement evidenced via parliamentary event and announcements.",
-   "source": "Reporting of Rolls-Royce Raynesway expansion ministerial visit and Nuclear Week parliamentary event, 2025\u201326",
+   "detail": "Former Rolls-Royce project manager. Hosted a Nuclear Week event in Parliament showcasing Derby's submarine reactor work and joined the Defence Secretary for the £9bn reactor deal announcement. Chamber contribution not individually cited in this dataset — engagement evidenced via parliamentary event and announcements.",
+   "source": "Reporting of Rolls-Royce Raynesway expansion ministerial visit and Nuclear Week parliamentary event, 2025–26",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "atkinson",
@@ -1171,10 +1121,10 @@
    "constituency": "Derby North",
    "sector": "defence",
    "role": "Raised Rolls-Royce submarine investment at PMQs",
-   "detail": "Raised the \u00a39bn Rolls-Royce submarine reactor investment and Team Derby at PMQs (Mar 2026), drawing a direct response from the Prime Minister.",
-   "source": "DerbyWorld, PMQs exchange on the \u00a39bn Rolls-Royce submarine investment, Mar 2026",
+   "detail": "Raised the £9bn Rolls-Royce submarine reactor investment and Team Derby at PMQs (Mar 2026), drawing a direct response from the Prime Minister.",
+   "source": "DerbyWorld, PMQs exchange on the £9bn Rolls-Royce submarine investment, Mar 2026",
    "verified": true,
-   "constituencySource": "General knowledge \u2014 verify before external use"
+   "constituencySource": "General knowledge — verify before external use"
   },
   {
    "id": "dance",
@@ -1185,7 +1135,7 @@
    "constituency": "Yeovil",
    "sector": "defence",
    "role": "NMH urgent question; secured Westminster Hall NMH debate",
-   "detail": "Leonardo helicopters (3,000+ jobs) in-constituency. Urgent question on the New Medium Helicopter contract (12 Jan 2026), secured the 11 Feb 2026 Westminster Hall debate, raised it at PMQs and in written questions \u2014 sustained campaign credited around the eventual \u00a31bn AW149 award. Among the most active constituency-defence campaigners in the House.",
+   "detail": "Leonardo helicopters (3,000+ jobs) in-constituency. Urgent question on the New Medium Helicopter contract (12 Jan 2026), secured the 11 Feb 2026 Westminster Hall debate, raised it at PMQs and in written questions — sustained campaign credited around the eventual £1bn AW149 award. Among the most active constituency-defence campaigners in the House.",
    "source": "Hansard via TheyWorkForYou / reporting: NMH urgent question 12 Jan 2026; Westminster Hall NMH debate 11 Feb 2026",
    "verified": true
   },
@@ -1198,7 +1148,7 @@
    "constituency": "Glastonbury & Somerton",
    "sector": "defence",
    "role": "Raised Thales Templecombe skills in the SDR Funding debate",
-   "detail": "Thales Templecombe (800+ jobs, Royal Navy sonar) in-constituency; raised apprenticeship and skills funding in the 15 Apr 2026 SDR Funding debate. Attribution is by constituency reference, not by name \u2014 verify before external use.",
+   "detail": "Thales Templecombe (800+ jobs, Royal Navy sonar) in-constituency; raised apprenticeship and skills funding in the 15 Apr 2026 SDR Funding debate. Attribution is by constituency reference, not by name — verify before external use.",
    "source": "Hansard via TheyWorkForYou, HC Deb 15 Apr 2026, Strategic Defence Review: Funding",
    "verified": false
   },
@@ -1212,7 +1162,7 @@
    "sector": "defence",
    "role": "Father of the House",
    "detail": "No officer role in the current defence APPG register; longstanding interest in defence estate and procurement value for money.",
-   "source": "General knowledge \u2014 verify before external use",
+   "source": "General knowledge — verify before external use",
    "verified": false
   }
  ],
@@ -1525,30 +1475,6 @@
    "label": "Officer"
   },
   {
-   "source": "cliftonbrown",
-   "target": "appg_shoot",
-   "kind": "member",
-   "label": "Chair"
-  },
-  {
-   "source": "glasman",
-   "target": "appg_shoot",
-   "kind": "member",
-   "label": "Co-Chair"
-  },
-  {
-   "source": "macdonald",
-   "target": "appg_shoot",
-   "kind": "member",
-   "label": "Secretary"
-  },
-  {
-   "source": "lowe",
-   "target": "appg_shoot",
-   "kind": "member",
-   "label": "Treasurer"
-  },
-  {
    "source": "myer",
    "target": "appg_steel",
    "kind": "member",
@@ -1749,35 +1675,133 @@
  ],
  "cohorts": [
   {
-   "name": "Publicly engaged with the Defence Investment Plan (Jun\u2013Jul 2026)",
+   "name": "Publicly engaged with the Defence Investment Plan (Jun–Jul 2026)",
+   "issue": "Defence Investment Plan",
+   "dateRange": "Jun–Jul 2026",
    "members": [
-    "dhesi",
-    "cartlidge",
-    "mullan",
-    "morgan",
-    "mak",
-    "dinenage",
-    "vaz",
-    "mishra",
-    "nash",
-    "hopkins",
-    "cliftonbrown",
-    "obesejecty"
+    {
+     "id": "dhesi",
+     "summary": "Issued the Defence Committee's formal response to the DIP; opened committee scrutiny hearings",
+     "date": "30 Jun 2026",
+     "link": "https://www.theyworkforyou.com/search/?q=defence+investment+plan&pid=25428"
+    },
+    {
+     "id": "cartlidge",
+     "summary": "Tabled the urgent question on the DIP (10 Jun); opened the Opposition Day debate on Defence Spending and Readiness (23 Jun)",
+     "date": "10–23 Jun 2026",
+     "link": "https://www.theyworkforyou.com/search/?q=defence+investment+plan&pid=24926"
+    },
+    {
+     "id": "mullan",
+     "summary": "Opened the Opposition Day debate on Defence Spending and Readiness for the Conservative front bench",
+     "date": "23 Jun 2026",
+     "link": "https://www.theyworkforyou.com/search/?q=defence+spending+readiness&pid=26320"
+    },
+    {
+     "id": "morgan",
+     "summary": "Publicly welcomed the DIP's hybrid Navy investment and six new warships as good for Portsmouth jobs and naval heritage",
+     "date": "1 Jul 2026",
+     "link": null,
+     "linkNote": "The News (Portsmouth), 1 Jul 2026"
+    },
+    {
+     "id": "mak",
+     "summary": "Called the DIP \"too little too late\", arguing key capabilities including drones will not arrive until 2030",
+     "date": "1 Jul 2026",
+     "link": null,
+     "linkNote": "The News (Portsmouth), 1 Jul 2026"
+    },
+    {
+     "id": "dinenage",
+     "summary": "Commented on the DIP from a Gosport naval-community and shipyard perspective",
+     "date": "1 Jul 2026",
+     "link": null,
+     "linkNote": "The News (Portsmouth), 1 Jul 2026"
+    },
+    {
+     "id": "vaz",
+     "summary": "Published a statement welcoming the DIP, highlighting personnel pay, £9bn for military family housing and the defence export facility",
+     "date": "Jul 2026",
+     "link": null,
+     "linkNote": "Valerie Vaz MP website"
+    },
+    {
+     "id": "mishra",
+     "summary": "Made representations on behalf of KNDS UK during the DIP statement; the Defence Secretary undertook to visit Stockport",
+     "date": "30 Jun 2026",
+     "link": "https://www.theyworkforyou.com/search/?q=defence+investment+plan+stockport"
+    },
+    {
+     "id": "nash",
+     "summary": "Resigned as PPS to the Defence Secretary over DIP funding, citing \"delays and difficulties\" damaging public trust",
+     "date": "11 Jun 2026",
+     "link": null,
+     "linkNote": "ITV News / The News (Portsmouth), 11 Jun 2026"
+    },
+    {
+     "id": "hopkins",
+     "summary": "Resigned as a defence team PPS over DIP funding on the same day as Healey and Nash",
+     "date": "11 Jun 2026",
+     "link": null,
+     "linkNote": "Press reporting, 11 Jun 2026"
+    },
+    {
+     "id": "cliftonbrown",
+     "summary": "PAC launched an affordability inquiry into the Defence Investment Plan",
+     "date": "Jul 2026",
+     "link": null,
+     "linkNote": "PAC inquiry page — verify date"
+    },
+    {
+     "id": "obesejecty",
+     "summary": "Contributed to DIP-related Commons sessions from the Opposition defence bench",
+     "date": "Jun–Jul 2026",
+     "link": "https://www.theyworkforyou.com/search/?q=defence+investment+plan&pid=26315"
+    }
    ]
   },
   {
-   "name": "Spoke in the Typhoon Sovereign Capability debate (Hansard, 12 Nov 2025)",
+   "name": "Spoke in the Typhoon Sovereign Capability debate (12 Nov 2025)",
+   "issue": "Typhoon Fighter Sovereign Capability",
+   "dateRange": "12 Nov 2025",
    "members": [
-    "snowden",
-    "hazelgrove",
-    "foster"
+    {
+     "id": "snowden",
+     "summary": "Secured and opened the Westminster Hall debate, arguing for a new Typhoon production order to sustain the Warton production line and sovereign combat air capability",
+     "date": "12 Nov 2025",
+     "link": "https://www.theyworkforyou.com/whall/?id=2025-11-12a.1.0"
+    },
+    {
+     "id": "hazelgrove",
+     "summary": "Contributed on export impacts and the Filton aerospace cluster's role in the Typhoon supply chain",
+     "date": "12 Nov 2025",
+     "link": "https://www.theyworkforyou.com/whall/?id=2025-11-12a.1.0"
+    },
+    {
+     "id": "foster",
+     "summary": "Contributed on behalf of the BAE Samlesbury workforce and Lancashire defence-industrial jobs",
+     "date": "12 Nov 2025",
+     "link": "https://www.theyworkforyou.com/whall/?id=2025-11-12a.1.0"
+    }
    ]
   },
   {
-   "name": "Spoke in the SDR Funding debate (15 Apr 2026; attribution partly by constituency \u2014 verify)",
+   "name": "Spoke in the SDR Funding debate (15 Apr 2026)",
+   "issue": "Strategic Defence Review: Funding",
+   "dateRange": "15 Apr 2026",
    "members": [
-    "dance",
-    "dyke"
+    {
+     "id": "dance",
+     "summary": "Raised the New Medium Helicopter contract and Leonardo Yeovil's 3,000+ jobs, arguing for sustained defence-industrial commitment",
+     "date": "15 Apr 2026",
+     "link": "https://www.theyworkforyou.com/search/?q=SDR+funding+yeovil"
+    },
+    {
+     "id": "dyke",
+     "summary": "Raised Thales Templecombe apprenticeships and skills funding for the Royal Navy sonar programme",
+     "date": "15 Apr 2026",
+     "link": "https://www.theyworkforyou.com/search/?q=SDR+funding+templecombe"
+    }
    ]
   }
  ]
