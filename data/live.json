@@ -1,0 +1,121 @@
+{
+ "fetchedAt": "2026-07-14T14:18:28.861Z",
+ "ok": true,
+ "errors": [],
+ "defcom": [
+  {
+   "name": "Derek Twigg MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Tanmanjeet Singh Dhesi MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Emma Lewell MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Jesse Norman MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Calvin Bailey MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Alex Baker MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Lincoln Jopp MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Michelle Scrogham MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Fred Thomas MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Mike Martin MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Ian Roome MP",
+   "party": null,
+   "isChair": false
+  }
+ ],
+ "btcom": [
+  {
+   "name": "Liam Byrne MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Antonia Bance MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "John Cooper MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Sarah Edwards MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Alison Griffiths MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Charlie Maynard MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Joshua Reynolds MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Dan Aldridge MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Justin Madders MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Chris Bloore MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Leigh Ingham MP",
+   "party": null,
+   "isChair": false
+  }
+ ],
+ "mod": [],
+ "shadow": []
+}
