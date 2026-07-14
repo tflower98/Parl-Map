@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parliamentary Ecosystem Map — Defence, Trade &amp; Industry</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+:root{
+  --bg:#0D1614;--bg2:#111D1A;--panel:#15211E;--panel-2:#1B2925;--line:#2A3B36;
+  --text:#E9EDEA;--muted:#93A39C;
+  --lab:#FF6B5E;--con:#5FA8FF;--ld:#FFC24D;--xb:#9DA9B4;--ind:#8892A0;
+  --defence:#3EDFA9;--trade:#8F7BFF;--bridge:#FFFFFF;--signal:#D9A94E;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--text);overflow:hidden}
+header{height:70px;display:flex;align-items:center;justify-content:space-between;padding:0 26px;
+  background:linear-gradient(90deg,#0A1210 0%,#12201C 100%);border-bottom:1px solid var(--line)}
+header h1{font-family:'Spectral',Georgia,serif;font-size:21px;font-weight:700}
+header h1 em{font-style:normal;color:var(--defence)}
+header h1 .amp{color:var(--trade)}
+header .tagline{font-size:11px;color:var(--muted);margin-top:2px;letter-spacing:.04em}
+.header-right{display:flex;align-items:center;gap:18px}
+.stamp{font-size:9.5px;line-height:1.4;text-transform:uppercase;letter-spacing:.09em;
+  border:1.5px solid var(--defence);color:var(--defence);padding:5px 11px;border-radius:2px;
+  transform:rotate(-1.2deg);font-weight:600}
+.stamp b{display:block;color:var(--text)}
+button.linklike{background:none;border:none;color:var(--muted);font:inherit;font-size:12px;cursor:pointer;text-decoration:underline;padding:0}
+button.linklike:hover{color:var(--text)}
+#app{display:flex;height:calc(100% - 70px)}
+#rail{width:270px;min-width:270px;background:var(--panel);border-right:1px solid var(--line);
+  padding:18px 16px;overflow-y:auto;display:flex;flex-direction:column;gap:18px}
+.rail-section h2{font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);font-weight:700;margin-bottom:9px}
+#search{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:6px;font-family:inherit;font-size:13px;background:var(--bg2);color:var(--text)}
+#search::placeholder{color:#5E6E68}
+#search:focus{outline:2px solid var(--defence);border-color:var(--defence)}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{font-size:11.5px;font-weight:600;padding:6px 12px;border-radius:999px;cursor:pointer;
+  border:1.5px solid var(--line);color:var(--muted);background:transparent;font-family:inherit;transition:all .15s}
+.chip.on{color:var(--bg)}
+.chip[data-sector="defence"].on{background:var(--defence);border-color:var(--defence)}
+.chip[data-sector="trade"].on{background:var(--trade);border-color:var(--trade)}
+.chip[data-sector="bridge"].on{background:#fff;border-color:#fff}
+.chip[data-sector="all"].on{background:var(--text);border-color:var(--text)}
+.toggle{display:flex;align-items:center;gap:9px;padding:6px 4px;cursor:pointer;font-size:13px;user-select:none;border-radius:4px}
+.toggle:hover{background:var(--panel-2)}
+.toggle input{accent-color:var(--defence);width:15px;height:15px;cursor:pointer}
+.legend-row{display:flex;align-items:center;gap:9px;font-size:12px;padding:3.5px 4px}
+.dot{width:11px;height:11px;border-radius:50%;flex:none}
+.sq{width:11px;height:11px;flex:none;border-radius:2px}
+.edge-sample{width:22px;height:0;flex:none;border-top:2px solid #6C7C75}
+.edge-sample.dotted{border-top:2px dotted var(--signal)}
+.note{font-size:11.5px;color:var(--muted);line-height:1.55}
+#canvas-wrap{flex:1;position:relative;background:
+  radial-gradient(ellipse 900px 600px at 28% 30%, rgba(62,223,169,.055) 0%, transparent 60%),
+  radial-gradient(ellipse 900px 600px at 74% 66%, rgba(143,123,255,.06) 0%, transparent 60%),var(--bg)}
+svg{width:100%;height:100%;display:block;cursor:grab}
+svg:active{cursor:grabbing}
+.hull{fill-opacity:.05;stroke-opacity:.28;stroke-width:1.2;stroke-dasharray:6 5}
+.hull.defence{fill:var(--defence);stroke:var(--defence)}
+.hull.trade{fill:var(--trade);stroke:var(--trade)}
+.hull.bridge{fill:#FFFFFF;stroke:#FFFFFF;fill-opacity:.035;stroke-opacity:.22}
+.zone-label{font-family:'Spectral',Georgia,serif;font-size:15px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;fill-opacity:.5}
+.zone-label.defence{fill:var(--defence)}
+.zone-label.trade{fill:var(--trade)}
+.zone-label.bridge{fill:#FFFFFF;fill-opacity:.4;font-size:12px}
+.node circle,.node rect{stroke:var(--bg);stroke-width:1.6px;cursor:pointer}
+.node .halo{fill:none;stroke-width:1.4px;stroke-dasharray:2 3;pointer-events:none}
+.node text{font-family:'Inter',sans-serif;font-size:10px;fill:var(--text);
+  paint-order:stroke;stroke:rgba(13,22,20,.9);stroke-width:3.5px;pointer-events:none;font-weight:500}
+.node.bridge text{font-weight:700}
+.node.dim{opacity:.09}
+.link{stroke-opacity:.42;cursor:pointer}
+.link.member{stroke:#5E7169}
+.link.signal{stroke:var(--signal);stroke-dasharray:2 6;stroke-opacity:.5}
+.link.dim{opacity:.04}
+.link.hitlink{stroke:#fff;stroke-opacity:.85}
+.node.hit circle,.node.hit rect{stroke:#fff;stroke-width:2.6px;filter:drop-shadow(0 0 6px rgba(255,255,255,.55))}
+#drawer{width:0;min-width:0;background:var(--panel);border-left:1px solid var(--line);overflow:hidden;
+  transition:width .22s ease,min-width .22s ease;display:flex;flex-direction:column}
+#drawer.open{width:330px;min-width:330px}
+.drawer-inner{padding:20px;overflow-y:auto;position:relative}
+.party-band{height:5px;border-radius:3px;margin-bottom:14px}
+#drawer h3{font-family:'Spectral',Georgia,serif;font-size:21px;font-weight:600;line-height:1.2}
+.sub{font-size:12.5px;color:var(--muted);margin-top:3px;margin-bottom:14px}
+.field{margin-bottom:12px}
+.field .k{font-size:10px;text-transform:uppercase;letter-spacing:.11em;color:var(--muted);font-weight:700}
+.field .v{font-size:13px;line-height:1.55;margin-top:3px}
+.conn{font-size:12.5px;padding:7px 9px;border:1px solid var(--line);border-radius:6px;margin-top:6px;cursor:pointer;line-height:1.45;background:var(--bg2)}
+.conn:hover{border-color:var(--defence)}
+.conn .kind{font-size:9.5px;color:var(--signal);text-transform:uppercase;letter-spacing:.07em;font-weight:700;display:block}
+.badge{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 8px;border-radius:3px;margin-right:5px;margin-top:4px}
+.badge.verified{background:rgba(62,223,169,.16);color:var(--defence)}
+.badge.check{background:rgba(217,169,78,.16);color:var(--signal)}
+.badge.reported{background:rgba(147,163,156,.16);color:var(--muted)}
+.badge.bridgetag{background:rgba(255,255,255,.12);color:#fff}
+.src{font-size:11px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:14px;line-height:1.6}
+#close-drawer{position:absolute;top:12px;right:14px;background:none;border:none;font-size:20px;cursor:pointer;color:var(--muted)}
+#modal{position:fixed;inset:0;background:rgba(5,10,9,.7);display:none;align-items:center;justify-content:center;z-index:50}
+#modal.open{display:flex}
+.modal-card{background:var(--panel);max-width:620px;width:92%;max-height:82vh;overflow-y:auto;border-radius:8px;padding:28px;border-top:4px solid var(--defence)}
+.modal-card h2{font-family:'Spectral',Georgia,serif;font-size:21px;margin-bottom:14px}
+.modal-card p,.modal-card li{font-size:13.5px;line-height:1.65;margin-bottom:10px}
+.modal-card ul{padding-left:20px}
+.modal-card button{margin-top:8px;background:var(--defence);color:var(--bg);border:none;padding:9px 18px;border-radius:6px;font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><em>Defence</em> <span class="amp">&amp;</span> Adjacent Sectors — Parliamentary Ecosystem</h1>
+    <div class="tagline">Committees &amp; APPGs as anchors · members radiate from them · dotted ties = spoke on the same defence issue</div>
+  </div>
+  <div class="header-right">
+    <button class="linklike" id="open-caveats">Data notes &amp; caveats</button>
+    <div class="stamp"><b>Verified against parliamentary sources</b>as at <span id="stampdate"></span></div>
+  </div>
+</header>
+
+<div id="app">
+  <aside id="rail">
+    <div class="rail-section">
+      <h2>Search</h2>
+      <input id="search" type="text" placeholder="Name, constituency, group&hellip;" autocomplete="off">
+    </div>
+    <div class="rail-section">
+      <h2>Sector focus</h2>
+      <div class="chips">
+        <button class="chip on" data-sector="all">All</button>
+        <button class="chip" data-sector="defence">Defence</button>
+        <button class="chip" data-sector="bridge">Bridge</button>
+        <button class="chip" data-sector="trade">Trade &amp; Industry</button>
+      </div>
+      <p class="note" style="margin-top:9px">White-haloed people bridge both sectors.</p>
+    </div>
+    <div class="rail-section">
+      <h2>Layers</h2>
+      <label class="toggle"><input type="checkbox" data-layer="committee" checked> Select Committees</label>
+      <label class="toggle"><input type="checkbox" data-layer="appg" checked> APPGs (officer roles)</label>
+      <label class="toggle"><input type="checkbox" data-layer="govt" checked> Government &amp; Opposition teams</label>
+      <label class="toggle"><input type="checkbox" data-layer="signal" checked> Interest signals (Hansard / public)</label>
+    </div>
+    <div class="rail-section">
+      <h2>Parties</h2>
+      <div class="legend-row"><span class="dot" style="background:var(--lab)"></span> Labour</div>
+      <div class="legend-row"><span class="dot" style="background:var(--con)"></span> Conservative</div>
+      <div class="legend-row"><span class="dot" style="background:var(--ld)"></span> Liberal Democrat</div>
+      <div class="legend-row"><span class="dot" style="background:var(--xb)"></span> Crossbench / Independent</div>
+    </div>
+    <div class="rail-section">
+      <h2>Node types</h2>
+      <div class="legend-row"><span class="dot" style="background:#213531;border:2px solid var(--text)"></span> MP / Peer (dashed ring = peer)</div>
+      <div class="legend-row"><span class="sq" style="background:#2E6B58"></span> Committee / Ministerial team</div>
+      <div class="legend-row"><span class="sq" style="background:#24483E;transform:rotate(45deg)"></span> APPG</div>
+    </div>
+    <div class="rail-section">
+      <h2>Connections</h2>
+      <div class="legend-row"><span class="edge-sample"></span> Member / officer / frontbench role</div>
+      <div class="legend-row"><span class="edge-sample dotted"></span> Spoke on the same defence issue</div>
+      <p class="note" style="margin-top:8px">A dotted tie is a shared public interest signal, not a personal relationship.</p>
+    </div>
+    <div class="rail-section">
+      <h2>Live data check</h2>
+      <button id="livecheck" class="chip" style="width:100%;text-align:center;border-radius:6px">Check committee vs live API</button>
+      <div id="livestatus" class="note" style="margin-top:8px">Compares this map's embedded Defence Committee list against Parliament's live Committees API. Layers without an API (APPGs, PPS roles, debate cohorts) stay manually verified.</div>
+    </div>
+  </aside>
+
+  <div id="canvas-wrap">
+    <svg id="net" role="img" aria-label="Network map of committees, APPGs and parliamentarians in the UK defence, trade and industry ecosystem"></svg>
+  </div>
+
+  <aside id="drawer" aria-live="polite"><div class="drawer-inner" id="drawer-content"></div></aside>
+</div>
+
+<div id="modal">
+  <div class="modal-card">
+    <h2>Data notes &amp; caveats</h2>
+    <p>Committees, APPGs and frontbench teams are anchor nodes; parliamentarians connect to the bodies they belong to. Dotted person-to-person ties show shared public engagement with a defence issue. Every node records its source and date.</p>
+    <ul>
+      <li><strong>Defence Committee</strong> membership is from committees.parliament.uk. <strong>Calvin Bailey MP</strong> still appears on the published committee list and as registered Chair of APPG Armed Forces Community, but was appointed Minister for Veterans and People in June 2026 and relinquishes both by convention; he is mapped through the ministerial team only, and the APPG chair is treated as vacant pending the next register edition.</li>
+      <li><strong>Business and Trade Committee</strong> membership is from committees.parliament.uk (accessed 7 Jul 2026). Its Sub-Committee on Economic Security, Arms and Export Controls is shown with its Chair only.</li>
+      <li><strong>Ministerial and shadow posts</strong> per GOV.UK (3 Jul 2026) and members.parliament.uk, reflecting the 11 June 2026 reshuffle. Dr Kieran Mullan is shown on the Shadow Defence Team per his opening of the 23 June Opposition Day debate; exact portfolio title awaits confirmation.</li>
+      <li><strong>APPG data shows officers only</strong> (register editions 23 Feb and 18 May 2026); full memberships are not centrally published. Register entries can pre-date the June 2026 reshuffle.</li>
+      <li><strong>Interest signals (dotted ties)</strong> connect MPs who spoke on, or publicly engaged with, the same defence topic: the Defence Investment Plan (Jun–Jul 2026), the Typhoon Sovereign Capability debate (12 Nov 2025), and the SDR Funding debate (15 Apr 2026). Each member carries an individual citation; two MPs joined by a dotted line may never have spoken to each other. Ministers and frontbenchers responding ex officio are excluded — departmental duty is not an interest signal. Coverage is limited to debates verified in compiling this map, not an exhaustive Hansard cross-reference of all members; unnamed contributors to those debates are omitted rather than inferred, except where flagged. Dr Kieran Mullan is shown on the Shadow Defence Team per his opening of the 23 June Opposition Day debate; his exact portfolio title awaits confirmation on members.parliament.uk.</li>
+      <li><strong>PPS coverage:</strong> Ben Obese-Jecty is shown as Shadow PPS (Defence) per contemporaneous reporting of his June 2025 appointment; no change has been reported since. On the government side, both defence PPSs resigned on 11 June 2026 and no successors have been published (the last GOV.UK PPS list is November 2025 and is out of date) — government defence PPS slots are shown as vacant rather than populated from stale lists. Pamela Nash and Rachel Hopkins appear as former PPSs within the DIP engagement cohort.</li>
+      <li><strong>Defence-Industrial Constituency Champions</strong> is an analytical grouping, not a parliamentary body. Inclusion requires both a major defence-industrial site in or adjacent to the constituency and a cited defence contribution in Parliament within the past 18 months (Hansard, accessed via TheyWorkForYou where noted). It is a verified starter set, not a census: many qualifying constituencies (e.g. Stevenage/MBDA, Brough, Govan and Scotstoun, Rosyth) await verification and can be added as citations are confirmed. Two links carry attribution-by-constituency flags (Stockport, Templecombe).</li>
+      <li><strong>NATO Parliamentary Assembly delegation</strong> is as announced by written ministerial statement on 5 November 2024 (parliament.uk, accessed 8 July 2026). Parliament notes former Members continue to serve until the Chief Whips appoint a new delegation. Derek Twigg leads; Lord Spellar and Emma Lewell also hold other mapped roles.</li>
+      <li><strong>Practitioner-identified interest:</strong> a small number of MPs (currently Paul Holmes) are included on the basis of constituency defence-industrial footprint and practitioner knowledge rather than a formal defence role on the parliamentary record; these carry an explicit corroboration flag and should not be presented as holding defence positions.</li>
+      <li>Registered group funders are excluded from this version by design. Manufacturing, Apprenticeships and Skills APPGs are excluded pending officer verification; no register entity exists for "economic growth".</li>
+      <li>Party grouping tags (ERG, Blue Labour, One Nation) are marked "reported affiliation"; items badged amber derive from general knowledge and should be confirmed before external circulation.</li>
+      <li><strong>Licensing:</strong> contains parliamentary information licensed under the Open Parliament Licence v3.0. Committee and debate data accessed in part via TheyWorkForYou (mySociety) and parallelparliament, cited in accordance with their reuse terms. APPG data from the Register of All-Party Parliamentary Groups.</li>
+    </ul>
+    <button id="close-caveats">Close</button>
+  </div>
+</div>
+
+<script>
+/* ================= DATA ================= */
+const DATA=/*__DATA__*/null;
+document.addEventListener("DOMContentLoaded",()=>{const el=document.getElementById("stampdate");if(el)el.textContent=DATA.builtAt||"8 July 2026";});
+const nodes=DATA.nodes;
+const memberLinks=DATA.memberLinks;
+const cohorts=DATA.cohorts;
+const signalLinks=[];
+cohorts.forEach(c=>{for(let i=0;i<c.members.length;i++)for(let j=i+1;j<c.members.length;j++)signalLinks.push({source:c.members[i],target:c.members[j],kind:"signal",label:c.name});});
+const links=[...memberLinks,...signalLinks];
+
+/* ================= RENDER ================= */
+const partyColor=p=>({Labour:"var(--lab)",Conservative:"var(--con)","Liberal Democrat":"var(--ld)",Crossbench:"var(--xb)",Independent:"var(--ind)"}[p]||"var(--xb)");
+const sectorColor=s=>s==="defence"?"var(--defence)":s==="trade"?"var(--trade)":"var(--bridge)";
+const svg=d3.select("#net");
+const wrap=document.getElementById("canvas-wrap");
+let W=wrap.clientWidth,H=wrap.clientHeight;
+svg.attr("viewBox",[0,0,W,H]);
+const g=svg.append("g");
+svg.call(d3.zoom().scaleExtent([0.3,3]).on("zoom",e=>g.attr("transform",e.transform)));
+
+const hullLayer=g.append("g");
+const zoneLabels=g.append("g");
+zoneLabels.append("text").attr("class","zone-label defence").text("DEFENCE");
+zoneLabels.append("text").attr("class","zone-label trade").text("TRADE & INDUSTRY");
+zoneLabels.append("text").attr("class","zone-label bridge").text("CROSS-SECTOR BRIDGE");
+
+const linkSel=g.append("g").selectAll("line").data(links).join("line")
+  .attr("class",d=>"link "+d.kind)
+  .attr("stroke-width",d=>d.kind==="signal"?1.4:1.8)
+  .on("click",(e,d)=>{e.stopPropagation();openEdgeDrawer(d);highlightEdge(d);});
+
+const nodeSel=g.append("g").selectAll("g").data(nodes).join("g")
+  .attr("class",d=>"node"+(d.sector==="bridge"?" bridge":""))
+  .call(d3.drag()
+    .on("start",(e,d)=>{if(!e.active)sim.alphaTarget(.25).restart();d.fx=d.x;d.fy=d.y;})
+    .on("drag",(e,d)=>{d.fx=e.x;d.fy=e.y;})
+    .on("end",(e,d)=>{if(!e.active)sim.alphaTarget(0);d.fx=null;d.fy=null;}))
+  .on("click",(e,d)=>{e.stopPropagation();openDrawer(d);focus(d);});
+
+nodeSel.each(function(d){
+  const el=d3.select(this);
+  if(d.type==="mp"||d.type==="peer"){
+    el.append("circle").attr("r",10).attr("fill",partyColor(d.party));
+    if(d.house==="lords")el.append("circle").attr("class","halo").attr("r",14).attr("stroke",partyColor(d.party));
+    if(d.sector==="bridge")el.append("circle").attr("class","halo").attr("r",17).attr("stroke","var(--bridge)").attr("stroke-dasharray","1 3");
+  }else if(d.type==="committee"){
+    el.append("rect").attr("x",-13).attr("y",-13).attr("width",26).attr("height",26).attr("rx",5).attr("fill","#2E6B58");
+    if(d.sector==="bridge")el.append("rect").attr("class","halo").attr("x",-17).attr("y",-17).attr("width",34).attr("height",34).attr("rx",7).attr("stroke","var(--bridge)");
+  }else{
+    el.append("rect").attr("x",-11).attr("y",-11).attr("width",22).attr("height",22).attr("rx",3).attr("fill","#24483E").attr("transform","rotate(45)").attr("stroke",sectorColor(d.sector));
+  }
+  el.append("text").attr("dy",d.type==="appg"?-21:(d.type==="committee"?-20:(d.sector==="bridge"?-22:-15))).attr("text-anchor","middle")
+    .text(d.name.length>36?d.name.slice(0,34)+"…":d.name);
+});
+
+const sx=d=>d.sector==="defence"?W*0.37:d.sector==="trade"?W*0.65:W*0.51;
+const sim=d3.forceSimulation(nodes)
+  .force("link",d3.forceLink(links).id(d=>d.id).distance(d=>d.kind==="signal"?120:70).strength(d=>d.kind==="signal"?.06:.5))
+  .force("charge",d3.forceManyBody().strength(-290))
+  .force("x",d3.forceX(sx).strength(.16))
+  .force("y",d3.forceY(H/2).strength(.09))
+  .force("collide",d3.forceCollide().radius(28))
+  .on("tick",()=>{
+    linkSel.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y).attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
+    nodeSel.attr("transform",d=>`translate(${d.x},${d.y})`);
+    drawHulls();
+  });
+
+function drawHulls(){
+  hullLayer.selectAll("*").remove();
+  ["defence","trade","bridge"].forEach(sec=>{
+    const pts=nodes.filter(n=>n.sector===sec&&n.x!=null).map(n=>[n.x,n.y]);
+    if(pts.length<3)return;
+    const hull=d3.polygonHull(pts);if(!hull)return;
+    const [cx,cy]=d3.polygonCentroid(hull);
+    const padded=hull.map(p=>[cx+(p[0]-cx)*1.22,cy+(p[1]-cy)*1.22]);
+    hullLayer.append("path").attr("class","hull "+sec).attr("d","M"+padded.join("L")+"Z");
+    const topY=d3.min(padded,p=>p[1]);
+    const [lx]=d3.polygonCentroid(padded);
+    zoneLabels.select(".zone-label."+sec).attr("x",lx).attr("y",topY-14).attr("text-anchor","middle");
+  });
+}
+
+/* ============ INTERACTION ============ */
+const adj={};
+links.forEach(l=>{
+  const s=l.source.id||l.source,t=l.target.id||l.target;
+  (adj[s]=adj[s]||new Set()).add(t);(adj[t]=adj[t]||new Set()).add(s);
+});
+function focus(d){
+  linkSel.classed("hitlink",false);
+  if(!d){nodeSel.classed("dim",false).classed("hit",false);linkSel.classed("dim",false);return;}
+  const keep=new Set([d.id,...(adj[d.id]||[])]);
+  nodeSel.classed("dim",n=>!keep.has(n.id)).classed("hit",n=>n.id===d.id);
+  linkSel.classed("dim",l=>!(l.source.id===d.id||l.target.id===d.id));
+}
+function highlightEdge(d){
+  const keep=new Set([d.source.id,d.target.id]);
+  nodeSel.classed("dim",n=>!keep.has(n.id)).classed("hit",n=>keep.has(n.id));
+  linkSel.classed("dim",l=>l!==d).classed("hitlink",l=>l===d);
+}
+svg.on("click",()=>{focus(null);closeDrawer();});
+
+const drawer=document.getElementById("drawer");
+const dc=document.getElementById("drawer-content");
+function openDrawer(d){
+  const conns=links.filter(l=>l.source.id===d.id||l.target.id===d.id)
+    .sort((a,b)=>(a.kind==="signal")-(b.kind==="signal"))
+    .map(l=>{const o=l.source.id===d.id?l.target:l.source;
+      return `<div class="conn" data-id="${o.id}"><span class="kind">${l.kind==="signal"?"Shared interest signal":"Role"} — ${l.kind==="signal"?"same issue, not a personal tie":l.label}</span>${o.name}</div>`;
+    }).join("")||'<div class="note">No mapped connections in current dataset.</div>';
+  dc.innerHTML=`
+    <button id="close-drawer" aria-label="Close details">&times;</button>
+    <div class="party-band" style="background:${d.party?partyColor(d.party):sectorColor(d.sector)}"></div>
+    <h3>${d.name}</h3>
+    <div class="sub">${[d.party,d.constituency||(d.house==="lords"?"House of Lords":null)].filter(Boolean).join(" · ")||(d.type==="appg"?"All-Party Parliamentary Group":"Parliamentary body")}</div>
+    ${d.role?`<div class="field"><div class="k">Role</div><div class="v">${d.role}</div></div>`:""}
+    ${d.detail?`<div class="field"><div class="k">Notes</div><div class="v">${d.detail}</div></div>`:""}
+    ${d.faction?`<div class="field"><div class="k">Grouping</div><div class="v">${d.faction} <span class="badge reported">reported affiliation</span></div></div>`:""}
+    ${d.flag?`<div class="field"><div class="k">Data conflict</div><div class="v">${d.flag}</div></div>`:""}
+    <div class="field"><div class="k">Connections (${(adj[d.id]||new Set()).size})</div>${conns}</div>
+    <div>
+      ${d.sector==="bridge"?'<span class="badge bridgetag">Bridge node</span>':""}
+      ${d.verified?'<span class="badge verified">Verified source</span>':'<span class="badge check">Verify before use</span>'}
+      ${d.constituencySource?'<span class="badge check">Constituency: verify</span>':""}
+    </div>
+    <div class="src"><strong>Source:</strong> ${d.source}${d.roleSource?`<br>${d.roleSource}`:""}</div>`;
+  drawer.classList.add("open");
+  wireDrawer();
+}
+function openEdgeDrawer(d){
+  const sig=d.kind==="signal";
+  dc.innerHTML=`
+    <button id="close-drawer" aria-label="Close details">&times;</button>
+    <div class="party-band" style="background:${sig?"var(--signal)":"#2E6B58"}"></div>
+    <h3>${d.source.name} ${sig?"×":"→"} ${d.target.name}</h3>
+    <div class="sub">${sig?"Shared interest signal":d.label}</div>
+    ${sig?`<div class="field"><div class="k">Basis</div><div class="v">${d.label}. Both publicly engaged with the same defence issue; this is structural proximity of interest, not evidence of a personal relationship.</div></div>`:""}
+    <div class="field"><div class="k">Nodes</div>
+      <div class="conn" data-id="${d.source.id}"><span class="kind">${d.source.party||d.source.type}</span>${d.source.name}</div>
+      <div class="conn" data-id="${d.target.id}"><span class="kind">${d.target.party||d.target.type}</span>${d.target.name}</div>
+    </div>`;
+  drawer.classList.add("open");
+  wireDrawer();
+}
+function wireDrawer(){
+  dc.querySelectorAll(".conn").forEach(c=>c.addEventListener("click",()=>{
+    const n=nodes.find(p=>p.id===c.dataset.id);
+    if(n){openDrawer(n);focus(n);}
+  }));
+  const cl=document.getElementById("close-drawer");
+  if(cl)cl.addEventListener("click",()=>{closeDrawer();focus(null);});
+}
+function closeDrawer(){drawer.classList.remove("open");}
+
+/* sector chips */
+document.querySelectorAll(".chip").forEach(ch=>ch.addEventListener("click",()=>{
+  document.querySelectorAll(".chip").forEach(c=>c.classList.remove("on"));
+  ch.classList.add("on");
+  const s=ch.dataset.sector;
+  if(s==="all"){nodeSel.classed("dim",false);linkSel.classed("dim",false);return;}
+  const keep=new Set(nodes.filter(n=>n.sector===s||n.sector==="bridge").map(n=>n.id));
+  nodeSel.classed("dim",n=>!keep.has(n.id));
+  linkSel.classed("dim",l=>!(keep.has(l.source.id)&&keep.has(l.target.id)));
+}));
+
+/* layer toggles */
+document.querySelectorAll("[data-layer]").forEach(cb=>cb.addEventListener("change",applyLayers));
+function applyLayers(){
+  const on={};document.querySelectorAll("[data-layer]").forEach(cb=>on[cb.dataset.layer]=cb.checked);
+  linkSel.style("display",l=>{
+    if(l.kind==="signal")return on.signal?null:"none";
+    const t=l.target;
+    if(t.type==="appg")return on.appg?null:"none";
+    if(t.id==="mod"||t.id==="shadow"||t.id==="dbtteam")return on.govt?null:"none";
+    if(t.type==="committee")return on.committee?null:"none";
+    return null;
+  });
+  nodeSel.style("display",d=>{
+    if(d.type==="appg")return on.appg?null:"none";
+    if(d.id==="mod"||d.id==="shadow"||d.id==="dbtteam")return on.govt?null:"none";
+    if(d.type==="committee")return on.committee?null:"none";
+    return null;
+  });
+}
+
+/* search */
+document.getElementById("search").addEventListener("input",e=>{
+  const q=e.target.value.trim().toLowerCase();
+  if(!q){focus(null);return;}
+  const hits=new Set(nodes.filter(n=>
+    n.name.toLowerCase().includes(q)||(n.constituency||"").toLowerCase().includes(q)||(n.role||"").toLowerCase().includes(q)
+  ).map(n=>n.id));
+  nodeSel.classed("dim",n=>!hits.has(n.id)).classed("hit",n=>hits.has(n.id));
+  linkSel.classed("dim",l=>!(hits.has(l.source.id)&&hits.has(l.target.id)));
+});
+
+/* modal */
+document.getElementById("open-caveats").addEventListener("click",()=>document.getElementById("modal").classList.add("open"));
+
+/* live drift check: Defence Committee (id 24) vs Parliament Committees API */
+document.getElementById("livecheck").addEventListener("click",async()=>{
+  const st=document.getElementById("livestatus");
+  st.textContent="Checking Parliament's Committees API…";
+  const embedded=memberLinks.filter(l=>l.target==="defcom"||l.target.id==="defcom")
+    .map(l=>(typeof l.source==="string"?l.source:l.source.id));
+  const embeddedNames=nodes.filter(n=>embedded.includes(n.id)).map(n=>n.name);
+  const surname=s=>s.trim().split(/\s+/).pop().toLowerCase();
+  const embSurnames=new Set(embeddedNames.map(surname));
+  try{
+    const r=await fetch("https://committees-api.parliament.uk/api/Committees/24/Members?MembershipStatus=Current&take=30");
+    if(!r.ok)throw new Error("HTTP "+r.status);
+    const data=await r.json();
+    const items=data.items||data.value||[];
+    const liveNames=items.map(m=>(m.name||(m.value&&m.value.name)||"").replace(/^(Mr|Mrs|Ms|Dr|Sir|Dame|Rt Hon\.?)\s+/gi,"")).filter(Boolean);
+    if(!liveNames.length){st.textContent="API responded but returned no member names — schema may have changed. Verify manually at committees.parliament.uk.";return;}
+    const liveSurnames=new Set(liveNames.map(surname));
+    const missingFromMap=liveNames.filter(nm=>!embSurnames.has(surname(nm)));
+    const goneFromLive=embeddedNames.filter(nm=>!liveSurnames.has(surname(nm)));
+    if(!missingFromMap.length&&!goneFromLive.length){
+      st.innerHTML="<strong style='color:var(--defence)'>In sync.</strong> Live Defence Committee membership matches this map ("+liveNames.length+" members). Checked "+new Date().toLocaleDateString("en-GB")+".";
+    }else{
+      st.innerHTML="<strong style='color:var(--signal)'>Drift detected.</strong>"+
+        (missingFromMap.length?"<br>On live committee, not on map: "+missingFromMap.join("; "):"")+
+        (goneFromLive.length?"<br>On map, not on live committee: "+goneFromLive.join("; "):"")+
+        "<br>Update the data block and re-verify.";
+    }
+  }catch(e){
+    st.textContent="Live check unavailable ("+e.message+"). Parliament's API may block browser requests (CORS) — verify manually at committees.parliament.uk.";
+  }
+});
+document.getElementById("close-caveats").addEventListener("click",()=>document.getElementById("modal").classList.remove("open"));
+document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")e.target.classList.remove("open")});
+
+window.addEventListener("resize",()=>{
+  W=wrap.clientWidth;H=wrap.clientHeight;
+  svg.attr("viewBox",[0,0,W,H]);
+  sim.force("x",d3.forceX(sx).strength(.16)).force("y",d3.forceY(H/2).strength(.09)).alpha(.3).restart();
+});
+</script>
+</body>
+</html>
