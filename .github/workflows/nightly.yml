@@ -1,0 +1,56 @@
+name: Nightly parliamentary data sync
+
+on:
+  schedule:
+    - cron: "30 2 * * *"   # 02:30 UTC nightly
+  workflow_dispatch:        # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Fetch and build (auto-detects repo layout)
+        run: |
+          if [ -f scripts/fetch-live.mjs ]; then DIR="."; 
+          elif [ -f pipeline/scripts/fetch-live.mjs ]; then DIR="pipeline";
+          else echo "::error::scripts/fetch-live.mjs not found at repo root or in pipeline/ — check the upload"; exit 1; fi
+          echo "Working in: $DIR"
+          cd "$DIR"
+          node scripts/fetch-live.mjs
+          node scripts/build.mjs
+          echo "PIPE_DIR=$DIR" >> "$GITHUB_ENV"
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "map-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Nightly sync: $(date -u +%F)"
+            git push
+          fi
+
+      - name: Open an issue when drift is detected
+        run: |
+          F="$PIPE_DIR/reports/has-drift"
+          if [ -f "$F" ] && [ "$(cat "$F")" = "1" ]; then
+            gh issue create \
+              --title "Data drift detected — $(date -u +%F)" \
+              --body-file "$PIPE_DIR/reports/drift.md" \
+              --label "data-drift" \
+              --repo "$GITHUB_REPOSITORY" || echo "Issue creation failed — drift report is committed in reports/drift.md"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
