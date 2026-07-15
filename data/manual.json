@@ -1822,5 +1822,407 @@
     }
    ]
   }
+ ],
+ "topics": [
+  {
+   "id": "combat_air",
+   "name": "Combat Air",
+   "detail": "Typhoon, GCAP, tactical air and combat aviation.",
+   "members": [
+    {
+     "id": "snowden",
+     "summary": "Secured and opened the Westminster Hall debate on Typhoon Fighter Sovereign Capability, arguing for a new Typhoon order to sustain the Warton production line.",
+     "date": "12 Nov 2025",
+     "link": "https://www.theyworkforyou.com/whall/?id=2025-11-12a.1.0"
+    },
+    {
+     "id": "hazelgrove",
+     "summary": "Spoke on export impacts and the Filton aerospace cluster (MBDA, Airbus, Rolls-Royce) in the Typhoon supply chain.",
+     "date": "12 Nov 2025",
+     "link": "https://www.theyworkforyou.com/whall/?id=2025-11-12a.1.0"
+    },
+    {
+     "id": "foster",
+     "summary": "Spoke on behalf of the BAE Samlesbury workforce and Lancashire defence-industrial jobs in the Typhoon debate.",
+     "date": "12 Nov 2025",
+     "link": "https://www.theyworkforyou.com/whall/?id=2025-11-12a.1.0"
+    }
+   ]
+  },
+  {
+   "id": "maritime",
+   "name": "Maritime & Submarines",
+   "detail": "Royal Navy platforms, submarines, AUKUS Pillar I, naval industrial base. AUKUS APPG officers are included because the group's remit is centrally submarine (SSN-AUKUS) delivery.",
+   "members": [
+    {
+     "id": "scrogham",
+     "summary": "Chair, APPG AUKUS; Defence Committee member for Barrow & Furness — home of the UK submarine build.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "APPG AUKUS chairmanship + committee membership"
+    },
+    {
+     "id": "walney",
+     "summary": "Vice Chair, APPG AUKUS. Former MP for Barrow.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "APPG AUKUS role"
+    },
+    {
+     "id": "spellar",
+     "summary": "Vice Chair, APPG AUKUS. Former Armed Forces Minister with decades of defence industrial engagement.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "APPG AUKUS role"
+    },
+    {
+     "id": "tugendhat",
+     "summary": "Vice Chair, APPG AUKUS. Former Security Minister.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "APPG AUKUS role"
+    },
+    {
+     "id": "morgan",
+     "summary": "Publicly welcomed the DIP's hybrid Navy investment and six new warships as good for Portsmouth jobs and naval heritage.",
+     "date": "1 Jul 2026",
+     "link": null,
+     "linkNote": "The News (Portsmouth)"
+    },
+    {
+     "id": "dinenage",
+     "summary": "Commented on the DIP from a Gosport naval-community and shipyard perspective.",
+     "date": "1 Jul 2026",
+     "link": null,
+     "linkNote": "The News (Portsmouth)"
+    },
+    {
+     "id": "amartin",
+     "summary": "Vice Chair, APPG Armed Forces; Portsmouth North constituency — Royal Navy city.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "APPG role + constituency"
+    },
+    {
+     "id": "dyke",
+     "summary": "Raised Thales Templecombe apprenticeships and skills funding for the Royal Navy sonar programme in the SDR Funding debate.",
+     "date": "15 Apr 2026",
+     "link": "https://www.theyworkforyou.com/search/?q=SDR+funding+templecombe"
+    },
+    {
+     "id": "downie",
+     "summary": "Officer, APPG Defence & Security Sectors; constituency adjacent to Rosyth naval yard.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "APPG role + constituency"
+    }
+   ]
+  },
+  {
+   "id": "nuclear",
+   "name": "Nuclear Deterrent",
+   "detail": "Continuous At-Sea Deterrent, submarine reactor programme, AWE Aldermaston. Overlaps with Maritime by design — SSN-AUKUS and Dreadnought straddle both.",
+   "members": [
+    {
+     "id": "shanker",
+     "summary": "Former Rolls-Royce project manager. Hosted a Nuclear Week event in Parliament showcasing Derby's submarine reactor work; joined the Defence Secretary for the £9bn reactor deal announcement.",
+     "date": "2025–26",
+     "link": null,
+     "linkNote": "Nuclear Week parliamentary event; ministerial announcement"
+    },
+    {
+     "id": "atkinson",
+     "summary": "Raised the £9bn Rolls-Royce submarine reactor investment and Team Derby at PMQs.",
+     "date": "Mar 2026",
+     "link": null,
+     "linkNote": "DerbyWorld PMQ report"
+    },
+    {
+     "id": "scrogham",
+     "summary": "Barrow & Furness — BAE Systems Submarines, the UK's submarine build site.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Constituency footprint + Defence Committee"
+    }
+   ]
+  },
+  {
+   "id": "rotary_wing",
+   "name": "Rotary Wing",
+   "detail": "Military helicopters (New Medium Helicopter programme, Wildcat, Apache), Leonardo Yeovil.",
+   "members": [
+    {
+     "id": "dance",
+     "summary": "Urgent question on the New Medium Helicopter contract, secured the Westminster Hall NMH debate, raised it at PMQs and in written questions. Sustained campaign around the eventual £1bn AW149 award for Leonardo Yeovil.",
+     "date": "Jan–Feb 2026",
+     "link": "https://www.theyworkforyou.com/search/?q=New+Medium+Helicopter"
+    }
+   ]
+  },
+  {
+   "id": "land_munitions",
+   "name": "Land Systems & Munitions",
+   "detail": "Army platforms (Boxer, Challenger 3, GRAYBURN small arms), munitions stockpiles, KNDS UK.",
+   "members": [
+    {
+     "id": "mishra",
+     "summary": "Raised KNDS UK Stockport during the DIP statement; the Defence Secretary undertook to visit Stockport.",
+     "date": "30 Jun 2026",
+     "link": "https://www.theyworkforyou.com/search/?q=defence+investment+plan+stockport"
+    },
+    {
+     "id": "akehurst",
+     "summary": "Publicly consistent on the need for accelerated munitions and stockpile investment.",
+     "date": "2025–26",
+     "link": null,
+     "linkNote": "Public position + Armed Forces Bill Committee"
+    }
+   ]
+  },
+  {
+   "id": "personnel",
+   "name": "Personnel & Veterans",
+   "detail": "Service personnel welfare, veterans, Armed Forces Community Covenant, defence housing.",
+   "members": [
+    {
+     "id": "bailey",
+     "summary": "Minister for Veterans & People — the government lead. Former RAF officer.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Ministerial portfolio"
+    },
+    {
+     "id": "sanderson",
+     "summary": "Former Army; veterans advocate.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Background + NATO PA delegation"
+    },
+    {
+     "id": "obesejecty",
+     "summary": "Former infantry officer; prominent Conservative voice on defence personnel and procurement. Shadow PPS (Defence).",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Background + Shadow PPS role"
+    },
+    {
+     "id": "ballinger",
+     "summary": "Former Royal Marine; Chair, APPG Armed Forces.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Background + APPG chairmanship"
+    },
+    {
+     "id": "foster",
+     "summary": "Former Army officer; Co-Chair, APPG Armed Forces.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Background + APPG role"
+    },
+    {
+     "id": "mmartin",
+     "summary": "Former Army officer and war studies academic; officer, APPG Armed Forces Community.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Background + APPG role"
+    }
+   ]
+  },
+  {
+   "id": "industrial_base",
+   "name": "Industrial Base",
+   "detail": "UK defence-industrial policy, sovereign manufacturing, supply chain, defence exports. This is the topic that intersects most with the trade & industry sector.",
+   "members": [
+    {
+     "id": "pollard",
+     "summary": "Minister of State for Defence Readiness & Industry — the government's lead defence-industrial minister.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Ministerial portfolio"
+    },
+    {
+     "id": "baker",
+     "summary": "Chair, APPG Defence & Security Sectors Supporting Local Communities. Aldershot — home of the British Army.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "APPG chairmanship + constituency"
+    },
+    {
+     "id": "downie",
+     "summary": "Officer, APPG Defence & Security Sectors; active on defence industrial policy.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "APPG role"
+    },
+    {
+     "id": "trenchard",
+     "summary": "Officer, APPG Defence & Security Sectors; long-standing defence and industry interests in the Lords.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "APPG role + background"
+    },
+    {
+     "id": "vaz",
+     "summary": "Published a statement welcoming the DIP, highlighting the defence export facility specifically.",
+     "date": "Jul 2026",
+     "link": null,
+     "linkNote": "MP website"
+    },
+    {
+     "id": "ngriffith",
+     "summary": "Former Shadow Defence Secretary; APPG Steel & Metals officer for Llanelli. The defence-industrial seam personified.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Roles across defence and industrial APPGs"
+    }
+   ]
+  },
+  {
+   "id": "exports_security",
+   "name": "Export Controls & Economic Security",
+   "detail": "Arms exports, export licensing, economic security regime, sanctions.",
+   "members": [
+    {
+     "id": "byrne",
+     "summary": "Chair, Sub-Committee on Economic Security, Arms & Export Controls; member, Joint Committee on the National Security Strategy.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Sub-committee chairmanship + JCNSS"
+    }
+   ]
+  },
+  {
+   "id": "nato_alliance",
+   "name": "NATO & Alliance Policy",
+   "detail": "The UK Delegation to the NATO Parliamentary Assembly. Delegates are appointed to debate defence and security policy with counterparts from 32 NATO states — the delegation itself is the evidence of sustained defence interest. Individual topic focus within alliance work is not centrally recorded; treat this tag as \"engaged with NATO/allied defence policy\", not as evidence of any single technical portfolio.",
+   "members": [
+    {
+     "id": "twigg",
+     "summary": "Leader of the UK NATO PA delegation; long-serving Defence Committee member.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation leadership"
+    },
+    {
+     "id": "fclark",
+     "summary": "UK Delegate, NATO PA.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation membership"
+    },
+    {
+     "id": "kingsmill",
+     "summary": "UK Delegate, NATO PA.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation membership"
+    },
+    {
+     "id": "lewell",
+     "summary": "UK Delegate, NATO PA; Defence Committee member.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation + committee"
+    },
+    {
+     "id": "mckee",
+     "summary": "UK Delegate, NATO PA.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation membership"
+    },
+    {
+     "id": "spellar",
+     "summary": "UK Delegate, NATO PA; Vice Chair, APPG AUKUS; former Armed Forces Minister.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Multiple roles"
+    },
+    {
+     "id": "jcampbell",
+     "summary": "UK Delegate, NATO PA.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation membership"
+    },
+    {
+     "id": "beamish",
+     "summary": "UK Delegate, NATO PA. As Kevan Jones, former defence minister and long-serving Defence Committee member.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation + background"
+    },
+    {
+     "id": "brickell",
+     "summary": "UK Delegate, NATO PA.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation membership"
+    },
+    {
+     "id": "josan",
+     "summary": "UK Delegate, NATO PA.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation membership"
+    },
+    {
+     "id": "roca",
+     "summary": "UK Delegate, NATO PA.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation membership"
+    },
+    {
+     "id": "qureshi",
+     "summary": "UK Delegate, NATO PA.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation membership"
+    },
+    {
+     "id": "shelbrooke",
+     "summary": "UK Delegate, NATO PA. Former defence procurement minister.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation + background"
+    },
+    {
+     "id": "lancaster",
+     "summary": "UK Delegate, NATO PA. Former Armed Forces Minister; senior Army Reserve officer.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation + background"
+    },
+    {
+     "id": "sanderson",
+     "summary": "UK Delegate, NATO PA. Former Army; veterans advocate.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation + background"
+    },
+    {
+     "id": "lordfox",
+     "summary": "UK Delegate, NATO PA. Lib Dem business and defence-industrial voice in the Lords.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation membership"
+    },
+    {
+     "id": "foord",
+     "summary": "UK Delegate, NATO PA. Former Army officer; former Lib Dem defence spokesperson.",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation + background"
+    },
+    {
+     "id": "dodds",
+     "summary": "UK Delegate, NATO PA (DUP).",
+     "date": "Ongoing",
+     "link": null,
+     "linkNote": "Delegation membership"
+    }
+   ]
+  }
  ]
 }
