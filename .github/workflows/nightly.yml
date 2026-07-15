@@ -20,6 +20,8 @@ jobs:
           node-version: 24
 
       - name: Fetch and build (auto-detects repo layout)
+        env:
+          TWFY_API_KEY: ${{ secrets.TWFY_API_KEY }}
         run: |
           if [ -f scripts/fetch-live.mjs ]; then DIR="."; 
           elif [ -f pipeline/scripts/fetch-live.mjs ]; then DIR="pipeline";
@@ -27,6 +29,7 @@ jobs:
           echo "Working in: $DIR"
           cd "$DIR"
           node scripts/fetch-live.mjs
+          node scripts/hansard-monitor.mjs
           node scripts/build.mjs
           echo "PIPE_DIR=$DIR" >> "$GITHUB_ENV"
 
