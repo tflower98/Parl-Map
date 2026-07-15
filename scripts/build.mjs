@@ -147,7 +147,7 @@ if (ageDays > 30)
 const template = readFileSync("template.html", "utf8");
 const DATA = {
   builtAt: new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }),
-  nodes, memberLinks, cohorts: manual.cohorts,
+  nodes, memberLinks, cohorts: manual.cohorts, topics: manual.topics || [],
 };
 if (!template.includes("/*__DATA__*/null")) throw new Error("template marker missing");
 writeFileSync("index.html", template.replace("/*__DATA__*/null", "/*__DATA__*/" + JSON.stringify(DATA)));
