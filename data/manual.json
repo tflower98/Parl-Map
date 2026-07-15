@@ -292,7 +292,10 @@
    "role": "Chair, Defence Committee",
    "detail": "Elected Chair by the whole House, September 2024. Leading scrutiny of the Defence Investment Plan; issued the Committee's formal response to the DIP.",
    "source": "committees.parliament.uk, Defence Committee membership (accessed 7 Jul 2026)",
-   "verified": true
+   "verified": true,
+   "aliases": [
+    "Tanmanjeet Singh Dhesi"
+   ]
   },
   {
    "id": "baker",
@@ -331,7 +334,10 @@
    "role": "Defence Committee",
    "detail": "Served on the Defence Committee in previous Parliaments.",
    "source": "committees.parliament.uk, Defence Committee membership (accessed 7 Jul 2026)",
-   "verified": true
+   "verified": true,
+   "aliases": [
+    "Emma Lewell-Buck"
+   ]
   },
   {
    "id": "mmartin",
@@ -467,7 +473,10 @@
    "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
    "verified": true,
    "constituencySource": "General knowledge — verify before external use",
-   "roleSource": "Shadow PPS: reported by James Heale, The Spectator, Jun–Jul 2025; no change reported since"
+   "roleSource": "Shadow PPS: reported by James Heale, The Spectator, Jun–Jul 2025; no change reported since",
+   "aliases": [
+    "Ben Obese-Jecty"
+   ]
   },
   {
    "id": "walney",
@@ -479,7 +488,10 @@
    "role": "Vice Chair, APPG AUKUS",
    "detail": "Former MP for Barrow; former government adviser on political violence.",
    "source": "Register of All-Party Parliamentary Groups, 23 Feb 2026 edition",
-   "verified": true
+   "verified": true,
+   "aliases": [
+    "John Woodcock"
+   ]
   },
   {
    "id": "spellar",
@@ -945,7 +957,10 @@
    "detail": "As Kevan Jones, decades of defence work: former defence minister and long-serving Defence Committee member.",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "roleSource": "Background: General knowledge — verify before external use"
+   "roleSource": "Background: General knowledge — verify before external use",
+   "aliases": [
+    "Kevan Jones"
+   ]
   },
   {
    "id": "brickell",
@@ -1029,7 +1044,10 @@
    "detail": "Former Army; veterans advocate.",
    "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
    "verified": true,
-   "constituencySource": "General knowledge — verify before external use"
+   "constituencySource": "General knowledge — verify before external use",
+   "aliases": [
+    "Stuart Anderson"
+   ]
   },
   {
    "id": "lordfox",
