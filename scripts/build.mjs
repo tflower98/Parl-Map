@@ -42,16 +42,18 @@ const bySI = new Map();
 const bySurname = new Map();
 const byFull = new Map();
 nodes.filter((n) => personIds.has(n.id)).forEach((n) => {
-  const si = normSI(n.name);
-  const sur = normSurname(n.name);
-  const full = normFull(n.name);
-  if (si) bySI.set(si, n);
-  // For surname-only, only use if unique (avoid collisions like two Martins)
-  if (sur) {
-    if (bySurname.has(sur)) bySurname.set(sur, null); // collision → disable
-    else bySurname.set(sur, n);
+  // Index the primary name AND any aliases (e.g. "Emma Lewell" + "Emma Lewell-Buck")
+  for (const nm of [n.name, ...(n.aliases || [])]) {
+    const si = normSI(nm);
+    const sur = normSurname(nm);
+    const full = normFull(nm);
+    if (si && !bySI.has(si)) bySI.set(si, n);
+    if (sur) {
+      if (bySurname.has(sur) && bySurname.get(sur) !== n) bySurname.set(sur, null); // collision → disable
+      else bySurname.set(sur, n);
+    }
+    if (full && !byFull.has(full)) byFull.set(full, n);
   }
-  if (full) byFull.set(full, n);
 });
 
 function findManualNode(apiName) {
@@ -124,6 +126,16 @@ if (live) {
   }
 } else {
   drift.push("- No live.json found; built from manual data only.");
+}
+
+// Hansard monitor findings -> drift report (human decides on cohort entry)
+if (existsSync("data/hansard-hits.json")) {
+  try {
+    const hh = JSON.parse(readFileSync("data/hansard-hits.json", "utf8"));
+    for (const h of hh.hits || []) {
+      drift.push(`- **HANSARD**: ${h.name} — "${h.debate}"${h.date ? ` (${h.date})` : ""}${h.excerpt ? ` — ${h.excerpt.slice(0, 120)}…` : ""}${h.link ? ` [link](${h.link})` : ""} — review for cohort entry in manual.json.`);
+    }
+  } catch (e) { drift.push(`- Hansard hits file unreadable: ${e.message}`); }
 }
 
 // Manual-layer staleness reminders (no API exists for these).
