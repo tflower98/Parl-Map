@@ -76,6 +76,7 @@ svg:active{cursor:grabbing}
 .link{stroke-opacity:.42;cursor:pointer}
 .link.member{stroke:#5E7169}
 .link.signal{stroke:var(--signal);stroke-dasharray:2 6;stroke-opacity:.5}
+.link.topic{stroke:#B47BFF;stroke-dasharray:6 3;stroke-opacity:.35;stroke-width:1.2}
 .link.dim{opacity:.04}
 .link.hitlink{stroke:#fff;stroke-opacity:.85}
 .node.hit circle,.node.hit rect{stroke:#fff;stroke-width:2.6px;filter:drop-shadow(0 0 6px rgba(255,255,255,.55))}
@@ -143,6 +144,7 @@ svg:active{cursor:grabbing}
       <label class="toggle"><input type="checkbox" data-layer="appg" checked> APPGs (officer roles)</label>
       <label class="toggle"><input type="checkbox" data-layer="govt" checked> Government &amp; Opposition teams</label>
       <label class="toggle"><input type="checkbox" data-layer="signal" checked> Interest signals (Hansard / public)</label>
+      <label class="toggle"><input type="checkbox" data-layer="topic" checked> Topic ties (curated)</label>
     </div>
     <div class="rail-section">
       <h2>Parties</h2>
@@ -161,6 +163,7 @@ svg:active{cursor:grabbing}
       <h2>Connections</h2>
       <div class="legend-row"><span class="edge-sample"></span> Member / officer / frontbench role</div>
       <div class="legend-row"><span class="edge-sample dotted"></span> Spoke on the same defence issue</div>
+      <div class="legend-row"><span class="edge-sample" style="border-top:2px dashed #B47BFF"></span> Share a curated defence topic</div>
       <p class="note" style="margin-top:8px">A dotted tie is a shared public interest signal, not a personal relationship.</p>
     </div>
     <div class="rail-section">
@@ -186,6 +189,7 @@ svg:active{cursor:grabbing}
       <li><strong>Business and Trade Committee</strong> membership is from committees.parliament.uk (accessed 7 Jul 2026). Its Sub-Committee on Economic Security, Arms and Export Controls is shown with its Chair only.</li>
       <li><strong>Ministerial and shadow posts</strong> per GOV.UK (3 Jul 2026) and members.parliament.uk, reflecting the 11 June 2026 reshuffle. Dr Kieran Mullan is shown on the Shadow Defence Team per his opening of the 23 June Opposition Day debate; exact portfolio title awaits confirmation.</li>
       <li><strong>APPG data shows officers only</strong> (register editions 23 Feb and 18 May 2026); full memberships are not centrally published. Register entries can pre-date the June 2026 reshuffle.</li>
+      <li><strong>Topic ties (purple dashed lines)</strong> connect MPs curated as active on the same defence topic — Combat Air, Maritime & Submarines, Nuclear Deterrent, Rotary Wing, Land Systems & Munitions, Personnel & Veterans, Industrial Base, Export Controls & Economic Security, NATO & Alliance Policy. Each tag on each person carries individually cited evidence (debate, date, link, or role). This layer is deliberately interpretive: I judged the topic assignment; the evidence beneath each tag is the objective part. Where citable evidence was thin, people were left untagged rather than assigned a topic on inference. Ministers and shadows are tagged only when the portfolio or a specific contribution makes the topic explicit.</li>
       <li><strong>Interest signals (dotted ties)</strong> connect MPs who spoke on, or publicly engaged with, the same defence topic: the Defence Investment Plan (Jun–Jul 2026), the Typhoon Sovereign Capability debate (12 Nov 2025), and the SDR Funding debate (15 Apr 2026). Each member carries an individual citation; two MPs joined by a dotted line may never have spoken to each other. Ministers and frontbenchers responding ex officio are excluded — departmental duty is not an interest signal. Coverage is limited to debates verified in compiling this map, not an exhaustive Hansard cross-reference of all members; unnamed contributors to those debates are omitted rather than inferred, except where flagged. Dr Kieran Mullan is shown on the Shadow Defence Team per his opening of the 23 June Opposition Day debate; his exact portfolio title awaits confirmation on members.parliament.uk.</li>
       <li><strong>PPS coverage:</strong> Ben Obese-Jecty is shown as Shadow PPS (Defence) per contemporaneous reporting of his June 2025 appointment; no change has been reported since. On the government side, both defence PPSs resigned on 11 June 2026 and no successors have been published (the last GOV.UK PPS list is November 2025 and is out of date) — government defence PPS slots are shown as vacant rather than populated from stale lists. Pamela Nash and Rachel Hopkins appear as former PPSs within the DIP engagement cohort.</li>
       <li><strong>Defence-Industrial Constituency Champions</strong> is an analytical grouping, not a parliamentary body. Inclusion requires both a major defence-industrial site in or adjacent to the constituency and a cited defence contribution in Parliament within the past 18 months (Hansard, accessed via TheyWorkForYou where noted). It is a verified starter set, not a census: many qualifying constituencies (e.g. Stevenage/MBDA, Brough, Govan and Scotstoun, Rosyth) await verification and can be added as citations are confirmed. Two links carry attribution-by-constituency flags (Stockport, Templecombe).</li>
@@ -212,6 +216,7 @@ document.addEventListener("DOMContentLoaded",()=>{const el=document.getElementBy
 const nodes=DATA.nodes;
 const memberLinks=DATA.memberLinks;
 const cohorts=DATA.cohorts;
+const topics=DATA.topics||[];
 const signalLinks=[];
 cohorts.forEach(c=>{
   const ms=c.members||[];
@@ -222,7 +227,15 @@ cohorts.forEach(c=>{
       issue:c.issue||c.name,dateRange:c.dateRange||null,sourceDetail:mi,targetDetail:mj});
   }
 });
-const links=[...memberLinks,...signalLinks];
+const topicLinks=[];
+topics.forEach(t=>{
+  const ms=t.members||[];
+  for(let i=0;i<ms.length;i++)for(let j=i+1;j<ms.length;j++){
+    topicLinks.push({source:ms[i].id,target:ms[j].id,kind:"topic",label:t.name,
+      topicId:t.id,topicDetail:t.detail,sourceDetail:ms[i],targetDetail:ms[j]});
+  }
+});
+const links=[...memberLinks,...signalLinks,...topicLinks];
 
 /* ================= RENDER ================= */
 const partyColor=p=>({Labour:"var(--lab)",Conservative:"var(--con)","Liberal Democrat":"var(--ld)",Crossbench:"var(--xb)",Independent:"var(--ind)"}[p]||"var(--xb)");
@@ -329,7 +342,15 @@ function openDrawer(d){
         const date=otherDetail?.date||l.dateRange||"";
         const lnk=otherDetail?.link;
         const lnkNote=otherDetail?.linkNote||"";
-        return `<div class="conn" data-id="${o.id}"><span class="kind">${l.issue||"Interest signal"}${date?" — "+date:""}</span>${o.name}<div style="font-size:12px;color:var(--muted);margin-top:4px;line-height:1.45">${summary}</div>${lnk?`<a href="${lnk}" target="_blank" rel="noopener" style="font-size:11px;color:var(--defence);text-decoration:underline;display:inline-block;margin-top:3px">View on TheyWorkForYou &rarr;</a>`:lnkNote?`<span style="font-size:11px;color:var(--muted);display:inline-block;margin-top:3px">Source: ${lnkNote}</span>`:""}</div>`;
+        return `<div class="conn" data-id="${o.id}"><span class="kind" style="color:var(--signal)">${l.issue||"Interest signal"}${date?" — "+date:""}</span>${o.name}<div style="font-size:12px;color:var(--muted);margin-top:4px;line-height:1.45">${summary}</div>${lnk?`<a href="${lnk}" target="_blank" rel="noopener" style="font-size:11px;color:var(--defence);text-decoration:underline;display:inline-block;margin-top:3px">View on TheyWorkForYou &rarr;</a>`:lnkNote?`<span style="font-size:11px;color:var(--muted);display:inline-block;margin-top:3px">Source: ${lnkNote}</span>`:""}</div>`;
+      }
+      if(l.kind==="topic"){
+        const otherDetail=l.source.id===d.id?l.targetDetail:l.sourceDetail;
+        const summary=otherDetail?.summary||"";
+        const date=otherDetail?.date||"";
+        const lnk=otherDetail?.link;
+        const lnkNote=otherDetail?.linkNote||"";
+        return `<div class="conn" data-id="${o.id}"><span class="kind" style="color:#B47BFF">Topic: ${l.label}${date&&date!=='Ongoing'?" — "+date:""}</span>${o.name}${summary?`<div style="font-size:12px;color:var(--muted);margin-top:4px;line-height:1.45">${summary}</div>`:""}${lnk?`<a href="${lnk}" target="_blank" rel="noopener" style="font-size:11px;color:var(--defence);text-decoration:underline;display:inline-block;margin-top:3px">View on TheyWorkForYou &rarr;</a>`:lnkNote?`<span style="font-size:11px;color:var(--muted);display:inline-block;margin-top:3px">Basis: ${lnkNote}</span>`:""}</div>`;
       }
       return `<div class="conn" data-id="${o.id}"><span class="kind">Role — ${l.label}</span>${o.name}</div>`;
     }).join("")||'<div class="note">No mapped connections in current dataset.</div>';
@@ -354,6 +375,7 @@ function openDrawer(d){
 }
 function openEdgeDrawer(d){
   const sig=d.kind==="signal";
+  const top=d.kind==="topic";
   const sd=d.sourceDetail||{}, td=d.targetDetail||{};
   const renderPerson=(detail,node)=>{
     const summary=detail?.summary||"";
@@ -364,12 +386,13 @@ function openEdgeDrawer(d){
   };
   dc.innerHTML=`
     <button id="close-drawer" aria-label="Close details">&times;</button>
-    <div class="party-band" style="background:${sig?"var(--signal)":"#2E6B58"}"></div>
-    <h3>${d.source.name} ${sig?"×":"→"} ${d.target.name}</h3>
-    <div class="sub">${sig?(d.issue||"Shared interest signal")+(d.dateRange?" — "+d.dateRange:""):d.label}</div>
+    <div class="party-band" style="background:${top?"#B47BFF":sig?"var(--signal)":"#2E6B58"}"></div>
+    <h3>${d.source.name} ${sig||top?"×":"→"} ${d.target.name}</h3>
+    <div class="sub">${top?"Topic: "+d.label:sig?(d.issue||"Shared interest signal")+(d.dateRange?" — "+d.dateRange:""):d.label}</div>
+    ${top?`<div class="field"><div class="k">Curated topic</div><div class="v">${d.topicDetail||d.label}. Both are tagged with this topic based on individually cited evidence — structural proximity of interest, not a personal relationship.</div></div>`:""}
     ${sig?`<div class="field"><div class="k">Connecting issue</div><div class="v">${d.label}. Both publicly engaged with the same defence issue; this is structural proximity of interest, not evidence of a personal relationship.</div></div>`:""}
     <div class="field"><div class="k">What each said</div>
-      ${sig?renderPerson(sd,d.source)+renderPerson(td,d.target):`
+      ${sig||top?renderPerson(sd,d.source)+renderPerson(td,d.target):`
       <div class="conn" data-id="${d.source.id}"><span class="kind">${d.source.party||d.source.type}</span>${d.source.name}</div>
       <div class="conn" data-id="${d.target.id}"><span class="kind">${d.target.party||d.target.type}</span>${d.target.name}</div>`}
     </div>`;
@@ -403,6 +426,7 @@ function applyLayers(){
   const on={};document.querySelectorAll("[data-layer]").forEach(cb=>on[cb.dataset.layer]=cb.checked);
   linkSel.style("display",l=>{
     if(l.kind==="signal")return on.signal?null:"none";
+    if(l.kind==="topic")return on.topic?null:"none";
     const t=l.target;
     if(t.type==="appg")return on.appg?null:"none";
     if(t.id==="mod"||t.id==="shadow"||t.id==="dbtteam")return on.govt?null:"none";
