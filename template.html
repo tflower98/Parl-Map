@@ -76,7 +76,8 @@ svg:active{cursor:grabbing}
 .link{stroke-opacity:.42;cursor:pointer}
 .link.member{stroke:#5E7169}
 .link.signal{stroke:var(--signal);stroke-dasharray:2 6;stroke-opacity:.5}
-.link.topic{stroke:#B47BFF;stroke-dasharray:6 3;stroke-opacity:.35;stroke-width:1.2}
+.link.topic{stroke:#B47BFF;stroke-dasharray:3 5;stroke-opacity:.18;stroke-width:.9}
+.link.topic.hitlink,.node.hit ~ * .link.topic:not(.dim){stroke-opacity:.7}
 .link.dim{opacity:.04}
 .link.hitlink{stroke:#fff;stroke-opacity:.85}
 .node.hit circle,.node.hit rect{stroke:#fff;stroke-width:2.6px;filter:drop-shadow(0 0 6px rgba(255,255,255,.55))}
@@ -144,7 +145,7 @@ svg:active{cursor:grabbing}
       <label class="toggle"><input type="checkbox" data-layer="appg" checked> APPGs (officer roles)</label>
       <label class="toggle"><input type="checkbox" data-layer="govt" checked> Government &amp; Opposition teams</label>
       <label class="toggle"><input type="checkbox" data-layer="signal" checked> Interest signals (Hansard / public)</label>
-      <label class="toggle"><input type="checkbox" data-layer="topic" checked> Topic ties (curated)</label>
+      <label class="toggle"><input type="checkbox" data-layer="topic"> Topic ties (curated — click to reveal)</label>
     </div>
     <div class="rail-section">
       <h2>Parties</h2>
@@ -164,7 +165,7 @@ svg:active{cursor:grabbing}
       <div class="legend-row"><span class="edge-sample"></span> Member / officer / frontbench role</div>
       <div class="legend-row"><span class="edge-sample dotted"></span> Spoke on the same defence issue</div>
       <div class="legend-row"><span class="edge-sample" style="border-top:2px dashed #B47BFF"></span> Share a curated defence topic</div>
-      <p class="note" style="margin-top:8px">A dotted tie is a shared public interest signal, not a personal relationship.</p>
+      <p class="note" style="margin-top:8px">Topic ties are hidden by default because they add 226 edges — turn on the layer to reveal them when needed. A gold dotted tie is a shared public interest signal (specific debate); a purple dashed tie is a shared curated defence topic. Neither is a personal relationship.</p>
     </div>
     <div class="rail-section">
       <h2>Live data check</h2>
@@ -282,13 +283,13 @@ nodeSel.each(function(d){
     .text(d.name.length>36?d.name.slice(0,34)+"…":d.name);
 });
 
-const sx=d=>d.sector==="defence"?W*0.37:d.sector==="trade"?W*0.65:W*0.51;
+const sx=d=>d.sector==="defence"?W*0.28:d.sector==="trade"?W*0.72:W*0.50;
 const sim=d3.forceSimulation(nodes)
-  .force("link",d3.forceLink(links).id(d=>d.id).distance(d=>d.kind==="signal"?120:70).strength(d=>d.kind==="signal"?.06:.5))
-  .force("charge",d3.forceManyBody().strength(-290))
-  .force("x",d3.forceX(sx).strength(.16))
-  .force("y",d3.forceY(H/2).strength(.09))
-  .force("collide",d3.forceCollide().radius(28))
+  .force("link",d3.forceLink(links).id(d=>d.id).distance(d=>d.kind==="topic"?200:d.kind==="signal"?150:95).strength(d=>d.kind==="topic"?.015:d.kind==="signal"?.04:.55))
+  .force("charge",d3.forceManyBody().strength(-540).distanceMax(500))
+  .force("x",d3.forceX(sx).strength(.11))
+  .force("y",d3.forceY(H/2).strength(.05))
+  .force("collide",d3.forceCollide().radius(42))
   .on("tick",()=>{
     linkSel.attr("x1",d=>d.source.x).attr("y1",d=>d.source.y).attr("x2",d=>d.target.x).attr("y2",d=>d.target.y);
     nodeSel.attr("transform",d=>`translate(${d.x},${d.y})`);
@@ -492,7 +493,7 @@ document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="
 window.addEventListener("resize",()=>{
   W=wrap.clientWidth;H=wrap.clientHeight;
   svg.attr("viewBox",[0,0,W,H]);
-  sim.force("x",d3.forceX(sx).strength(.16)).force("y",d3.forceY(H/2).strength(.09)).alpha(.3).restart();
+  sim.force("x",d3.forceX(sx).strength(.11)).force("y",d3.forceY(H/2).strength(.05)).alpha(.3).restart();
 });
 </script>
 </body>
