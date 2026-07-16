@@ -1,150 +1,286 @@
 {
- "checkedAt": "2026-07-15T09:32:37.510Z",
+ "checkedAt": "2026-07-16T10:22:37.976Z",
  "lookbackDays": 2,
  "hits": [
   {
-   "id": "morgan",
-   "name": "Stephen Morgan",
-   "debate": "Written Answers &#8212; Department for Environment, Food and Rural Affairs: Department for Environment, Food and Rural Affairs: Public Expenditure",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-01.14925.h&amp;s=defence#g14925.r0",
-   "excerpt": "Departments have been asked to contribute 1p in every &#163;1 of their capital budgets to fund this Government&#8217;s Defence Investment Plan, helping keep the country safe in an increasingly volatil"
+   "id": "francois",
+   "name": "Mark Francois",
+   "debate": "Iran",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-07-15a.958.0&amp;s=defence#g1004.2",
+   "excerpt": "That is a really important question. In my career as a diplomat, I saw the extent of disinformation and hostile efforts to influence others change incredibly quickly. Iran has been described in this d"
   },
   {
-   "id": "cartlidge",
-   "name": "James Cartlidge",
-   "debate": "Written Answers &#8212; Ministry of Defence: NATO Countries: Military Attach&#233;s",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-06.16006.h&amp;s=defence#g16006.q0",
-   "excerpt": "To ask the Secretary of State for Defence, if he will provide a list of NATO countries with a UK defence attach&#233; and if they are permanently stationed in country."
+   "id": "myer",
+   "name": "Luke Myer",
+   "debate": "Iran",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-07-15a.958.0&amp;s=defence#g1004.2",
+   "excerpt": "That is a really important question. In my career as a diplomat, I saw the extent of disinformation and hostile efforts to influence others change incredibly quickly. Iran has been described in this d"
   },
   {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Job Creation",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-06.16063.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, if he will provide a breakdown by skillset of the 60,000 projected jobs created by the Defence Investment Plan."
+   "id": "shelbrooke",
+   "name": "Sir Alec Shelbrooke",
+   "debate": "Iran",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-07-15a.958.0&amp;s=defence#g1004.2",
+   "excerpt": "That is a really important question. In my career as a diplomat, I saw the extent of disinformation and hostile efforts to influence others change incredibly quickly. Iran has been described in this d"
   },
   {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Investment",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-06.16060.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, when is the Defence Investment Summit expected to take place."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-06.16062.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what percentage of spending on defence contracts has been awarded to UK companies in each year for the last 10 years."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Investment",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-06.16059.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what progress has the Defence Investors&#8217; Advisory Group (DIAG) made since inception."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-06.16058.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what is the expected date of the publication of the Defence Finance and Investment Strategy (DFIS)."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Investment",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-06.16061.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what is the annual cost of the Defence Investment Unit."
-  },
-  {
-   "id": "cartlidge",
-   "name": "James Cartlidge",
-   "debate": "Written Answers &#8212; Ministry of Defence: Warships: Guided Weapons",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-01.14908.h&amp;s=defence#g14908.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what types of missile will be carried on the Common Combat Vessel."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Type 26 Frigates: Shipbuilding",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-06.16172.h&amp;s=defence#g16172.q0",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to paragraph 46 of the Defence Investment Plan, published on 30 June 2026, how many Type 26 build slots are allocated to the a) Royal Navy and"
-  },
-  {
-   "id": "mishra",
-   "name": "Navendu Mishra",
-   "debate": "Written Answers &#8212; Ministry of Defence: LGBT Financial Recognition Scheme",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16592.h&amp;s=defence#g16592.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the adequacy of the application deadline of 12 December 2026 will allow all eligible veterans sufficient opportunity to apply "
-  },
-  {
-   "id": "mishra",
-   "name": "Navendu Mishra",
-   "debate": "Written Answers &#8212; Ministry of Defence: LGBT Financial Recognition Scheme: Publicity",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16594.h&amp;s=defence#g16594.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what advertising campaigns are planned during the final six months of the Financial Recognition Scheme."
-  },
-  {
-   "id": "mishra",
-   "name": "Navendu Mishra",
-   "debate": "Written Answers &#8212; Ministry of Defence: LGBT Financial Recognition Scheme",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16591.h&amp;s=defence#g16591.q0",
-   "excerpt": "To ask the Secretary of State for Defence, how many applications have been made to the LGBTQ+ Independent Impact Panel; how many have been determined; and how many remain outstanding."
-  },
-  {
-   "id": "mishra",
-   "name": "Navendu Mishra",
-   "debate": "Written Answers &#8212; Ministry of Defence: LGBT Financial Recognition Scheme",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16593.h&amp;s=defence#g16593.q0",
-   "excerpt": "To ask the Secretary of State for Defence, if he has yet met with Fighting With Pride to discuss the LGBTQ+ Financial Recognition Scheme."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Navy: Deployment",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-06.16067.h&amp;s=defence#g16067.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what steps the Royal Navy is taking to support allies and partners, including in the Middle East, Indo-Pacific, South America and Africa."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Wildcat Helicopters",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-08.17099.h&amp;s=defence#g17099.q0",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 54, what is the out-of-service-date for the Wildcat maritime helicopter."
+   "id": "coaker",
+   "name": "Lord Coaker",
+   "debate": "National Shipbuilding Strategy - <i>Question</i>",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/lords/?id=2026-07-15a.628.5&amp;s=defence#g629.3",
+   "excerpt": "The noble Lord will know as well as I do that if you went to Belfast a few years ago, as I did many times, you saw a derelict shipyard with nothing there. Now, you see investment going into Harland &a"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
    "debate": "Written Answers &#8212; Ministry of Defence: Military Intelligence",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-08.17095.h&amp;s=defence#g17095.q0",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 25, what is the scope of the (a) &#163;1.8 billion allocated to the Digit"
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16680.h&amp;s=defence#g16680.q0",
+   "excerpt": "To ask the Secretary of State for Defence, to what extent are Projects ASGARD, BOYD, NEXUS and all elements of the Digital Targeting Web designed to be complementary and interoperable."
   },
   {
-   "id": "dinenage",
-   "name": "Dame Caroline Dinenage",
-   "debate": "Written Answers &#8212; Ministry of Defence: Military Bases: Gosport",
-   "date": "2026-07-14",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-08.16866.h&amp;s=defence#g16866.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what progress his Department has made on the disposal of Fort Blockhouse in Gosport."
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Contracts",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16525.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, whether the number of major contracts awarded this year will exceed the average of the last 10 years."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Netherlands: Amphibious Warships",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16531.h&amp;s=defence#g16531.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what will the new amphibious combined fleet with the Netherlands include."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Artificial Intelligence",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16669.h&amp;s=defence#g16669.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 39, by when he plans to deliver the Defence Strategic Approach to AI."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Warships: Antisubmarine Warfare",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-09.17506.h&amp;s=defence#g17506.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 48, over what timescale will a) Type 92 and b) Type 93 join the fleet to "
+  },
+  {
+   "id": "cartlidge",
+   "name": "James Cartlidge",
+   "debate": "Written Answers &#8212; Ministry of Defence: Warships: Unmanned Marine Systems",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16479.h&amp;s=defence#g16479.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's press release entitled At least six new air defence warships to defend UK waters and boost shipbuilding, published on 29 J"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Global Combat Air Programme",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16527.h&amp;s=defence#g16527.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what investments are Japan and Italy making into the Global Combat Air Programme (GCAP)."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: AI Expert Advisory Group",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16667.h&amp;s=defence#g16667.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what the composition is of the AI Expert Advisory Group&#8217;s membership."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Navy: Artificial Intelligence",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16668.h&amp;s=defence#g16668.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 35, under what project name AI for underwater dominance is being develope"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence Police: Seized Articles",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-09.17507.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 30 June 2026 to Question 11878 on Ministry of Defence Police: Seized Articles, if he will provide a summary of all the weapons deta"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Unmanned Marine Systems: Minesweepers",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16536.h&amp;s=defence#g16536.q0",
+   "excerpt": "To ask the Secretary of State for Defence, whether the &#163;1.1bn for Autonomous Mine Hunting Capability will be matched equally by France."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Aukus",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16537.h&amp;s=defence#g16537.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what is the investment value for AUKUS Pillar 2."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-01.15069.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 20, what progress has he made in establishing the Defence Investment Unit"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Navy",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16534.h&amp;s=defence#g16534.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what date will the Hybrid Navy Fleet be operational."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-06.16167.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 19, by when will he publish a Defence Investment Roadmap."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Destroyers",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16533.h&amp;s=defence#g16533.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the change to a Hybrid Navy Fleet, if the UK will continue to have an evacuation capability provided by destroyers."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Typhoon Aircraft",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16664.h&amp;s=defence#g16664.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 6 July 2026 to question 14531 on Typhoon Aircraft, what the breakdown is of the &#163;4.3bn excluding the &#163;1.1bn allocated for"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Seabed",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16535.h&amp;s=defence#g16535.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what systems will be developed with the &#163;230m allocated to seabed warfare."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16532.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what capabilities the MOD is planning to disinvest in that no longer align with the evolving strategic context."
+  },
+  {
+   "id": "cartlidge",
+   "name": "James Cartlidge",
+   "debate": "Written Answers &#8212; Ministry of Defence: Warships: Procurement",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16476.h&amp;s=defence#g16476.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's press release entitled At least six new air defence warships to defend UK waters and boost shipbuilding, published on 29 J"
+  },
+  {
+   "id": "cartlidge",
+   "name": "James Cartlidge",
+   "debate": "Written Answers &#8212; Ministry of Defence: Warships: Procurement",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16477.h&amp;s=defence#g16477.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's press release entitled At least six new air defence warships to defend UK waters and boost shipbuilding, published on 29 J"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Military Intelligence",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16678.h&amp;s=defence#g16678.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to paragraph 25 of the Defence Investment Plan, published on 30 June 2026, what is the &#163;5.5 billion Digital Backbone budget for after the"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Digital Technology",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16677.h&amp;s=defence#g16677.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to paragraph 23 of the Defence Investment Plan, published on 30 June 2026, what is the common synthetic environment."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Sky Sabre",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16679.h&amp;s=defence#g16679.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to page 28 of the Defence Investment Plan, published on 30 June 2026, by when will he double the number of the Sky Sabre air defence missile s"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Artificial Intelligence",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16676.h&amp;s=defence#g16676.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 35, under which programme name is the Land AI C2 concept being developed."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Norway: Minesweepers",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16666.h&amp;s=defence#g16666.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 46, how many offshore support vessels he plans to procure in conjunction "
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Frigates",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16529.h&amp;s=defence#g16529.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what the expected rollout date is for the 13-strong fleet of submarine hunting frigates."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: AUKUS: Nuclear Submarines",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16528.h&amp;s=defence#g16528.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what the expected rollout date is for the 12 next-generation of SSN-AUKUS (SSN-A) nuclear powered conventional attack submarines."
+  },
+  {
+   "id": "cartlidge",
+   "name": "James Cartlidge",
+   "debate": "Written Answers &#8212; Ministry of Defence: Warships: Unmanned Marine Systems",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16484.h&amp;s=defence#g16484.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's press release entitled, At least six new air defence warships to defend UK waters and boost shipbuilding, published on 29 "
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Cooneen Defence",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16671.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what items of a) uniform and b) equipment were manufactured by Cooneen Defence between 2018 and 2023."
+  },
+  {
+   "id": "coaker",
+   "name": "Lord Coaker",
+   "debate": "Upcoming Business &#8211; Lords: Main Chamber",
+   "date": "2026-09-08",
+   "link": "https://www.theyworkforyou.com/calendar/?d=2026-09-08#cal56286",
+   "excerpt": "uk"
   },
   {
    "id": "coaker",
@@ -161,6 +297,78 @@
    "date": "2026-09-02",
    "link": "https://www.theyworkforyou.com/calendar/?d=2026-09-02#cal56223",
    "excerpt": "uk"
+  },
+  {
+   "id": "francois",
+   "name": "Mark Francois",
+   "debate": "Iran",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-07-15a.958.0&amp;s=armed+forces#g1004.2",
+   "excerpt": "That is a really important question. In my career as a diplomat, I saw the extent of disinformation and hostile efforts to influence others change incredibly quickly. Iran has been described in this d"
+  },
+  {
+   "id": "myer",
+   "name": "Luke Myer",
+   "debate": "Iran",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-07-15a.958.0&amp;s=armed+forces#g1004.2",
+   "excerpt": "That is a really important question. In my career as a diplomat, I saw the extent of disinformation and hostile efforts to influence others change incredibly quickly. Iran has been described in this d"
+  },
+  {
+   "id": "shelbrooke",
+   "name": "Sir Alec Shelbrooke",
+   "debate": "Iran",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-07-15a.958.0&amp;s=armed+forces#g1004.2",
+   "excerpt": "That is a really important question. In my career as a diplomat, I saw the extent of disinformation and hostile efforts to influence others change incredibly quickly. Iran has been described in this d"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Artificial Intelligence",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16669.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 39, by when he plans to deliver the Defence Strategic Approach to AI."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Digital Technology",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16677.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to paragraph 23 of the Defence Investment Plan, published on 30 June 2026, what is the common synthetic environment."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Artificial Intelligence",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16676.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 35, under which programme name is the Land AI C2 concept being developed."
+  },
+  {
+   "id": "pollard",
+   "name": "Luke Pollard",
+   "debate": "Written Answers &#8212; Ministry of Defence: AUKUS: Nuclear Submarines",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16528.h&amp;s=armed+forces#g16528.r0",
+   "excerpt": "As set out in the Defence Investment Plan, we will procure up to 12 next-generation SSN-AUKUS nuclear powered, conventionally armed attack submarines. On current plans, we will cut steel on the first "
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Training",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16673.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, what progress he has made on delivering Tranche 1 of the Pan Defence Skills Framework."
+  },
+  {
+   "id": "pollard",
+   "name": "Luke Pollard",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ammunition: Manufacturing Industries",
+   "date": "2026-07-15",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-07.16414.h&amp;s=MoD+procurement#g16414.r0",
+   "excerpt": "The Ministry of Defence (MOD) procures the majority of its centrefire small arms ammunition, by volume, through our long-term strategic partnership with BAE Systems, and through other suppliers for so"
   }
  ]
 }
