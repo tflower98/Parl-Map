@@ -140,6 +140,12 @@ svg:active{cursor:grabbing}
       <p class="note" style="margin-top:9px">White-haloed people bridge both sectors.</p>
     </div>
     <div class="rail-section">
+      <h2>Zones on the map</h2>
+      <div class="legend-row"><span class="dot" style="background:var(--defence);opacity:.6"></span> Defence</div>
+      <div class="legend-row"><span class="dot" style="background:#FFFFFF;opacity:.5"></span> Cross-sector bridge</div>
+      <div class="legend-row"><span class="dot" style="background:var(--trade);opacity:.6"></span> Trade &amp; Industry</div>
+    </div>
+    <div class="rail-section">
       <h2>Layers</h2>
       <label class="toggle"><input type="checkbox" data-layer="committee" checked> Select Committees</label>
       <label class="toggle"><input type="checkbox" data-layer="appg" checked> APPGs (officer roles)</label>
@@ -250,9 +256,7 @@ svg.call(d3.zoom().scaleExtent([0.3,3]).on("zoom",e=>g.attr("transform",e.transf
 
 const hullLayer=g.append("g");
 const zoneLabels=g.append("g");
-zoneLabels.append("text").attr("class","zone-label defence").text("DEFENCE");
-zoneLabels.append("text").attr("class","zone-label trade").text("TRADE & INDUSTRY");
-zoneLabels.append("text").attr("class","zone-label bridge").text("CROSS-SECTOR BRIDGE");
+// Zone titles removed from canvas — shown in the sidebar key instead.
 
 const linkSel=g.append("g").selectAll("line").data(links).join("line")
   .attr("class",d=>"link "+d.kind)
@@ -305,9 +309,6 @@ function drawHulls(){
     const [cx,cy]=d3.polygonCentroid(hull);
     const padded=hull.map(p=>[cx+(p[0]-cx)*1.22,cy+(p[1]-cy)*1.22]);
     hullLayer.append("path").attr("class","hull "+sec).attr("d","M"+padded.join("L")+"Z");
-    const topY=d3.min(padded,p=>p[1]);
-    const [lx]=d3.polygonCentroid(padded);
-    zoneLabels.select(".zone-label."+sec).attr("x",lx).attr("y",topY-14).attr("text-anchor","middle");
   });
 }
 
