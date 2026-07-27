@@ -1,4 +1,4 @@
-# Drift report — 2026-07-26
+# Drift report — 2026-07-27
 
 - **mod**: no live data this run (unknown); manual links retained.
 - **shadow**: no live data this run (unknown); manual links retained.
