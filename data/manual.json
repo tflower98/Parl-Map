@@ -159,9 +159,9 @@
    "house": "commons",
    "constituency": "Barnsley North",
    "sector": "defence",
-   "role": "Secretary of State for Defence (appointed 11 Jun 2026)",
-   "detail": "Former Parachute Regiment officer; previously Security Minister. Appointed after John Healey's resignation over Defence Investment Plan funding.",
-   "source": "GOV.UK, Ministry of Defence ministers (3 Jul 2026)",
+   "role": "Former Secretary of State for Defence (5 Jun – 20 Jul 2026)",
+   "detail": "Served as Defence Secretary for six weeks following Healey's resignation, before being replaced by Wes Streeting in the 20 July 2026 reshuffle that also saw Andy Burnham become Prime Minister.",
+   "source": "GOV.UK / press reporting, 20 Jul 2026",
    "verified": true,
    "email": "dan.jarvis.mp@parliament.uk",
    "emailSource": "Standard parliament.uk pattern (firstname.lastname.mp@parliament.uk) per Parliament's own constituent-contact guidance — auto-generated, not individually confirmed.",
@@ -1336,6 +1336,49 @@
    "verified": false,
    "email": "edward.leigh.mp@parliament.uk",
    "emailSource": "Standard parliament.uk pattern (firstname.lastname.mp@parliament.uk) per Parliament's own constituent-contact guidance — auto-generated, not individually confirmed."
+  },
+  {
+   "id": "streeting",
+   "name": "Wes Streeting",
+   "type": "mp",
+   "party": "Labour",
+   "house": "commons",
+   "constituency": "Ilford North",
+   "sector": "defence",
+   "role": "Secretary of State for Defence (appointed 20 Jul 2026)",
+   "detail": "Former Secretary of State for Health and Social Care (2024–26); resigned in May 2026 citing loss of confidence in Keir Starmer. Appointed Defence Secretary by new PM Andy Burnham on 20 July 2026, succeeding Dan Jarvis. Limited prior defence background — inherits delivery of the Defence Investment Plan.",
+   "source": "GOV.UK, Secretary of State for Defence (accessed 21 Jul 2026); members.parliament.uk contact page",
+   "verified": true,
+   "email": "wes.streeting.mp@parliament.uk",
+   "emailSource": "Standard parliament.uk pattern — auto-generated, not individually confirmed.",
+   "ministerialEmail": "ParliBranch-MinCorrespondence@mod.gov.uk",
+   "ministerialEmailNote": "Official MoD ministerial correspondence address (Cabinet Office List of Ministerial Responsibilities). Mail addressed to a named minister at this address is routed to their private office."
+  },
+  {
+   "id": "hmt",
+   "name": "HM Treasury",
+   "type": "committee",
+   "sector": "bridge",
+   "detail": "The government's economic and finance ministry, controlling public spending including the defence budget. Included in this map because the Chancellor, John Healey, is the former Defence Secretary who resigned over inadequate defence funding — his views now determine the budget he once said was too small. This is the single most consequential cross-departmental relationship for defence spending advocacy.",
+   "source": "GOV.UK, Chancellor of the Exchequer (accessed 21 Jul 2026)",
+   "verified": true
+  },
+  {
+   "id": "healey",
+   "name": "John Healey",
+   "type": "mp",
+   "party": "Labour",
+   "house": "commons",
+   "constituency": "Rawmarsh and Conisbrough",
+   "sector": "bridge",
+   "role": "Chancellor of the Exchequer (appointed 20 Jul 2026)",
+   "detail": "Secretary of State for Defence from July 2024 until his resignation on 11 June 2026, when he told Keir Starmer the Defence Investment Plan \"falls well short of what is required for defence and the country at this dangerous time\" and that the Treasury had been \"unwilling\" to fund it adequately. Appointed Chancellor by new PM Andy Burnham on 20 July 2026 — now controls the budget he resigned over as insufficient. The single most consequential relationship on this map for anyone arguing for higher defence spending.",
+   "source": "GOV.UK, Chancellor of the Exchequer (accessed 21 Jul 2026); politics.co.uk, 20 Jul 2026",
+   "verified": true,
+   "email": "john.healey.mp@parliament.uk",
+   "emailSource": "Standard parliament.uk pattern — auto-generated, not individually confirmed.",
+   "ministerialEmail": "CEU.enquiries@hmtreasury.gov.uk",
+   "ministerialEmailNote": "Official HM Treasury ministerial correspondence address (Cabinet Office List of Ministerial Responsibilities)."
   }
  ],
  "memberLinks": [
@@ -1404,12 +1447,6 @@
    "target": "pac",
    "kind": "member",
    "label": "Chair (verify)"
-  },
-  {
-   "source": "jarvis",
-   "target": "mod",
-   "kind": "member",
-   "label": "Secretary of State"
   },
   {
    "source": "pollard",
@@ -1843,6 +1880,18 @@
    "target": "dic",
    "kind": "member",
    "label": "KNDS UK, Stockport (verify)"
+  },
+  {
+   "source": "streeting",
+   "target": "mod",
+   "kind": "member",
+   "label": "Secretary of State"
+  },
+  {
+   "source": "healey",
+   "target": "hmt",
+   "kind": "member",
+   "label": "Chancellor of the Exchequer"
   }
  ],
  "cohorts": [
@@ -1929,6 +1978,13 @@
      "summary": "Contributed to DIP-related Commons sessions from the Opposition defence bench",
      "date": "Jun–Jul 2026",
      "link": "https://www.theyworkforyou.com/search/?q=defence+investment+plan&pid=26315"
+    },
+    {
+     "id": "healey",
+     "summary": "Resigned as Defence Secretary over DIP funding, telling the PM the plan \"falls well short of what is required.\" Now Chancellor — controls the budget he said was inadequate.",
+     "date": "11 Jun 2026 (resignation); 20 Jul 2026 (Chancellor appointment)",
+     "link": null,
+     "linkNote": "politics.co.uk, 20 Jul 2026; GOV.UK"
     }
    ]
   },
