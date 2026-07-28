@@ -1046,9 +1046,9 @@
    "house": "commons",
    "constituency": "Glasgow South",
    "sector": "defence",
-   "role": "UK Delegate, NATO Parliamentary Assembly",
-   "detail": "",
-   "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026)",
+   "role": "PPS to the Secretary of State for Defence; UK Delegate, NATO Parliamentary Assembly",
+   "detail": "Appointed PPS (Defence) in the July 2026 PPS reshuffle following Streeting's appointment as Defence Secretary. Also a NATO PA delegate — now the most structurally connected Glasgow South MP on this map.",
+   "source": "parliament.uk, UK Delegation to the NATO Parliamentary Assembly (announced by WMS 5 Nov 2024; accessed 8 Jul 2026) | Guido Fawkes, PPS Reshuffle List In Full, 27 Jul 2026",
    "verified": true,
    "constituencySource": "General knowledge — verify before external use",
    "email": "gordon.mckee.mp@parliament.uk",
@@ -1379,6 +1379,36 @@
    "emailSource": "Standard parliament.uk pattern — auto-generated, not individually confirmed.",
    "ministerialEmail": "CEU.enquiries@hmtreasury.gov.uk",
    "ministerialEmailNote": "Official HM Treasury ministerial correspondence address (Cabinet Office List of Ministerial Responsibilities)."
+  },
+  {
+   "id": "race",
+   "name": "Steve Race",
+   "type": "mp",
+   "party": "Labour",
+   "house": "commons",
+   "constituency": "Exeter",
+   "sector": "defence",
+   "role": "PPS to the Secretary of State for Defence",
+   "detail": "Appointed in the July 2026 PPS reshuffle following Wes Streeting's appointment as Defence Secretary.",
+   "source": "Guido Fawkes, PPS Reshuffle List In Full, 27 Jul 2026; members.parliament.uk contact page",
+   "verified": true,
+   "email": "steve.race.mp@parliament.uk",
+   "emailSource": "Standard parliament.uk pattern — auto-generated, not individually confirmed."
+  },
+  {
+   "id": "wrighting",
+   "name": "Rosie Wrighting",
+   "type": "mp",
+   "party": "Labour",
+   "house": "commons",
+   "constituency": "Kettering",
+   "sector": "defence",
+   "role": "PPS to the Secretary of State for Defence",
+   "detail": "Appointed in the July 2026 PPS reshuffle following Wes Streeting's appointment as Defence Secretary. Was the youngest female MP elected at the 2024 general election.",
+   "source": "Guido Fawkes, PPS Reshuffle List In Full, 27 Jul 2026; members.parliament.uk contact page",
+   "verified": true,
+   "email": "rosie.wrighting.mp@parliament.uk",
+   "emailSource": "Standard parliament.uk pattern — auto-generated, not individually confirmed."
   }
  ],
  "memberLinks": [
@@ -1892,6 +1922,24 @@
    "target": "hmt",
    "kind": "member",
    "label": "Chancellor of the Exchequer"
+  },
+  {
+   "source": "mckee",
+   "target": "mod",
+   "kind": "member",
+   "label": "PPS to the Secretary of State"
+  },
+  {
+   "source": "race",
+   "target": "mod",
+   "kind": "member",
+   "label": "PPS to the Secretary of State"
+  },
+  {
+   "source": "wrighting",
+   "target": "mod",
+   "kind": "member",
+   "label": "PPS to the Secretary of State"
   }
  ],
  "cohorts": [
