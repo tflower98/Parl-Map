@@ -1,78 +1,30 @@
 {
- "checkedAt": "2026-07-28T11:53:20.830Z",
+ "checkedAt": "2026-07-29T11:32:41.747Z",
  "lookbackDays": 2,
  "hits": [
   {
-   "id": "cartlidge",
-   "name": "James Cartlidge",
-   "debate": "Written Answers &#8212; Ministry of Defence: Unmanned Air Systems: Finance",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-01.14891.h&amp;s=defence#g14891.q0",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's press release entitled UK drone transformation to strengthen Armed Forces backed by more than &#163;5 billion, published o"
+   "id": "jarvis",
+   "name": "Dan Jarvis",
+   "debate": "Written Answers &#8212; Cabinet Office: Emergencies: Voluntary Organisations",
+   "date": "2026-07-28",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-14.18846.h&amp;s=defence#g18846.r0",
+   "excerpt": "The Cabinet Office recognises the valuable role that the voluntary, community and faith sector (VCFS) can play in all aspects of resilience. The Civil Contingencies Act 2004 requires local Category 1 "
+  },
+  {
+   "id": "mckee",
+   "name": "Gordon McKee",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: NATO",
+   "date": "2026-07-28",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-14.18854.h&amp;s=defence#g18854.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what steps the Department is taking to expand the use of synthetic training environments to enable joint training between the Armed Forces and NATO allies."
   },
   {
    "id": "cartlidge",
    "name": "James Cartlidge",
    "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-13.18070.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to the hearing of the Defence Committee on 7 July 2026, HC 530, whether his Department has made an assessment of General Sir Richard Barrons' "
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Artificial Intelligence",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-10.17802.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, how will UK MOD protect AI IP while maximising dual-use frontier technology."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-09.17497.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 31, what steps will be taken to deliver advantage in denied and degraded "
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Guided Weapons",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-09.17492.h&amp;s=defence#g17492.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what progress he has made on developing the joint complex weapons portfolio office."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Visas",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-14.18795.h&amp;s=defence#g18795.q0",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, chapter 3, paragraph 14, does the &#163;70 million allocation for Veterans between "
-  },
-  {
-   "id": "cartlidge",
-   "name": "James Cartlidge",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-09.17372.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Select Committee session on the Defence Investment Plan on 7 July 2026, what assessment he has made of the potential risks to U"
-  },
-  {
-   "id": "coaker",
-   "name": "Lord Coaker",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Body Armour",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-13.HL1984.h&amp;s=defence#gHL1984.r0",
-   "excerpt": "The Ministry of Defence will procure body armour in accordance with the UK Procurement Act 2023. This allows for the encouragement of manufacturing in the UK while ensuring Service personnel have the "
-  },
-  {
-   "id": "coaker",
-   "name": "Lord Coaker",
-   "debate": "Written Answers &#8212; Ministry of Defence: Warships: Procurement",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-14.HL2065.h&amp;s=defence#gHL2065.r0",
-   "excerpt": "I refer the noble lady to the answer given to Question 118566 in the House of Commons on 16 March 2026. The size and composition of the Royal Navy are kept under continuous review to ensure the force "
+   "date": "2026-07-28",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-14.18654.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, whether he has conducted an assessment of the implications for NATO should implementation of the Defence Investment Plan be delayed."
   },
   {
    "id": "coaker",
@@ -99,52 +51,12 @@
    "excerpt": "uk"
   },
   {
-   "id": "cartlidge",
-   "name": "James Cartlidge",
-   "debate": "Written Answers &#8212; Ministry of Defence: Unmanned Air Systems: Finance",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-01.14891.h&amp;s=armed+forces#g14891.q0",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's press release entitled UK drone transformation to strengthen Armed Forces backed by more than &#163;5 billion, published o"
-  },
-  {
-   "id": "pollard",
-   "name": "Luke Pollard",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Artificial Intelligence",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-10.17802.h&amp;s=armed+forces#g17802.r0",
-   "excerpt": "The UK MOD has an established policy for addressing Intellectual Property (IP), and all MOD projects are expected to set out a clear IP Strategy to ensure that IP is adequately protected, whilst secur"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Visas",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-14.18795.h&amp;s=armed+forces",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, chapter 3, paragraph 14, does the &#163;70 million allocation for Veterans between "
-  },
-  {
-   "id": "pollard",
-   "name": "Luke Pollard",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-09.17372.h&amp;s=armed+forces#g17372.r0",
-   "excerpt": "This Government has ended the underfunding and hollowing out of our Armed Forces that we inherited from the last administration. Backed by &#163;298 billion of investment over the next four years, the"
-  },
-  {
-   "id": "coaker",
-   "name": "Lord Coaker",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Housing",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-14.HL2064.h&amp;s=armed+forces#gHL2064.r0",
-   "excerpt": "The Defence Housing Strategy review team assessed a range of organisational and delivery models to identify the approach best able to improve outcomes for Service Personnel and their families, deliver"
-  },
-  {
-   "id": "coaker",
-   "name": "Lord Coaker",
-   "debate": "Written Answers &#8212; Ministry of Defence: Iron and Steel: Defence",
-   "date": "2026-07-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-14.HL2107.h&amp;s=MoD+procurement#gHL2107.r0",
-   "excerpt": "This Government is committed to creating the right conditions in the UK for a competitive and sustainable steel industry. The sector provides vital support to the UK&#8217;s defence capabilities, incl"
+   "id": "mckee",
+   "name": "Gordon McKee",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: NATO",
+   "date": "2026-07-28",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-14.18854.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, what steps the Department is taking to expand the use of synthetic training environments to enable joint training between the Armed Forces and NATO allies."
   }
  ]
 }
