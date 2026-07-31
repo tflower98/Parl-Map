@@ -1,11 +1,7 @@
-# Drift report — 2026-07-30
+# Drift report — 2026-07-31
 
 - **mod**: no live data this run (unknown); manual links retained.
 - **shadow**: no live data this run (unknown); manual links retained.
-- **HANSARD**: Ben Obese-Jecty — "Written Answers &#8212; Ministry of Defence: Warships: Procurement" (2026-07-29) — To ask the Secretary of State for Defence, what is the Planning Assumption for Service Entry for the Royal Navy&#8217;s … [link](https://www.theyworkforyou.com/wrans/?id=2026-06-29.14026.h&amp;s=defence#g14026.q0) — review for cohort entry in manual.json.
-- **HANSARD**: James Cartlidge — "Written Answers &#8212; Ministry of Defence: Chagos Islands: Sovereignty" (2026-07-29) — To ask the Secretary of State for Defence, what estimate he has made of the proportion of his Department's budget that w… [link](https://www.theyworkforyou.com/wrans/?id=2026-06-09.8165.h&amp;s=defence#g8165.q0) — review for cohort entry in manual.json.
 - **HANSARD**: Lord Coaker — "Upcoming Business &#8211; Lords: Main Chamber" (2026-09-08) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-08#cal56286) — review for cohort entry in manual.json.
 - **HANSARD**: Lord Coaker — "Upcoming Business &#8211; Lords: Main Chamber" (2026-09-02) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-02#cal56221) — review for cohort entry in manual.json.
 - **HANSARD**: Lord Coaker — "Upcoming Business &#8211; Lords: Main Chamber" (2026-09-02) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-02#cal56223) — review for cohort entry in manual.json.
-- **HANSARD**: Lord Coaker — "Written Answers &#8212; Ministry of Defence: Armed Forces: Clubs" (2026-07-29) — To ask His Majesty's Government, further to the Written Answer by Lord Coaker&#160;on 28 May (HL194), what guidance the … [link](https://www.theyworkforyou.com/wrans/?id=2026-07-16.HL2207.h&amp;s=armed+forces) — review for cohort entry in manual.json.
-- **HANSARD**: Lord Coaker — "Written Answers &#8212; Ministry of Defence: Veterans: Radiation Exposure" (2026-07-29) — The Government is deeply grateful to all those who participated in the UK nuclear testing programme. We recognise their … [link](https://www.theyworkforyou.com/wrans/?id=2026-07-22.HL2488.h&amp;s=armed+forces#gHL2488.r0) — review for cohort entry in manual.json.
