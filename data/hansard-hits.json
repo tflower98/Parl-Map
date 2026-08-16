@@ -1,7 +1,15 @@
 {
- "checkedAt": "2026-08-15T03:13:06.467Z",
+ "checkedAt": "2026-08-16T03:25:27.585Z",
  "lookbackDays": 2,
  "hits": [
+  {
+   "id": "goldie",
+   "name": "Baroness Goldie",
+   "debate": "Upcoming Business &#8211; Lords: Main Chamber",
+   "date": "2026-09-10",
+   "link": "https://www.theyworkforyou.com/calendar/?d=2026-09-10#cal56399",
+   "excerpt": "uk"
+  },
   {
    "id": "coaker",
    "name": "Lord Coaker",
