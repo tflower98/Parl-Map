@@ -1,9 +1,15 @@
-# Drift report — 2026-08-27
+# Drift report — 2026-08-28
 
 - **mod**: no live data this run (unknown); manual links retained.
 - **shadow**: no live data this run (unknown); manual links retained.
 - **HANSARD**: Baroness Goldie — "Upcoming Business &#8211; Lords: Main Chamber" (2026-09-10) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-10#cal56399) — review for cohort entry in manual.json.
+- **HANSARD**: Stuart Anderson — "Written Answers &#8212; Ministry of Defence: Army" (2026-08-27) — To ask the Secretary of State for Defence, what percentage of the British Army&#8217;s regular forces are undeployable o… [link](https://www.theyworkforyou.com/wrans/?id=2026-07-13.18124.h&amp;s=defence#g18124.q0) — review for cohort entry in manual.json.
+- **HANSARD**: Ben Obese-Jecty — "Written Answers &#8212; Ministry of Defence: Armed Forces: Firearms" (2026-08-27) — To ask the Secretary of State for Defence, what information his Department holds on the number of US military firearms (… [link](https://www.theyworkforyou.com/wrans/?id=2026-06-23.12606.h&amp;s=defence#g12606.q0) — review for cohort entry in manual.json.
+- **HANSARD**: James Cartlidge — "Written Answers &#8212; Ministry of Defence: Type 45 Destroyers" (2026-08-27) — To ask the Secretary of State for Defence, whether he plans to implement a full life extension to the Type 45 fleet.… [link](https://www.theyworkforyou.com/wrans/?id=2026-07-02.15391.h&amp;s=defence#g15391.q0) — review for cohort entry in manual.json.
+- **HANSARD**: Ben Obese-Jecty — "Written Answers &#8212; Ministry of Defence: Defence: Procurement" (2026-08-27) — To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, par… [link](https://www.theyworkforyou.com/wrans/?id=2026-07-09.17495.h&amp;s=defence) — review for cohort entry in manual.json.
+- **HANSARD**: Lord Coaker — "Upcoming Business &#8211; Lords: Grand Committee" (2026-09-14) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-14#cal56423) — review for cohort entry in manual.json.
 - **HANSARD**: Lord Coaker — "Upcoming Business &#8211; Lords: Main Chamber" (2026-09-08) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-08#cal56286) — review for cohort entry in manual.json.
 - **HANSARD**: Lord Coaker — "Upcoming Business &#8211; Lords: Main Chamber" (2026-09-02) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-02#cal56221) — review for cohort entry in manual.json.
 - **HANSARD**: Lord Coaker — "Upcoming Business &#8211; Lords: Main Chamber" (2026-09-02) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-02#cal56223) — review for cohort entry in manual.json.
-- **Manual layers 50 days old** (last verified 2026-07-08). Check: new APPG register edition (publications.parliament.uk/pa/cm/cmallparty), GOV.UK PPS list, AFC APPG chair vacancy, new defence debates for interest cohorts.
+- **HANSARD**: Ben Obese-Jecty — "Written Answers &#8212; Ministry of Defence: Armed Forces: Firearms" (2026-08-27) — To ask the Secretary of State for Defence, what information his Department holds on the number of US military firearms (… [link](https://www.theyworkforyou.com/wrans/?id=2026-06-23.12606.h&amp;s=armed+forces) — review for cohort entry in manual.json.
+- **Manual layers 51 days old** (last verified 2026-07-08). Check: new APPG register edition (publications.parliament.uk/pa/cm/cmallparty), GOV.UK PPS list, AFC APPG chair vacancy, new defence debates for interest cohorts.
