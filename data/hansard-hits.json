@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-08-28T14:27:42.489Z",
+ "checkedAt": "2026-08-29T09:14:18.353Z",
  "lookbackDays": 2,
  "hits": [
   {
@@ -9,38 +9,6 @@
    "date": "2026-09-10",
    "link": "https://www.theyworkforyou.com/calendar/?d=2026-09-10#cal56399",
    "excerpt": "uk"
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Army",
-   "date": "2026-08-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-13.18124.h&amp;s=defence#g18124.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what percentage of the British Army&#8217;s regular forces are undeployable or medically downgraded."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Firearms",
-   "date": "2026-08-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-06-23.12606.h&amp;s=defence#g12606.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what information his Department holds on the number of US military firearms (a) lost and (b) stolen in the UK."
-  },
-  {
-   "id": "cartlidge",
-   "name": "James Cartlidge",
-   "debate": "Written Answers &#8212; Ministry of Defence: Type 45 Destroyers",
-   "date": "2026-08-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-02.15391.h&amp;s=defence#g15391.q0",
-   "excerpt": "To ask the Secretary of State for Defence, whether he plans to implement a full life extension to the Type 45 fleet."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
-   "date": "2026-08-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-09.17495.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to the Defence Investment Plan, published on 30 June 2026, paragraph 31, what is the scope of machine-augmented intelligence fusion."
   },
   {
    "id": "coaker",
@@ -73,14 +41,6 @@
    "date": "2026-09-02",
    "link": "https://www.theyworkforyou.com/calendar/?d=2026-09-02#cal56223",
    "excerpt": "uk"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Firearms",
-   "date": "2026-08-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-06-23.12606.h&amp;s=armed+forces",
-   "excerpt": "To ask the Secretary of State for Defence, what information his Department holds on the number of US military firearms (a) lost and (b) stolen in the UK."
   }
  ]
 }
