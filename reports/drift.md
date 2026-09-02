@@ -1,10 +1,15 @@
-# Drift report — 2026-09-01
+# Drift report — 2026-09-02
 
 - **mod**: no live data this run (unknown); manual links retained.
 - **shadow**: no live data this run (unknown); manual links retained.
 - **HANSARD**: Baroness Goldie — "Upcoming Business &#8211; Lords: Main Chamber" (2026-09-10) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-10#cal56399) — review for cohort entry in manual.json.
+- **HANSARD**: Ben Obese-Jecty — "Local Government Reorganisation: Cambridgeshire" (2026-09-01) — I am not aware of that; I have not seen the detail of the report so it would be remiss of me to opine on it, but I have … [link](https://www.theyworkforyou.com/whall/?id=2026-09-01a.61.0&amp;s=defence#g67.0) — review for cohort entry in manual.json.
+- **HANSARD**: Charlie Maynard — "UK Financial Services &#8212; [Derek Twigg in the Chair]" (2026-09-01) — It is a pleasure to serve under your chair, Mr Twigg. I thank the hon. Member for Buckingham and Bletchley (Callum Ander… [link](https://www.theyworkforyou.com/whall/?id=2026-09-01a.37.0&amp;s=defence#g50.0) — review for cohort entry in manual.json.
+- **HANSARD**: Dan Jarvis — "Foreign, Commonwealth and Development Office: UK-Mauritius Chagos Treaty: Future Spending" (2026-09-01) — We have heard that line for the last two years. The question that the public want answered, and the one I asked the form… [link](https://www.theyworkforyou.com/debates/?id=2026-09-01a.3.5&amp;s=defence#g4.0) — review for cohort entry in manual.json.
+- **HANSARD**: Tom Tugendhat — "Foreign, Commonwealth and Development Office: China: Threat to UK Interests" (2026-09-01) — The new shadow Foreign Secretary, my right hon. Friend the Member for Tonbridge (Tom Tugendhat), is in Taipei, where Tai… [link](https://www.theyworkforyou.com/debates/?id=2026-09-01a.13.2&amp;s=defence#g14.6) — review for cohort entry in manual.json.
 - **HANSARD**: Lord Coaker — "Upcoming Business &#8211; Lords: Grand Committee" (2026-09-14) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-14#cal56423) — review for cohort entry in manual.json.
 - **HANSARD**: Lord Coaker — "Upcoming Business &#8211; Lords: Main Chamber" (2026-09-08) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-08#cal56286) — review for cohort entry in manual.json.
 - **HANSARD**: Lord Coaker — "Upcoming Business &#8211; Lords: Main Chamber" (2026-09-02) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-02#cal56221) — review for cohort entry in manual.json.
 - **HANSARD**: Lord Coaker — "Upcoming Business &#8211; Lords: Main Chamber" (2026-09-02) — uk… [link](https://www.theyworkforyou.com/calendar/?d=2026-09-02#cal56223) — review for cohort entry in manual.json.
-- **Manual layers 55 days old** (last verified 2026-07-08). Check: new APPG register edition (publications.parliament.uk/pa/cm/cmallparty), GOV.UK PPS list, AFC APPG chair vacancy, new defence debates for interest cohorts.
+- **HANSARD**: Lincoln Jopp — "Direction of Government" (2026-09-01) — I wish you, Madam Deputy Speaker, many happy returns.I welcome the Prime Minister to his place, and I welcome his words.… [link](https://www.theyworkforyou.com/debates/?id=2026-09-01a.25.0&amp;s=armed+forces#g70.3) — review for cohort entry in manual.json.
+- **Manual layers 56 days old** (last verified 2026-07-08). Check: new APPG register edition (publications.parliament.uk/pa/cm/cmallparty), GOV.UK PPS list, AFC APPG chair vacancy, new defence debates for interest cohorts.
