@@ -1,22 +1,5 @@
 {
- "checkedAt": "2026-09-29T08:48:47.658Z",
+ "checkedAt": "2026-09-30T08:47:40.970Z",
  "lookbackDays": 2,
- "hits": [
-  {
-   "id": "coaker",
-   "name": "Lord Coaker",
-   "debate": "Upcoming Business &#8211; Lords: Main Chamber",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/calendar/?d=2026-10-27#cal56694",
-   "excerpt": "uk"
-  },
-  {
-   "id": "coaker",
-   "name": "Lord Coaker",
-   "debate": "Upcoming Business &#8211; Lords: Main Chamber",
-   "date": "2026-10-20",
-   "link": "https://www.theyworkforyou.com/calendar/?d=2026-10-20#cal56691",
-   "excerpt": "uk"
-  }
- ]
+ "hits": []
 }
