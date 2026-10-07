@@ -1,5 +1,342 @@
 {
- "checkedAt": "2026-10-06T09:10:21.539Z",
+ "checkedAt": "2026-10-07T09:00:07.638Z",
  "lookbackDays": 2,
- "hits": []
+ "hits": [
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Type 31 Frigates",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23248.h&amp;s=defence#g23248.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the National Infrastructure and Service Transformation Authority Major Projects Annual Report 2025 to 2026, Tables, Type 31, by when does h"
+  },
+  {
+   "id": "cartlidge",
+   "name": "James Cartlidge",
+   "debate": "Written Answers &#8212; Ministry of Defence: Oil: Scotland",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-16.19396.h&amp;s=defence#g19396.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's statement entitled Royal Navy Estate, published on 15 July 2026, what estimate he has made of the number of additional job"
+  },
+  {
+   "id": "cartlidge",
+   "name": "James Cartlidge",
+   "debate": "Written Answers &#8212; Ministry of Defence: Oil: Scotland",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-16.19395.h&amp;s=defence#g19395.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's statement entitled Royal Navy Estate, published on 15 July 2026, what timetable has been set for the Finnart Oil Terminal "
+  },
+  {
+   "id": "cartlidge",
+   "name": "James Cartlidge",
+   "debate": "Written Answers &#8212; Ministry of Defence: Oil: Scotland",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-16.19394.h&amp;s=defence#g19394.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's statement entitled Royal Navy Estate, published on 15 July 2026, what estimate he has made of the annual operating costs o"
+  },
+  {
+   "id": "cartlidge",
+   "name": "James Cartlidge",
+   "debate": "Written Answers &#8212; Ministry of Defence: Oil: Scotland",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-16.19393.h&amp;s=defence#g19393.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's statement entitled Royal Navy Estate, published on 15 July 2026, what estimate he has made of the total cost of bringing t"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Global Combat Air Programme: Recruitment",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.21685.h&amp;s=defence#g21685.q0",
+   "excerpt": "To ask the Secretary of State for Defence, how many apprentices and graduates have Team Tempest recruited since 2022."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence: Public Expenditure",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.22804.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's Annual Report and Accounts 2025-2026, HC 389, published on 15 July 2026, what the nature is of the fruitless payment for D"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23216.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the National Infrastructure and Service Transformation Authority Major Projects Annual Report 2025 to 2026, Tables, SPEARCAP 3, for what re"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Guided Weapons",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23309.h&amp;s=defence#g23309.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the National Infrastructure and Service Transformation Authority Major Projects Annual Report 2025 to 2026, Tables, Brimstone 3, when does "
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Devonport Dockyard: Infrastructure",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.22785.h&amp;s=defence#g22785.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what is the current composition of the Devonport Infrastructure Sponsor Board."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Unmanned Air Systems",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.22824.h&amp;s=defence#g22824.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the potential merits of procuring the Pyrrhus Aeronautics Laser Aiming &amp; Drone Remote System for future integration with i"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Innovation",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.21531.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to page 53 of his department's Strategic Defence Review, published 2 June 2025, in what way does his department draw on the available S&amp;T "
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Germany: Guided Weapons",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-15.19093.h&amp;s=defence#g19093.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to pages 52 to 54 of his Department's Defence Investment Plan, published 30 June 2026, what is the current status of the UK-German Deep Precis"
+  },
+  {
+   "id": "downie",
+   "name": "Graeme Downie",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ukraine: Unmanned Air Systems",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.24753.h&amp;s=defence#g24753.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what steps his Department is taking to support Ukraine's counter-drone capabilities in response to increased Russian drone attacks on frontline urban centres"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Typhoon Aircraft",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23387.h&amp;s=defence#g23387.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the UK armed forces equipment and formations 2026, published on 20 August 2026, what is the status of the 5 Typhoon aircraft the fleet redu"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: F-35 Aircraft",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23315.h&amp;s=defence#g23315.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the National Infrastructure and Service Transformation Authority Major Projects Annual Report 2025 to 2026, Tables, SPEARCAP 3, what is the"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Artillery",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23300.h&amp;s=defence#g23300.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment has he made of the availability of spares for the L118 105mm Light Gun."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Torpedoes: Repairs and Maintenance",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23145.h&amp;s=defence#g23145.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what is the full scope of the WHITEHEAD2 programme."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Industry",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23053.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to paragraph 3.2.31 of the Defence Investment Plan, published on 30 June 2026, what progress he has made in identifying the next UK defence un"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence Equipment: Testing",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23052.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to paragraph 3.2.31 of the Defence Investment Plan, published on 30 June 2026, in which month in 2026 does he plan to launch an online Test an"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Unmanned Marine Systems",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23030.h&amp;s=defence#g23030.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what is the full scope of Project WASP."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Military Bases",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23021.h&amp;s=defence#g23021.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's document entitled Annual Report and Accounts 2024-2025, published on 4 November 2025, for what reason was there a Partial "
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23018.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's annual report and accounts 2024-2025, what was the total sum of losses under &#163;300,000."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23012.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to recommendation 62 of the 2025 Strategic Defence Review, what progress he has made in scrapping burdensome authorisation processes to avoid "
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23011.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to recommendation 62 of the 2025 Strategic Defence Review, what progress has he made in developing faster, more agile ways of working that are"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23010.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to recommendation 62 of the 2025 Strategic Defence Review, what progress he has made in ensuring there are no bespoke Defence contracting and "
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23009.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to recommendation 62 of the 2025 Strategic Defence Review, what progress he has made in simplifying and accelerating his Department's commerci"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Military Bases",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23008.h&amp;s=defence#g23008.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to recommendation 62 of the 2025 Strategic Defence Review, what progress he has made in ensuring that Defence is making full use of a fully in"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Housing",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23002.h&amp;s=defence#g23002.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to recommendation 60 of the 2025 Strategic Defence Review, what progress he has made in prioritising and increasing funding this Parliament fo"
+  },
+  {
+   "id": "coaker",
+   "name": "Lord Coaker",
+   "debate": "Upcoming Business &#8211; Lords: Main Chamber",
+   "date": "2026-10-27",
+   "link": "https://www.theyworkforyou.com/calendar/?d=2026-10-27#cal56694",
+   "excerpt": "uk"
+  },
+  {
+   "id": "coaker",
+   "name": "Lord Coaker",
+   "debate": "Upcoming Business &#8211; Lords: Main Chamber",
+   "date": "2026-10-20",
+   "link": "https://www.theyworkforyou.com/calendar/?d=2026-10-20#cal56691",
+   "excerpt": "uk"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Typhoon Aircraft",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23387.h&amp;s=armed+forces#g23387.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the UK armed forces equipment and formations 2026, published on 20 August 2026, what is the status of the 5 Typhoon aircraft the fleet redu"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Housing",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23002.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to recommendation 60 of the 2025 Strategic Defence Review, what progress he has made in prioritising and increasing funding this Parliament fo"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Housing",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23000.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to recommendation 60 of the 2025 Strategic Defence Review, what progress he has made in improving the overall standard of accommodation, in al"
+  },
+  {
+   "id": "pollard",
+   "name": "Luke Pollard",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.21500.h&amp;s=armed+forces#g21500.r0",
+   "excerpt": "The Strategic Defence Review (SDR) set a vision for the next decade and beyond, over which the Armed Forces will be transformed to deliver a more lethal and digitally-enabled Integrated Force. The Def"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Recruitment",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.21467.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, what funding has been committed to increase the total number of Regular personnel in the Armed Forces."
+  },
+  {
+   "id": "bailey",
+   "name": "Calvin Bailey",
+   "debate": "Written Answers &#8212; Ministry of Defence: Army: Recruitment",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-09-03.27113.h&amp;s=armed+forces#g27113.r0",
+   "excerpt": "The Army Careers Centre in Taunton will not be retained under the future Armed Forces Recruitment Service. Recruitment activity currently supported through Taunton will transition into the Armed Force"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Artificial Intelligence",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-09-10.28905.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 8 September 2026 to question 22932 on Armed Forces: Artificial Intelligence, how much of the &#163;200 million AI Investment Fund h"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Digital Technology",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-09-11.29220.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 8 September 2026, to question 22881 on Armed Forces: Digital Technology, by when does he plan to have a) established the Digital Wa"
+  },
+  {
+   "id": "pollard",
+   "name": "Luke Pollard",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Innovation",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.21531.h&amp;s=MoD+procurement#g21531.r0",
+   "excerpt": "The MOD draws on science and technology (S&amp;T) and innovation expertise across the Department, including the Defence Science and Technology Laboratory (DSTL), the Chief Scientific Adviser (CSA), ac"
+  },
+  {
+   "id": "pollard",
+   "name": "Luke Pollard",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23012.h&amp;s=MoD+procurement#g23012.r0",
+   "excerpt": "Following the Strategic Defence Review the Ministry of Defence (MOD) is implementing Recommendation 62 to simplify and standardise commercial processes and accelerate procurement. This approach includ"
+  },
+  {
+   "id": "pollard",
+   "name": "Luke Pollard",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
+   "date": "2026-10-06",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23011.h&amp;s=MoD+procurement#g23011.r0",
+   "excerpt": "Following the Strategic Defence Review the Ministry of Defence (MOD) is implementing Recommendation 62 to simplify and standardise commercial processes and accelerate procurement. This approach includ"
+  }
+ ]
 }
