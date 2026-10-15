@@ -1,38 +1,102 @@
 {
- "checkedAt": "2026-10-14T07:51:51.711Z",
+ "checkedAt": "2026-10-15T07:37:10.467Z",
  "lookbackDays": 2,
  "hits": [
   {
-   "id": "atkinson",
-   "name": "Catherine Atkinson",
-   "debate": "Courts and Tribunals Bill: New Clause 23 - Independent review",
-   "date": "2026-10-13",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-13a.229.2&amp;s=defence#g283.3",
-   "excerpt": "We live in an era of problem solving, not point scoring. Indeed, as the Courts Minister, that has always been my focus. There is no bigger challenge in my portfolio than the unacceptable&#8212;indeed,"
+   "id": "dhesi",
+   "name": "Tan Dhesi",
+   "debate": "Benefit Entitlements: War Pension and Armed Forces Compensation",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-14a.484.0&amp;s=defence#g484.5",
+   "excerpt": "I thank the hon. Member for his dedication, and for his commitment to this issue. The Defence Committee last year published its report into the armed forces covenant. We looked at this issue in detail"
   },
   {
-   "id": "healey",
-   "name": "John Healey",
-   "debate": "Diego Garcia Military Base and British Indian Ocean Territory Bill - <i>Question</i>",
-   "date": "2026-10-13",
-   "link": "https://www.theyworkforyou.com/lords/?id=2026-10-13a.108.2&amp;s=defence#g108.5",
-   "excerpt": "Can the Minister confirm that when John Healey told the Commons last year that the UK was facing an immediate threat of a binding decision on Chagos from UNCLOS he was exaggerating, as UNCLOS&#8217;s "
+   "id": "leigh",
+   "name": "Sir Edward Leigh",
+   "debate": "MOD Bicester and Illegal Migrants",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-14a.373.1&amp;s=defence#g409.1",
+   "excerpt": "Our hearts go out to the people of Piddington. We heard a very moving speech from the hon. Member for Bicester and Woodstock (Calum Miller), and we of course agree with everything that he says on that"
   },
   {
-   "id": "tugendhat",
-   "name": "Tom Tugendhat",
-   "debate": "Falkland Islands",
-   "date": "2026-10-13",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-13a.213.0&amp;s=defence#g216.1",
-   "excerpt": "I thank the Minister for advance sight of her statement, though it was somewhat belated. Let me start by welcoming Jack Ford, Chair of the Falkland Islands Legislative Assembly, to the Gallery.Yesterd"
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armoured Fighting Vehicles: Finance",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.32581.h&amp;s=defence#g32581.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the National Infrastructure and Service Transformation Authority Major Projects Annual Report 2025 to 2026, Tables, Mechanised Infantry Pro"
   },
   {
-   "id": "mckee",
-   "name": "Gordon McKee",
-   "debate": "Written Answers &#8212; Ministry of Defence: Reserve Forces: Deployment",
-   "date": "2026-10-13",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-07-16.19631.h&amp;s=defence#g19631.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what proportion of reservists have been mobilised for operations in each of the last five years."
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23020.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's document entitled Annual Report and Accounts 2024-2025, published on 4 November 2025, for what reason was there an Interna"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.21445.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, how the Total Efficiency Commitment is split between the (a) 2026-2026, (b) 2027-2028, (c) 2028-2029 and (d) 2029-2030 financial years."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Boxer Vehicles: Procurement",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.22866.h&amp;s=defence#g22866.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 18 December 2025 to Question 100025 on Boxer Vehicles: Procurement, how many of each variant across the proposed Boxer fleet will b"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ukraine: Armed Conflict",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.21579.h&amp;s=defence#g21579.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what lessons his Department has learned from the war in Ukraine; and what impact that war has had on procurement models."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ukraine: Military Aid",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.23056.h&amp;s=defence#g23056.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the press release entitled Unbreakable bond between UK and Ukraine will continue under my government, published in 27 July 2026, what is th"
+  },
+  {
+   "id": "madders",
+   "name": "Justin Madders",
+   "debate": "Written Answers &#8212; Department for Transport: Department for Transport: Public Expenditure",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.31555.h&amp;s=defence#g31555.r0",
+   "excerpt": "Budgets for individual projects, including whether to cancel, delay or rescope them following the Defence Investment Plan will be taken through the Department's normal planning processes, including An"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Treasury: Defence: Finance",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-09-14.29718.h&amp;s=defence",
+   "excerpt": "To ask the Chancellor for the Exchequer, with reference to line 6 called Asset Sales of his Department's joint document entitled The Defence Investment Plan Funding Explainer, published on 30 June 202"
+  },
+  {
+   "id": "jarvis",
+   "name": "Dan Jarvis",
+   "debate": "Written Answers &#8212; Home Office: Subversion: Russia",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.32730.h&amp;s=defence#g32730.r0",
+   "excerpt": "This Government takes the threat of information operations from foreign states seriously. We work closely with industry, international and operational partners to identify and counter state-backed inf"
+  },
+  {
+   "id": "jarvis",
+   "name": "Dan Jarvis",
+   "debate": "Written Answers &#8212; Home Office: Infrastructure: National Security",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.33302.h&amp;s=defence#g33302.r0",
+   "excerpt": "The Government's first responsibility is to keep the country safe, and strengthening the resilience of the UK's Critical National Infrastructure (CNI) is a key element of our National Security Strateg"
   },
   {
    "id": "coaker",
@@ -51,28 +115,12 @@
    "excerpt": "uk"
   },
   {
-   "id": "mullan",
-   "name": "Dr Kieran Mullan",
-   "debate": "Iran: Threats to British Interests",
-   "date": "2026-10-13",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-13a.188.0&amp;s=armed+forces#g192.2",
-   "excerpt": "When the Iranians risked the lives of armed forces personnel by attacking RAF Akrotiri earlier this year, Labour Members took great pleasure in mocking the Leader of Opposition for suggesting that a d"
-  },
-  {
-   "id": "aldridge",
-   "name": "Dan Aldridge",
-   "debate": "Written Answers &#8212; Treasury: Stamp Duty Land Tax: Repayments",
-   "date": "2026-10-13",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.24200.h&amp;s=armed+forces#g24200.q0",
-   "excerpt": "To ask the Chancellor of the Exchequer, if he will exempt Armed Forces personnel on mandatory overseas postings from the three year time limit on Stamp Duty Land Tax refunds."
-  },
-  {
-   "id": "bailey",
-   "name": "Calvin Bailey",
-   "debate": "Written Ministerial Statements &#8212; Ministry of Defence: MOD&#8217;s Formal Response to the Service Complaints Ombudsman for the Armed Forces 2025 Annual Report",
-   "date": "2026-10-13",
-   "link": "https://www.theyworkforyou.com/wms/?id=2026-10-13.hcws368.h&amp;s=armed+forces",
-   "excerpt": "I am pleased to place in the Library of the House today the MOD&#8217;s formal response to the Service Complaints Ombudsman for the Armed Forces&#8217; (SCOAF) annual report for 2025 on the fairness, "
+   "id": "baker",
+   "name": "Alex Baker",
+   "debate": "Nepal: UK Government Support &#8212; [Esther McVey in the Chair]",
+   "date": "2026-10-14",
+   "link": "https://www.theyworkforyou.com/whall/?id=2026-10-14a.131.0&amp;s=armed+forces#g131.1",
+   "excerpt": "I beg to move,That this House has considered Government support for the situation in Nepal.It is a pleasure to serve under your chairship, Ms McVey. I am grateful for the opportunity to discuss the Go"
   }
  ]
 }
