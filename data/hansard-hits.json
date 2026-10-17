@@ -1,71 +1,7 @@
 {
- "checkedAt": "2026-10-16T07:23:46.168Z",
+ "checkedAt": "2026-10-17T07:05:23.039Z",
  "lookbackDays": 2,
  "hits": [
-  {
-   "id": "mmartin",
-   "name": "Mike Martin",
-   "debate": "Business of the House",
-   "date": "2026-10-15",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-15a.546.0&amp;s=defence#g555.1",
-   "excerpt": "I do not know if the Leader of the House has seen &#8220;The Wargame&#8221;, a recent series on Sky, but its central message is that we are not ready. We might be more ready, had the promised defence "
-  },
-  {
-   "id": "reynolds",
-   "name": "Joshua Reynolds",
-   "debate": "Business, Innovation, Science and Trade: Topical Questions",
-   "date": "2026-10-15",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-15a.524.0&amp;s=defence#g524.4",
-   "excerpt": "I am grateful for the hon. Member&#8217;s championing of science. I revert to the comments I made about the scale of investment this Government are making in science and research and development, and "
-  },
-  {
-   "id": "morgan",
-   "name": "Stephen Morgan",
-   "debate": "Written Answers &#8212; Department for Environment, Food and Rural Affairs: Crops: Diversification",
-   "date": "2026-10-15",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.32305.h&amp;s=defence#g32305.r0",
-   "excerpt": "Defra funds crop breeding R&amp;D to improve crop resilience through the Genetic Improvement Networks. This &#163;15 million 5 year investment (2024-29) helps crops to grow stronger, be more resilient"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence: Written Questions",
-   "date": "2026-10-15",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-09-15.30303.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, for what reason do the department&#8217;s parliamentary team and ministers not respond to written parliamentary questions during parliamentary recesses."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: USA: Diplomatic Service",
-   "date": "2026-10-15",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-09-15.30145.h&amp;s=defence#g30145.q0",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to reports regarding the removal of a US Embassy employee from the UK by US authorities, whether he has made an assessment of the role of the "
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Global Combat Air Programme",
-   "date": "2026-10-15",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-09-15.30142.h&amp;s=defence#g30142.q0",
-   "excerpt": "To ask the Secretary of State for Defence, whether he plans to create different variants of the Tempest for each of the partner nations within GCAP."
-  },
-  {
-   "id": "dinenage",
-   "name": "Dame Caroline Dinenage",
-   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence Police: Finance",
-   "date": "2026-10-15",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.32815.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what the Ministry of Defence Police budget is in the (a) 2025-26 and (b) 2026-27 financial year; and whether he undertook a risk assessment before determinin"
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Unmanned Air Systems",
-   "date": "2026-10-15",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.21634.h&amp;s=defence#g21634.q0",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to page 110 of his Department's Strategic Defence Review, published 2 June 2025, how his Department prioritises investment in surveillance dro"
-  },
   {
    "id": "coaker",
    "name": "Lord Coaker",
@@ -81,6 +17,14 @@
    "date": "2026-10-20",
    "link": "https://www.theyworkforyou.com/calendar/?d=2026-10-20#cal56691",
    "excerpt": "uk"
+  },
+  {
+   "id": "coaker",
+   "name": "Lord Coaker",
+   "debate": "Written Answers &#8212; Ministry of Defence: USA: Uncrewed Systems",
+   "date": "2026-10-16",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-05.HL3871.h&amp;s=armed+forces#gHL3871.r0",
+   "excerpt": "Given the importance of autonomous systems to the future of warfare, we will continue to engage closely with our US counterparts as they establish an Autonomous Warfare Command and see what lessons ap"
   }
  ]
 }
