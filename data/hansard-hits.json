@@ -1,158 +1,142 @@
 {
- "checkedAt": "2026-10-22T07:48:23.254Z",
+ "checkedAt": "2026-10-23T07:47:21.667Z",
  "lookbackDays": 2,
  "hits": [
   {
+   "id": "tugendhat",
+   "name": "Tom Tugendhat",
+   "debate": "Saudi Arabia: RAF Support",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-22a.1281.0&amp;s=defence#g1281.1",
+   "excerpt": "(Urgent Question:) To ask the Secretary of State for Defence if he will make a statement on the deployment of RAF Typhoon aircraft to defend Saudi Arabia, and the extension of air-to-air refuelling su"
+  },
+  {
    "id": "sanderson",
    "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Schools",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.21612.h&amp;s=defence#g21612.q0",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to page 92 of his Department&#8217;s Strategic Defence Review, published 2 June 2025, what progress he has made on working with the Department"
+   "debate": "Written Answers &#8212; Treasury: Defence: Manufacturing Industries",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-14.34786.h&amp;s=defence",
+   "excerpt": "To ask the Chancellor of the Exchequer, what evaluations have been conducted on the economic multiplier effect of domestic defence manufacturing investments."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence Police: Unmanned Air Systems",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34605.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, if the Ministry of Defence Police&#8217;s use of drones is governed by the Military Aviation Authority or Civilian Aviation Authority."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Quantum Technology",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34364.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what assessment has been made of the level of vulnerability of military command-and-control networks to quantum-based decryption."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Future Combat Air System: Manufacturing Industries",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34357.h&amp;s=defence#g34357.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what progress he has made on establishing sovereign manufacturing capabilities for next-generation combat air systems."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Intellectual Property",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34362.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what framework governs intellectual property sharing in joint international technology development projects."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Warships: Repairs and Maintenance",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34361.h&amp;s=defence#g34361.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what measures are being implemented to ensure maintenance, repair, and overhaul (MRO) resilience for major fleet assets within domestic shipyards."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34360.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, how asymmetric capability development is being balanced against traditional platform-heavy procurement."
+   "debate": "Written Answers &#8212; Home Office: Home Office: Public Expenditure",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-14.34938.h&amp;s=defence#g34938.q0",
+   "excerpt": "To ask the Secretary of State for the Home Department, with reference to The Defence Investment Plan Funding explainer, published on 30 June 2026, if she can confirm whether her department is required"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Unmanned Air Systems",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-09-11.29222.h&amp;s=defence#g29222.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 8 September 2026 to question 22812 on Unmanned Air Systems, whether Valkyrie Air Vehicle 018 was engaged by enemy forces prior to b"
+   "debate": "Written Answers &#8212; Department for Work and Pensions: Department for Work and Pensions: Public Expenditure",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-14.35040.h&amp;s=defence#g35040.q0",
+   "excerpt": "To ask the Secretary of State for Work and Pensions, with reference to The Defence Investment Plan Funding explainer, published on 30 June 2026, whether his Department is required to contribute to the"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Deployment",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34344.h&amp;s=defence#g34344.q0",
+   "excerpt": "To ask the Secretary of State for Defence, how the UK&#8217;s overseas military footprint is being organised to meet regional deterrence goals."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Manufacturing Industries: Government Assistance",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-14.34774.h&amp;s=defence#g34774.q0",
+   "excerpt": "To ask the Secretary of State for Defence, whether financial incentives are being offered to rebuild the domestic defence manufacturing and industrial base."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Skilled Workers",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34359.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what steps are being taken to help address skills shortages and engineering deficits within the domestic defence workforce."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Type 45 Destroyers: Lasers",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-14.34772.h&amp;s=defence#g34772.q0",
+   "excerpt": "To ask the Secretary of State for Defence, by what date DragonFire will be fitted on Royal Navy Type 45 Destroyers."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Type 31 Frigates",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34624.h&amp;s=defence#g34624.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 6 October 2026 to Question 23248 on Type 31 Frigates, if he will set out the areas of the programme that are currently experiencing"
+   "debate": "Written Answers &#8212; Ministry of Defence: Boxer Vehicles: Procurement",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-19.36201.h&amp;s=defence#g36201.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 4 June 2021, to question 10208 on Boxer Vehicles: Procurement, if he can provide an updated breakdown of the 623 Boxer by a) MIV va"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence Police: Unmanned Air Systems",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34622.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 15 June 2026 to Question 6505 on British Transport Police: Unmanned Air Systems, what discussions has he had with the Department fo"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: AUKUS: Nuclear Submarines",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34607.h&amp;s=defence#g34607.q0",
-   "excerpt": "To ask the Secretary of State for Defence, when does he plan to conduct the first steel cutting for the SSN-AUKUS programme."
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Artificial Intelligence",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-19.36262.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what funding has been allocated to the Digital Targeting Web for a) 2026/27, b) 2027/28 and c) 2028 onwards."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
    "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34597.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what is the process for calculating funding estimates beyond Defence's rolling 10-year planning horizon."
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-14.34894.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 14 October 2026, to question 29718 on Defence: Finance, whether he has identified the &#163;300 million of assets to be sold in 202"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: National Cyber Force",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-14.34794.h&amp;s=defence#g34794.q0",
+   "excerpt": "To ask the Secretary of State for Defence, how the National Cyber Force (NCF) is scaling its operations to counter state-backed threat actors operating below the threshold of war."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Type 31 Frigates",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34408.h&amp;s=defence#g34408.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 6 October 2026, to question 23248 on Type 31 Frigates, by when will his department have completed their assessment of the impact of"
+   "debate": "Written Answers &#8212; Ministry of Defence: Roll-on Roll-off Ships: Procurement",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-14.34691.h&amp;s=defence#g34691.q0",
+   "excerpt": "To ask the Secretary of State for Defence, whether he has completed the strategic Outline Case for the Strategic Sealift Future (SSL-F) programme."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Type 31 Frigates",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34407.h&amp;s=defence#g34407.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 6 October 2026, to question 23248 on Type 31 Frigates, what is the current budgetary limit."
+   "debate": "Written Answers &#8212; Ministry of Defence: Nuclear Weapons: Finance",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.22946.h&amp;s=defence#g22946.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to recommendation 35 of the 2025 Strategic Defence Review, what progress he has made in developing mechanisms for enhanced parliamentary scrut"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Telecommunications",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-09-04.27307.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what progress has he made in securing sovereign UK capability to develop high-bandwidth, platform-to-platform and ground-to-space links."
   },
   {
    "id": "sanderson",
    "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Space Technology",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34363.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, how the UK Defence Space Strategy is integrated into the wider goals of the National Security Strategy 2025."
+   "debate": "Written Answers &#8212; Ministry of Defence: Cybersecurity: Hybrid Warfare",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-14.34797.h&amp;s=defence#g34797.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what doctrine governs the deployment of active cyber measures in response to hybrid attacks on allies."
   },
   {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34358.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the adequacy of progress made on reform to defence procurement."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence Equipment: Minerals",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34356.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what strategy is in place to secure domestic raw material inputs, such as rare earth elements, required for advanced military hardware."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34349.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what reforms are being made to procurement pathways to accelerate the delivery of sovereign capabilities."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Ukraine: Military Aid",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34342.h&amp;s=defence#g34342.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what specific commitments have been made to sustain long-term military and economic assistance to Ukraine."
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Air Force: Military Bases",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-14.34690.h&amp;s=defence#g34690.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment has he made of the potential merits of a requirement for hardened aircraft shelters at all UK RAF bases which conduct flight operations."
   },
   {
    "id": "coaker",
@@ -165,34 +149,10 @@
   {
    "id": "sanderson",
    "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Schools",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.21612.h&amp;s=armed+forces",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to page 92 of his Department&#8217;s Strategic Defence Review, published 2 June 2025, what progress he has made on working with the Department"
-  },
-  {
-   "id": "pollard",
-   "name": "Luke Pollard",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Intellectual Property",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34362.h&amp;s=armed+forces#g34362.r0",
-   "excerpt": "The UK Ministry of Defence (MOD) has an established policy for addressing Intellectual Property (IP), and all MOD projects are expected to set out an IP strategy to ensure that IP is adequately protec"
-  },
-  {
-   "id": "bailey",
-   "name": "Calvin Bailey",
-   "debate": "Written Answers &#8212; Ministry of Defence: War Pensions",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34599.h&amp;s=armed+forces#g34599.r0",
-   "excerpt": "Detailed statistics on the recipients of war pensions, new claims, awards and appeals made under the WPS are published at the following link: www.gov.uk/government/statistics/war-pensions-scheme-stati"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Home Office: Armed Forces: USA",
-   "date": "2026-10-21",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.32175.h&amp;s=armed+forces",
-   "excerpt": "To ask the Secretary of State for the Home Department, pursuant to the answer of 8 September 2026 to question 23196 on USA: Armed Forces, by when the NPCC will have considered whether additional forma"
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Deployment",
+   "date": "2026-10-22",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.34344.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, how the UK&#8217;s overseas military footprint is being organised to meet regional deterrence goals."
   }
  ]
 }
