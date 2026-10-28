@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-27T08:07:38.351Z",
+ "fetchedAt": "2026-10-28T08:47:26.269Z",
  "ok": true,
  "errors": [],
  "defcom": [
@@ -20,11 +20,6 @@
   },
   {
    "name": "Jesse Norman MP",
-   "party": null,
-   "isChair": false
-  },
-  {
-   "name": "Calvin Bailey MP",
    "party": null,
    "isChair": false
   },
@@ -55,6 +50,11 @@
   },
   {
    "name": "Ian Roome MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Graeme Downie MP",
    "party": null,
    "isChair": false
   }
@@ -101,17 +101,17 @@
    "isChair": false
   },
   {
-   "name": "Justin Madders MP",
-   "party": null,
-   "isChair": false
-  },
-  {
    "name": "Chris Bloore MP",
    "party": null,
    "isChair": false
   },
   {
    "name": "Leigh Ingham MP",
+   "party": null,
+   "isChair": false
+  },
+  {
+   "name": "Nesil Caliskan MP",
    "party": null,
    "isChair": false
   }
