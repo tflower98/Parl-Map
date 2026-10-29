@@ -1,230 +1,30 @@
 {
- "checkedAt": "2026-10-28T08:47:34.144Z",
+ "checkedAt": "2026-10-29T08:43:03.882Z",
  "lookbackDays": 2,
  "hits": [
   {
-   "id": "morgan",
-   "name": "Stephen Morgan",
-   "debate": "Domestic Farming and Food Supply",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/whall/?id=2026-10-27a.108.0&amp;s=defence#g114.3",
-   "excerpt": "The hon. Member is a real champion on farming issues, as was very evident from my time in Cornwall over the summer with the Prime Minister. I know that he is a real champion on those issues. I obvious"
-  },
-  {
-   "id": "lancaster",
-   "name": "Lord Lancaster of Kimbolton",
-   "debate": "Armed Forces Bill - <i>Third Reading</i>: Amendment 2 (to Amendment 1)",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/lords/?id=2026-10-27a.1058.0&amp;s=defence#g1060.0",
-   "excerpt": "I want to contribute quickly to Third Reading. I declare my interest as the assistant chief of defence staff of the reserve forces and cadets. I am therefore in a slightly odd role, in that I am respo"
-  },
-  {
-   "id": "dyke",
-   "name": "Sarah Dyke",
-   "debate": "Written Answers &#8212; Cabinet Office: UK Relations with EU: Defence",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-21.901732.h&amp;s=defence",
-   "excerpt": "To ask the Minister for the Cabinet Office, what assessment she has made with Cabinet colleagues of the potential merits of negotiating a growth and defence partnership with the EU."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: HMS Protector",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.31793.h&amp;s=defence#g31793.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 15 September 2026 to question 27620 on HMS Protector, how much is budgeted for the replacement of HMS Protector."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Overseas Trade: Ukraine",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.31771.h&amp;s=defence#g31771.q0",
-   "excerpt": "To ask the Secretary of State for Defence,&#8239;what progress he has made on establishing the Kyiv Business Centre."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armoured Fighting Vehicles: Finance",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-15.35501.h&amp;s=defence#g35501.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 14 October 2026, to question 32581 on Armoured Fighting Vehicles: Finance, for what reason was funding removed."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence: Public Expenditure",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.22811.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to the Ministry of Defence annual report and accounts 2025 to 2026, Losses, what estimate he has made of the waste incurred by his department "
-  },
-  {
-   "id": "cartlidge",
-   "name": "James Cartlidge",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-20.36609.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to the oral answer to the hon. Member for Broadland and Fakenham of 19 October 2026, Official Report, Column 760, whether it is the policy to "
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Visas",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.32184.h&amp;s=defence#g32184.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 14 September 2026 to question 28485 on Visas: Armed Forces, what assessment his Department made of the feasibility of implementing "
-  },
-  {
-   "id": "roca",
-   "name": "Tim Roca",
-   "debate": "Written Answers &#8212; Ministry of Defence: HMS Protector",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-15.35455.h&amp;s=defence#g35455.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what assessment has been made of the adequacy of HMS Protector."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Recruitment",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.30568.h&amp;s=defence#g30568.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 8 September 2026 to question 23359 on Armed Forces: Recruitment, by when he plans to have delivered the common data model and integ"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Recruitment",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.30966.h&amp;s=defence#g30966.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 8 September 2026 to Question 23196 on Defence: Procurement, with reference to the Departmental Commentary on Delivery Confidence As"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Recruitment",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.31794.h&amp;s=defence#g31794.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 15 September 2026 to question 22901 on Armed Forces: Recruitment, on what date the decision not to pursue Recommendation 16 was tak"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Boxer Vehicles: Repairs and Maintenance",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-15.35499.h&amp;s=defence#g35499.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 14 October 2026, to question 32581 on Armoured Fighting Vehicles, with no repair and recovery variant ordered, how will Boxer be re"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Recruitment",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.33005.h&amp;s=defence#g33005.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 8 September 2026 to question 23359 on Armed Forces: Recruitment, by when he plans to have established and implemented a) strategic "
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Reserve Forces",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.22929.h&amp;s=defence#g22929.q0",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to the 2025 Strategic Defence Review, what progress he has made in stepping up engagement with the Strategic Reserve, sustained through annual"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Home Office: Veterans: Visas",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-20.36309.h&amp;s=defence#g36309.q0",
-   "excerpt": "To ask the Secretary of State for the Home Department, pursuant to the answer of 7 September 2026 to question 23015 on Veterans: Visas, whether the Minister for Migration and Citizenship has discussed"
-  },
-  {
-   "id": "beamish",
-   "name": "Lord Beamish",
-   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence: Official Cars",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.HL4032.h&amp;s=defence",
-   "excerpt": "To ask His Majesty's Government what proportion of vehicles in the Ministry of Defence used by ministers and service chiefs are manufactured in the UK."
+   "id": "healey",
+   "name": "John Healey",
+   "debate": "Financial Statement and Budget Report",
+   "date": "2026-10-28",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-28a.301.0&amp;s=defence#g303.1",
+   "excerpt": "At least they are still awake, Madam Deputy Speaker.Last week, my right hon. Friend the Energy Secretary approved the Jackdaw gas field, boosting our energy security. This will protect hundreds of job"
   },
   {
    "id": "coaker",
    "name": "Lord Coaker",
-   "debate": "Written Answers &#8212; Ministry of Defence: Royal Fleet Auxiliary",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.HL4073.h&amp;s=defence#gHL4073.r0",
-   "excerpt": "Following the 2025 and 2026 pay agreement, the Royal Fleet Auxiliary (RFA) continues to engage maritime trade unions on improvements to terms and conditions, including employment flexibilities and sup"
+   "debate": "Written Answers &#8212; Ministry of Defence: Bosnia and Herzegovina: Peacekeeping Operations",
+   "date": "2026-10-28",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.HL4049.h&amp;s=defence#gHL4049.r0",
+   "excerpt": "The Security and Defence Partnership agreed with the European Union is an example of this Government delivering on its commitments to strengthen European security, support growth and reinforce NATO. T"
   },
   {
-   "id": "coaker",
-   "name": "Lord Coaker",
-   "debate": "Armed Forces Bill - <i>Third Reading</i>: Motion",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/lords/?id=2026-10-27a.1061.1&amp;s=armed+forces#g1061.3",
-   "excerpt": "My Lords, I apologise for not combining everything earlier&#8212;I was trying to follow the rules on speaking. I thank both Ministers, the noble Baroness, Lady Antrobus, and the noble Lord, Lord Coake"
-  },
-  {
-   "id": "goldie",
-   "name": "Baroness Goldie",
-   "debate": "Armed Forces Bill - <i>Third Reading</i>: Motion",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/lords/?id=2026-10-27a.1061.1&amp;s=armed+forces#g1061.3",
-   "excerpt": "My Lords, I apologise for not combining everything earlier&#8212;I was trying to follow the rules on speaking. I thank both Ministers, the noble Baroness, Lady Antrobus, and the noble Lord, Lord Coake"
-  },
-  {
-   "id": "coaker",
-   "name": "Lord Coaker",
-   "debate": "Armed Forces Bill - <i>Third Reading</i>: Amendment 2 (to Amendment 1)",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/lords/?id=2026-10-27a.1058.0&amp;s=armed+forces#g1060.1",
-   "excerpt": "My Lords, I am delighted that the Bill has reached this stage and I pay tribute to the noble Baroness, Lady Antrobus, for stepping in magnificently at the last minute. Personally, I am disappointed th"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Visas",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.32184.h&amp;s=armed+forces",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 14 September 2026 to question 28485 on Visas: Armed Forces, what assessment his Department made of the feasibility of implementing "
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Recruitment",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.30568.h&amp;s=armed+forces",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 8 September 2026 to question 23359 on Armed Forces: Recruitment, by when he plans to have delivered the common data model and integ"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Recruitment",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.30966.h&amp;s=armed+forces",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 8 September 2026 to Question 23196 on Defence: Procurement, with reference to the Departmental Commentary on Delivery Confidence As"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Recruitment",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.31794.h&amp;s=armed+forces",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 15 September 2026 to question 22901 on Armed Forces: Recruitment, on what date the decision not to pursue Recommendation 16 was tak"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Recruitment",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.33005.h&amp;s=armed+forces",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 8 September 2026 to question 23359 on Armed Forces: Recruitment, by when he plans to have established and implemented a) strategic "
-  },
-  {
-   "id": "bailey",
-   "name": "Calvin Bailey",
-   "debate": "Written Answers &#8212; Ministry of Defence: Reserve Forces",
-   "date": "2026-10-27",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.22929.h&amp;s=armed+forces#g22929.r0",
-   "excerpt": "The Ministry of Defence is starting a communications and engagement plan with those Service leavers who have an ongoing ex-Regular and Recall liability, as well as related audiences such as their fami"
+   "id": "healey",
+   "name": "John Healey",
+   "debate": "Financial Statement and Budget Report",
+   "date": "2026-10-28",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-28a.301.0&amp;s=armed+forces#g308.1",
+   "excerpt": "Thank you, Madam Deputy Speaker.Nowhere is the necessary role for the state clearer than in artificial intelligence, and we must forge a British way to seize opportunities and guard against risks that"
   }
  ]
 }
