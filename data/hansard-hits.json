@@ -1,30 +1,134 @@
 {
- "checkedAt": "2026-10-29T08:43:03.882Z",
+ "checkedAt": "2026-10-30T08:49:38.682Z",
  "lookbackDays": 2,
  "hits": [
   {
-   "id": "healey",
-   "name": "John Healey",
-   "debate": "Financial Statement and Budget Report",
-   "date": "2026-10-28",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-28a.301.0&amp;s=defence#g303.1",
-   "excerpt": "At least they are still awake, Madam Deputy Speaker.Last week, my right hon. Friend the Energy Secretary approved the Jackdaw gas field, boosting our energy security. This will protect hundreds of job"
+   "id": "francois",
+   "name": "Mark Francois",
+   "debate": "Budget Resolutions - Income Tax (Charge)",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-29a.484.1&amp;s=defence#g541.0",
+   "excerpt": "I thank all right hon. and hon. Members for their contributions to this Budget debate. It is an honour to respond on behalf of the Government.Yesterday, the Chancellor delivered a Budget that will ste"
   },
   {
-   "id": "coaker",
-   "name": "Lord Coaker",
-   "debate": "Written Answers &#8212; Ministry of Defence: Bosnia and Herzegovina: Peacekeeping Operations",
-   "date": "2026-10-28",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-13.HL4049.h&amp;s=defence#gHL4049.r0",
-   "excerpt": "The Security and Defence Partnership agreed with the European Union is an example of this Government delivering on its commitments to strengthen European security, support growth and reinforce NATO. T"
+   "id": "norman",
+   "name": "Jesse Norman",
+   "debate": "Business of the House",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-29a.439.0&amp;s=defence#g439.3",
+   "excerpt": "I thank the Leader of the House very much for that update. As the House will be aware, this is a day of very mixed feelings as we mourn the deaths and injuries sustained in the Spanish high-speed rail"
   },
   {
-   "id": "healey",
-   "name": "John Healey",
-   "debate": "Financial Statement and Budget Report",
-   "date": "2026-10-28",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-28a.301.0&amp;s=armed+forces#g308.1",
-   "excerpt": "Thank you, Madam Deputy Speaker.Nowhere is the necessary role for the state clearer than in artificial intelligence, and we must forge a British way to seize opportunities and guard against risks that"
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Clyde Naval Base: Security",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-16.35567.h&amp;s=defence#g35567.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what information his Department holds on the scope of the specialist ballistic security shelters planned to be built at HMNB Clyde by Henry Brothers for Babc"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Seized Articles",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38096.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 19 October 2026 to Question 22809 on Defence: Seized Articles, on what date were the assets seized by the Polish authorities."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Property",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-22.37295.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 19 October 2026 to question 33021 on Defence: Property, what changes were made to the schedule and funding profile of the Defence E"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Challenger Tanks: Procurement",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-21.37122.h&amp;s=defence#g37122.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 19 October 2026, to question 30566 on Challenger Tanks: Procurement, by when is the Challenger 3 Demonstration Phase trials program"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: F-35 Aircraft",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-21.37121.h&amp;s=defence#g37121.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 19 October 2026, to question 30977 on F-35 Aircraft, what assessment he has made of the implications for his policies of the conten"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armoured Fighting Vehicles: Decommissioning",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-21.37024.h&amp;s=defence#g37024.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 19 October 2026 to question 30567 on Armoured Fighting Vehicles: Decommissioning, what his planned timetable is for completing the "
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence Police: Training",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-21.36859.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what progress he has made on training more digital dogs for SIM card detection for the Ministry of Defence Police."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Boeing E-7",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-21.36858.h&amp;s=defence#g36858.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 16 October 2026 to question 30564 on Boeing E-7, what the required criteria is."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Air Force: Command and Control",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-21.36857.h&amp;s=defence#g36857.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 16 October 2026 to question 31384 on Air Force: Command and Control, what plans he has to modernise the UK Air Surveillance and Con"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Treasury: Defence: Finance",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.37924.h&amp;s=defence",
+   "excerpt": "To ask the Chancellor of the Exchequer, pursuant to the answer of 23 October 2026 to question 34938 on Home Office: Public Expenditure, if hew provide a detailed breakdown of each department&#8217;s f"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Treasury: Defence: Expenditure",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38127.h&amp;s=defence",
+   "excerpt": "To ask the Chancellor of the Exchequer, how much of the increase in the percentage of GDP spent on defence will be funded by Public Finance Institutions each year from 2026/27 until 2029/30 inclusive."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Department for Energy Security and Net Zero: Department for Energy Security and Net Zero: Cost Effectiveness",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38111.h&amp;s=defence#g38111.q0",
+   "excerpt": "To ask the Secretary of State for Energy Security and Net Zero, pursuant to the Answer of 8 September 2026 to Question 23375 on Cost Effectiveness, if she will publish a breakdown of the (a) project c"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Attorney General's Office: Defence: Seized Articles",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-22.37386.h&amp;s=defence",
+   "excerpt": "To ask the Attorney General, pursuant to the Answer of 19 October 2026, to question 22809 on Defence: Seized Articles, if the former Attorney General played a part in attempting to (a) release or (b) "
+  },
+  {
+   "id": "francois",
+   "name": "Mark Francois",
+   "debate": "Budget Resolutions - Income Tax (Charge)",
+   "date": "2026-10-29",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-10-29a.484.1&amp;s=armed+forces#g541.0",
+   "excerpt": "I thank all right hon. and hon. Members for their contributions to this Budget debate. It is an honour to respond on behalf of the Government.Yesterday, the Chancellor delivered a Budget that will ste"
   }
  ]
 }
