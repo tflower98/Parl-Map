@@ -1,214 +1,206 @@
 {
- "checkedAt": "2026-11-03T09:47:32.453Z",
+ "checkedAt": "2026-11-04T09:34:33.648Z",
  "lookbackDays": 2,
  "hits": [
   {
-   "id": "baker",
-   "name": "Alex Baker",
-   "debate": "Submarine Recycling Strategy",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-02a.612.0&amp;s=defence#g612.2",
-   "excerpt": "I beg to move,That leave be given to bring in a Bill to require the Secretary of State to prepare and publish a strategy for recycling decommissioned submarines; and for connected purposes.Every time "
+   "id": "amartin",
+   "name": "Amanda Martin",
+   "debate": "Treasury: Advanced Manufacturing",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-03a.715.7&amp;s=defence#g715.10",
+   "excerpt": "Although Portsmouth is on the south coast, its legacy of deindustrialisation and privatisation brings us challenges familiar to many cities and towns across the north. Reindustrialisation must be nati"
   },
   {
-   "id": "jopp",
-   "name": "Lincoln Jopp",
-   "debate": "Submarine Recycling Strategy",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-02a.612.0&amp;s=defence#g612.2",
-   "excerpt": "I beg to move,That leave be given to bring in a Bill to require the Secretary of State to prepare and publish a strategy for recycling decommissioned submarines; and for connected purposes.Every time "
-  },
-  {
-   "id": "mmartin",
-   "name": "Mike Martin",
-   "debate": "Submarine Recycling Strategy",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-02a.612.0&amp;s=defence#g612.2",
-   "excerpt": "I beg to move,That leave be given to bring in a Bill to require the Secretary of State to prepare and publish a strategy for recycling decommissioned submarines; and for connected purposes.Every time "
-  },
-  {
-   "id": "scrogham",
-   "name": "Michelle Scrogham",
-   "debate": "Submarine Recycling Strategy",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-02a.612.0&amp;s=defence#g612.2",
-   "excerpt": "I beg to move,That leave be given to bring in a Bill to require the Secretary of State to prepare and publish a strategy for recycling decommissioned submarines; and for connected purposes.Every time "
-  },
-  {
-   "id": "ballinger",
-   "name": "Alex Ballinger",
-   "debate": "Submarine Recycling Strategy",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-02a.612.0&amp;s=defence#g612.2",
-   "excerpt": "I beg to move,That leave be given to bring in a Bill to require the Secretary of State to prepare and publish a strategy for recycling decommissioned submarines; and for connected purposes.Every time "
-  },
-  {
-   "id": "downie",
-   "name": "Graeme Downie",
-   "debate": "Submarine Recycling Strategy",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-02a.612.0&amp;s=defence#g612.2",
-   "excerpt": "I beg to move,That leave be given to bring in a Bill to require the Secretary of State to prepare and publish a strategy for recycling decommissioned submarines; and for connected purposes.Every time "
-  },
-  {
-   "id": "akehurst",
-   "name": "Luke Akehurst",
-   "debate": "Submarine Recycling Strategy",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-02a.612.0&amp;s=defence#g612.2",
-   "excerpt": "I beg to move,That leave be given to bring in a Bill to require the Secretary of State to prepare and publish a strategy for recycling decommissioned submarines; and for connected purposes.Every time "
-  },
-  {
-   "id": "mmartin",
-   "name": "Mike Martin",
-   "debate": "Housing, Communities and Local Government: Topical Questions",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-02a.572.2&amp;s=defence#g574.5",
-   "excerpt": "Recently, I visited Standing Joint Command in Aldershot, which is responsible for co-ordinating military support to the civil power, working through local resilience forums and councils. What conversa"
+   "id": "healey",
+   "name": "John Healey",
+   "debate": "Treasury: Topical Questions",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-03a.716.3&amp;s=defence#g717.0",
+   "excerpt": "I thank my hon. Friend for his important work. We know that Putin&#8217;s aggression is imposing real costs both on Ukraine and here at home. That is why we provided an extra &#163;10 billion of new e"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Treasury: Defence: Finance",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-28.39100.h&amp;s=defence",
-   "excerpt": "To ask the Chancellor of the Exchequer, with reference to page 103 of the Budget 2026, serial 41, Defence Investment Plan: Reallocate capital spending to fully fund the Defence Investment Plan, if he "
-  },
-  {
-   "id": "baker",
-   "name": "Alex Baker",
-   "debate": "Written Answers &#8212; Treasury: Banks: Regulation",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-23.37744.h&amp;s=defence#g37744.q0",
-   "excerpt": "To ask the Chancellor of the Exchequer, what assessment his Department has made of the potential impact of Basel 3.1 banking regulations that come into force from 1st of January 2027 on the defence se"
-  },
-  {
-   "id": "cartlidge",
-   "name": "James Cartlidge",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Public Expenditure",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38616.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 3 September 2025 to Question 59818 on Defence: Public Expenditure, what percentage of GDP will be spent on (a) NATO-qualifying defe"
-  },
-  {
-   "id": "cartlidge",
-   "name": "James Cartlidge",
-   "debate": "Written Answers &#8212; Ministry of Defence: Lasers: Weapons",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38688.h&amp;s=defence#g38688.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what progress his Department has made on delivering the first DragonFire weapon system into service with the Royal Navy by 2027."
+   "debate": "Written Answers &#8212; Ministry of Defence: Air Force: Military Bases",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38128.h&amp;s=defence#g38128.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 22 October 2026, to question 34690 on Air Force: Military Bases, whether he has made an assessment of the earliest date that a futu"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Roll-on Roll-off Ships: Procurement",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38186.h&amp;s=defence#g38186.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 19 October 2026, to question 34620 on Roll-on Roll-off Ships: Decommissioning, if the &#163;290 million for the provision of a futu"
+   "debate": "Written Answers &#8212; Ministry of Defence: France: Joint Exercises",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.37942.h&amp;s=defence#g37942.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what the scope of RAF involvement is in Exercise RUMMY alongside the strategic air forces of the airborne nuclear component of the French Arme&#233; de l&#82"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Civil Defence: Military Exercises",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.37802.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what preparations are underway for the national home defence exercise scheduled for 2027."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Armoured Fighting Vehicles: Finance",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38130.h&amp;s=defence#g38130.q0",
-   "excerpt": "To ask the Secretary of State for Defence, by when will he have assigned a funding profile to the a) Light Protected Mobility Programme and b) Heavy Protected Mobility Programme."
+   "debate": "Written Answers &#8212; Ministry of Defence: Navy: Guided Weapons",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-29.39504.h&amp;s=defence#g39504.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what progress he has made in delivering Sea Viper Evolution Capability 2 using the ASTER 30 Block 1 NT missile."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence Nuclear Enterprise: Finance",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-29.39343.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, how much additional funding will be invested in the Defence Nuclear Enterprise by 2030."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Boxer Vehicles: Repairs and Maintenance",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38721.h&amp;s=defence#g38721.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 26 October 2026 to Question 36677 on Boxer Vehicles: Repairs and Maintenance, which Boxer variant is the Support Vehicle (Recovery)"
+   "debate": "Written Answers &#8212; Ministry of Defence: Armoured Fighting Vehicles: Procurement",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-28.38798.h&amp;s=defence#g38798.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 27 October 2026, to question 35499 on Boxer Vehicles: Repairs and Maintenance, by when does he plan to procure a Heavy Wheeled Reco"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Boxer Vehicles: Repairs and Maintenance",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38720.h&amp;s=defence#g38720.q0",
-   "excerpt": "To ask the Secretary of State for Defence, whether the Boxer Equipment Support variant operated by Royal Electrical and Mechanical Engineers Light Aid Detachments is based on the a) Command and Contro"
+   "debate": "Written Answers &#8212; Ministry of Defence: Guided Weapons: Unmanned Air Systems",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38687.h&amp;s=defence#g38687.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what progress has he made in integrating Skyhammer with Orcus."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38716.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what the full scope is of Project Low."
+   "debate": "Written Answers &#8212; Ministry of Defence: Armoured Fighting Vehicles",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38298.h&amp;s=defence#g38298.q0",
+   "excerpt": "To ask the Secretary of State for Defence, how many Challenger Repair and Recovery Vehicles the Army has."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Seized Articles",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38097.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 19 October 2026 to Question 22809 on Defence: Seized Articles, whether the Government has had to answer any formal questions from P"
+   "debate": "Written Answers &#8212; Ministry of Defence: F-35 Aircraft: Military Alliances",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38294.h&amp;s=defence#g38294.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the potential implications for his policies of the (a) Capacity on Call initiative between Finland, Norway, Denmark, the Nethe"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Seized Articles",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38095.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 19 October 2026 to Question 22809 on Defence: Seized Articles, which Polish law enforcement agency seized the assets."
+   "debate": "Written Answers &#8212; Ministry of Defence: Unmanned Marine Systems: Certification",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38267.h&amp;s=defence#g38267.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the effectiveness of the workbook code for maritime autonomy certification in allowing autonomous vessels to be developed at s"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence: Expenditure",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-29.39334.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what proportion of MOD spending was awarded directly to SMEs in the financial year 2025-2026."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Rifles: Procurement",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38093.h&amp;s=defence#g38093.q0",
-   "excerpt": "To ask the Secretary of State for Defence, with reference to Preliminary market engagement notice 2026/S 000-100573, Project GRAYBURN, published on 23 October 2026, by when does he plan to select each"
+   "debate": "Written Answers &#8212; Ministry of Defence: Skynet: Procurement",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-29.39428.h&amp;s=defence#g39428.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 16 October 2026, to question 32196 on Skynet: Procurement, what are the requirements for the a) country of manufacture and b) Assem"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Nuclear Submarines: Procurement",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38183.h&amp;s=defence#g38183.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 19 October 2026 to Question 32194 on Nuclear Submarines: Procurement, what were the Government Furnished Assets that were a) not av"
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Artificial Intelligence",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-29.39422.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 22 October 2026, to question 36262 on Defence: Artificial Intelligence, what proportion of the Year 1 &#163;352 million for 2027-28"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Artillery: Decommissioning",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38182.h&amp;s=defence#g38182.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 22 December 2025 to Question 100634 on Artillery, whether the out of service date of 2030 for the L118 105mm Light Gun remains exta"
+   "debate": "Written Answers &#8212; Ministry of Defence: HMS Protector",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38692.h&amp;s=defence#g38692.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 19 October 2026 to Question 34999 on HMS Protector, by when does he plan to have completed the necessary technical, commercial and "
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Global Combat Air Programme: Finance",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38299.h&amp;s=defence#g38299.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 26 October 2026 to question 36676 on Defence: Procurement, what proportion of the overall Edgewing budget for GCAP the &#163;8.63bn"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Procurement",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-29.39337.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what steps his Department is taking to increase SME participation in UK defence procurement."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Contracts",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-29.39336.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, how many of the defence contracts awarded by his Department in the financial year 2025-2026 were awarded to SMEs."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Military Intelligence",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-16.35632.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, how civil-military intelligence is coordinated to feed into the dynamic risk landscape evaluations."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Military Aircraft: Decommissioning",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-26.38129.h&amp;s=defence#g38129.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 8 September 2026 to question 23416 on India: Jaguar Aircraft, what fixed-wing aircraft are owned by the Ministry of Defence but no "
+  },
+  {
+   "id": "jarvis",
+   "name": "Dan Jarvis",
+   "debate": "Written Answers &#8212; Cabinet Office: Disinformation",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-09-03.27185.h&amp;s=defence#g27185.r0",
+   "excerpt": "The Prime Minister announced that he has asked security chiefs to establish a new National Centre for Information Defence (NCID). Ministers will update Parliament in due course on progress. "
+  },
+  {
+   "id": "pollard",
+   "name": "Luke Pollard",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armoured Fighting Vehicles",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38298.h&amp;s=armed+forces#g38298.r0",
+   "excerpt": "The Army holds 72 Challenger Armoured Repair and Recovery Vehicles (CRARRV), as reported in the annual UK Armed Forces Equipment and Formations publication issued on 20 August 2026. https://www.gov.uk"
+  },
+  {
+   "id": "pollard",
+   "name": "Luke Pollard",
+   "debate": "Written Answers &#8212; Ministry of Defence: Warships: Repairs and Maintenance",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-28.38863.h&amp;s=armed+forces#g38863.r0",
+   "excerpt": "This Government inherited Armed Forces that had been hollowed out and underfunded. We are ending that with a focus on warfighting readiness by 2030 and increasing defence spending. The Royal Navy main"
   },
   {
    "id": "goldie",
    "name": "Baroness Goldie",
-   "debate": "Defence Spending and Resilience - <i>Question</i>",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/lords/?id=2026-11-02a.1342.5&amp;s=armed+forces#g1345.0",
-   "excerpt": "My Lords, cadets and our reservists have a crucial role to play in this national conversation on defence and resilience, because they are, after all, the Armed Forces&#8217; local presence throughout "
-  },
-  {
-   "id": "pollard",
-   "name": "Luke Pollard",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Public Expenditure",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38616.h&amp;s=armed+forces#g38616.r0",
-   "excerpt": "This Government is increasing defence spending. We have ended the hollowing out and underfunding of our Armed Forces that we inherited. The Defence Investment Plan confirmed that UK NATO-qualifying de"
-  },
-  {
-   "id": "pollard",
-   "name": "Luke Pollard",
-   "debate": "Written Answers &#8212; Ministry of Defence: Rescue Services: Helicopters",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-09.32580.h&amp;s=armed+forces#g32580.r0",
-   "excerpt": "The Airborne Tactical Extraction Platform is among the capabilities being considered in relation to future helicopter operations. The Ministry of Defence keeps equipment requirements under regular rev"
-  },
-  {
-   "id": "pollard",
-   "name": "Luke Pollard",
-   "debate": "Written Answers &#8212; Ministry of Defence: Lasers: Weapons",
-   "date": "2026-11-02",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-27.38691.h&amp;s=armed+forces#g38691.r0",
-   "excerpt": "As announced in the Defence Investment Plan, the Ministry of Defence will invest &#163;490 million in Directed Energy Weapons, including DragonFire. The programme continues to make excellent progress,"
+   "debate": "Written Answers &#8212; Ministry of Defence: Army",
+   "date": "2026-11-03",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-19.HL4219.h&amp;s=armed+forces#gHL4219.q0",
+   "excerpt": "To ask His Majesty's Government, further to the Written Answer by the Minister of State for the Armed Forces on 22 November 2018 (HC 194616), what the latest Order of Battle is by (1) manpower, and (2"
   }
  ]
 }
