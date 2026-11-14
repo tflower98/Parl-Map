@@ -1,174 +1,86 @@
 {
- "checkedAt": "2026-11-13T09:48:34.856Z",
+ "checkedAt": "2026-11-14T09:12:31.362Z",
  "lookbackDays": 2,
  "hits": [
   {
    "id": "bailey",
    "name": "Calvin Bailey",
-   "debate": "Backbench Business: Battle of the Somme: 110th Anniversary",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.383.1&amp;s=defence#g408.0",
-   "excerpt": "It is a great privilege to follow the right hon. Member for Rayleigh and Wickford (Mr Francois). He routinely reminds us of the absence of certain Members of Parliament in such debates. It reminds me "
-  },
-  {
-   "id": "francois",
-   "name": "Mark Francois",
-   "debate": "Backbench Business: Battle of the Somme: 110th Anniversary",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.383.1&amp;s=defence#g408.0",
-   "excerpt": "It is a great privilege to follow the right hon. Member for Rayleigh and Wickford (Mr Francois). He routinely reminds us of the absence of certain Members of Parliament in such debates. It reminds me "
-  },
-  {
-   "id": "scrogham",
-   "name": "Michelle Scrogham",
-   "debate": "Backbench Business: Battle of the Somme: 110th Anniversary",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.383.1&amp;s=defence#g408.0",
-   "excerpt": "It is a great privilege to follow the right hon. Member for Rayleigh and Wickford (Mr Francois). He routinely reminds us of the absence of certain Members of Parliament in such debates. It reminds me "
-  },
-  {
-   "id": "cooper",
-   "name": "John Cooper",
-   "debate": "Backbench Business: Battle of the Somme: 110th Anniversary",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.383.1&amp;s=defence#g408.0",
-   "excerpt": "It is a great privilege to follow the right hon. Member for Rayleigh and Wickford (Mr Francois). He routinely reminds us of the absence of certain Members of Parliament in such debates. It reminds me "
-  },
-  {
-   "id": "dhesi",
-   "name": "Tan Dhesi",
-   "debate": "Defence Committee",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.376.6&amp;s=defence#g376.9",
-   "excerpt": "I thank the Backbench Business Committee for granting this statement on the Defence Committee&#8217;s report, &#8220;Defence in the High North&#8221;.The High North is a priority theatre for the UK, a"
-  },
-  {
-   "id": "francois",
-   "name": "Mark Francois",
-   "debate": "Points of Order",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.382.0&amp;s=defence#g382.3",
-   "excerpt": "On a point of order, Madam Deputy Speaker. We have just had a very important statement on an extremely good Defence Committee report. As you have a perfect view of the Chamber from the Chair, could yo"
-  },
-  {
-   "id": "byrne",
-   "name": "Liam Byrne",
-   "debate": "Business, Innovation, Science and Trade Committee",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/whall/?id=2026-11-12a.169.1&amp;s=defence#g169.4",
-   "excerpt": "Thank you, Mr Efford. I am grateful to the Backbench Business Committee for making time for today&#8217;s statement on the 10th report from my Committee in this Session, examining the UK-China economi"
-  },
-  {
-   "id": "tugendhat",
-   "name": "Tom Tugendhat",
-   "debate": "Gaza: Humanitarian Situation",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.354.0&amp;s=defence#g357.2",
-   "excerpt": "Those who stand with the Palestinian people stand against Hamas.Again and again, sadly, we have seen Hamas torturing and murdering so many. Does that leave others innocent? Of course it does not. Does"
-  },
-  {
-   "id": "norman",
-   "name": "Jesse Norman",
-   "debate": "Business of the House",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.333.0&amp;s=defence#g333.3",
-   "excerpt": "In this week of remembrance, we as Members of Parliament, both individually and as a House, solemnly pledge to honour those who have served and sacrificed life and limb for their country, but that ple"
-  },
-  {
-   "id": "francois",
-   "name": "Mark Francois",
-   "debate": "United Kingdom Military Installations",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.323.0&amp;s=defence#g323.1",
-   "excerpt": "(Urgent Question): To ask the Secretary of State for Defence if he will make a statement on the protection of United Kingdom military installations."
-  },
-  {
-   "id": "jarvis",
-   "name": "Dan Jarvis",
-   "debate": "Written Answers &#8212; Cabinet Office: El Ni&#241;o",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-22.37492.h&amp;s=defence#g37492.r0",
-   "excerpt": "The Government launched the GOV.UK/BeReady website on Thursday 22 October 2026, with the Written Ministerial Statement laid by the Security Minister, &#8220;Strengthening community resilience across t"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Housing, Communities and Local Government: Fire and Rescue Services: Military Aid",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-28.39103.h&amp;s=defence#g39104.q1",
-   "excerpt": "To ask the Secretary of State for Housing, Communities and Local Government, what discussions she has held with the Ministry of Defence regarding training between the Royal Air Force and Fire and Resc"
+   "debate": "Defence Research and Development Spending",
+   "date": "2026-11-13",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-13a.525.12&amp;s=defence#g525.15",
+   "excerpt": "I thank the hon. and gallant Member for Dorking and Horley (Chris Coghlan) for securing this debate and for his continued interest in the role that research and development can play in strengthening o"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
    "debate": "Written Answers &#8212; Treasury: Defence: Finance",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-04.40732.h&amp;s=defence",
-   "excerpt": "To ask the Chancellor of the Exchequer, pursuant to the answer of 2 November 2026 to question 39100 on Defence: Finance, what the reduction in each departmental capital budget is by percentage and mon"
+   "date": "2026-11-13",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41529.h&amp;s=defence",
+   "excerpt": "To ask the Chancellor of the Exchequer, pursuant to the answer of 2 November 2026 to question 39100 on Defence: Finance, what the allocation is of the &#163;1.7 billion from unallocated contingency in"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Treasury: Defence: Finance",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-04.40733.h&amp;s=defence",
-   "excerpt": "To ask the Chancellor of the Exchequer, with reference to the Budget 2026, page 32, paragraph 2.7, if he will publish a list of surplus assets for disposal identified by each department and included i"
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Finance",
+   "date": "2026-11-13",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.42116.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 19 October 2026 to Question 30596 on Defence: Finance, if he can confirm that the &#163;29,219 total sum of losses under &#163;300,"
   },
   {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Guided Weapons: Procurement",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-08-28.21488.h&amp;s=defence#g21488.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what are the procurement dates for enhanced precision weapons."
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Poland: Seized Articles",
+   "date": "2026-11-13",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41682.h&amp;s=defence#g41682.q0",
+   "excerpt": "To ask the Secretary of State for Defence,&#8239;pursuant to the answer of 2 November 2026, to question 37388 on Poland: Seized Articles, for what reason there has been communication with the Polish g"
   },
   {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Innovation",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-02.39713.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what assessment his Department has made of the potential impact of the &#163;5 million investment into the Arrol Gibb Innovation Campus on UK defence capabil"
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Seized Articles",
+   "date": "2026-11-13",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41670.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 6 October 2026 to Question 22809 on Defence: Seized Articles, on what date was the contract award notice published."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Skynet: Procurement",
+   "date": "2026-11-13",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41666.h&amp;s=defence#g41666.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 3 November 2026 to Question 39428 on Skynet: Procurement, what is the earliest point that component parts and sub-systems are combi"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
    "debate": "Written Answers &#8212; Ministry of Defence: Russia: Shipping",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-04.40988.h&amp;s=defence#g40988.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the potential impact of the US passing General Licence 135 on the security of wider UK waters."
+   "date": "2026-11-13",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-03.40596.h&amp;s=defence#g40596.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 16 October 2026 to question 35675 on Russia: Shipping, whether his department made an assessment of the need to interdict the sanct"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Skynet",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-04.40997.h&amp;s=defence#g40997.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what assessment has he made of the impact of US International Traffic in Arms Regulations upon the Skynet 6 EC WSS satellite for components constructed in th"
+   "debate": "Written Answers &#8212; Ministry of Defence: Jonathan Powell",
+   "date": "2026-11-13",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-10-28.38802.h&amp;s=defence#g38802.q0",
+   "excerpt": "To ask the Secretary of State for Defence, whether a DSMA-Notice has been issued by the Defence and Security Media Advisory Committee regarding Jonathan Powell."
   },
   {
-   "id": "francois",
-   "name": "Mark Francois",
-   "debate": "Backbench Business: Battle of the Somme: 110th Anniversary",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.383.1&amp;s=armed+forces#g406.3",
-   "excerpt": "Without hesitation.Captain Siegfried Sassoon MC, one of the famous war poets, wrote in his diary on 1 July 1916:&#8220;We had breakfast at 6.&#8212;the morning is brilliantly fine&#8212;after a mist e"
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Army: Military Exercises",
+   "date": "2026-11-13",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41662.h&amp;s=defence#g41662.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 5 November 2026 to Question 38297 on Military Exercises, if he will publish the list of Army exercises which have been (a) fully or"
   },
   {
-   "id": "roome",
-   "name": "Ian Roome",
-   "debate": "Defence Committee",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.376.6&amp;s=armed+forces#g379.4",
-   "excerpt": "I thank the Chair of the Committee for his magnificent statement. As the Arctic becomes increasingly contested, with growing Russian and Chinese activity, does he believe that the UK armed forces are "
-  },
-  {
-   "id": "pollard",
-   "name": "Luke Pollard",
-   "debate": "United Kingdom Military Installations",
-   "date": "2026-11-12",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-12a.323.0&amp;s=armed+forces#g323.2",
-   "excerpt": "The security of the United Kingdom&#8217;s military installations, the people who work on them and the communities around them is a core responsibility of this Government. Defence faces an evolving ra"
+   "id": "bailey",
+   "name": "Calvin Bailey",
+   "debate": "Defence Research and Development Spending",
+   "date": "2026-11-13",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-13a.525.12&amp;s=armed+forces#g525.15",
+   "excerpt": "I thank the hon. and gallant Member for Dorking and Horley (Chris Coghlan) for securing this debate and for his continued interest in the role that research and development can play in strengthening o"
   }
  ]
 }
