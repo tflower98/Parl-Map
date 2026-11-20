@@ -1,238 +1,214 @@
 {
- "checkedAt": "2026-11-19T10:34:02.532Z",
+ "checkedAt": "2026-11-20T10:15:13.804Z",
  "lookbackDays": 2,
  "hits": [
   {
-   "id": "cooper",
-   "name": "John Cooper",
-   "debate": "Rosebank Oilfield",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-18a.973.0&amp;s=defence#g998.0",
-   "excerpt": "Until I came to this place, I thought oil rigs were installations surrounded by the sea, but it seems they are instead islanded by misinformation. Many myths are ingrained and presented as fact by the"
-  },
-  {
-   "id": "bance",
-   "name": "Antonia Bance",
-   "debate": "Written Answers &#8212; Department for Business, Innovation, Science and Trade: Aluminium: Manufacturing Industries",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41370.h&amp;s=defence#g41370.q0",
-   "excerpt": "To ask the Secretary of State for Business, Innovation, Science and Trade, what assessment his Department has made of the potential merits of domestic aluminium sheet production capacity for the autom"
-  },
-  {
-   "id": "jarvis",
-   "name": "Dan Jarvis",
-   "debate": "Written Answers &#8212; Cabinet Office: Russia: Cybercrime",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-02.39782.h&amp;s=defence#g39782.r0",
-   "excerpt": "The Government is taking decisive action to hold Russia to account, counter the threat posed by Putin&#8217;s regime and increase our resilience to its malicious and irresponsible cyber attacks. In Ju"
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Home Office: Defence: Seized Articles",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-04.40737.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for the Home Department, pursuant to the Answer of 2 November 2026, to question 39100 on Defence: Seized Articles, on what date did the UK Central Authority Serious Organ"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Department for Transport: Department for Transport: Assets",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41531.h&amp;s=defence#g41531.q0",
-   "excerpt": "To ask the Secretary of State for Transport, with reference to the Budget 2026, page 32, paragraph 2.7, what surplus assets for disposal have been identified by her Department and included in the Stra"
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Satellites",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43755.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the adequacy of coverage of UK satellite capability for ISR taskings beyond the 65th parallel north."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Military Aid: Fire and Rescue Services",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41546.h&amp;s=defence#g41546.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 6 November 2026 to question 39440 on Military Aid: Fire and Rescue Services, how personnel will be trained for aerial firefighting "
+   "debate": "Written Answers &#8212; Ministry of Defence: USA: In-flight Refuelling",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41102.h&amp;s=defence#g41102.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the implications for his policies of the United States Navy's plans to upgrade the USS Ronald Reagan and USS Theodore Roosevel"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Army: Training",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41089.h&amp;s=defence#g41089.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 5 November 2026 to question 38297, whether Omnia Training has been eligible for compensation under the Army&#8217;s Collective Trai"
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Northern Ireland",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41217.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, how many businesses will be affected by the Northern Ireland Defence Growth Deal."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Northern Ireland",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41197.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, how many students in Northern Ireland have undertaken MOD skills initiatives."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Wales",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41161.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, how many students in Wales are enrolled on defence-related courses supported through MOD initiatives."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Wales",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41162.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what estimate he has made of job numbers in the Welsh defence sector by 2030."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Wales",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41160.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the impact of MOD investment on the Welsh economy."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Boxer Vehicles: Repairs and Maintenance",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43236.h&amp;s=defence#g43236.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 10 November 2026 to question 40240 on Boxer Vehicles: Repairs and Maintenance, what the scope is of the contracted recovery service"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: F-35 Aircraft: Meteor Missiles",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41661.h&amp;s=defence#g41661.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the implications for his policies of the successful release of an inert Meteor beyond-visual-range air-to-air missile from the"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Seized Articles",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43235.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 19 October 2026 to question 22809 on Defence: Seized Articles, which other government departments he engaged in attempting to recov"
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Seized Articles",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43114.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 29 October 2026 to question 38096 on Defence: Seized Articles, on what date did his department write-off the seized articles as an "
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: France: Guided Weapons",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41659.h&amp;s=defence#g41659.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 9 November 2026 to question 32607 on France: Guided Weapons, what the recent programme decisions are in the Defence Investment Plan"
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Northern Ireland",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41199.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what estimate he has made of defence sector employment growth in Northern Ireland by 2030."
-  },
-  {
-   "id": "obesejecty",
-   "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Strait of Hormuz: Shipping",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41526.h&amp;s=defence#g41526.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the adequacy of information on the volume of incidents in the Strait of Hormuz reported by UKMTO."
+   "debate": "Written Answers &#8212; Ministry of Defence: HMS Protector: Finance",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42617.h&amp;s=defence#g42617.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 4 November 2026 to Question 39431 on HMS Protector: Finance, if he will set out the budget for Project Shackleton."
   },
   {
    "id": "sanderson",
    "name": "Stuart Anderson",
    "debate": "Written Answers &#8212; Ministry of Defence: Defence: North East",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41219.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, how many highly skilled defence jobs are supported by MOD expenditure in the North East."
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42478.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what steps his Department is taking to increase defence industrial activity in the North East."
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Cybersecurity",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41509.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what steps is he taking to ensure that there is no malware hidden in the military network."
-  },
-  {
-   "id": "sanderson",
-   "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Warships: Shipbuilding",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41190.h&amp;s=defence#g41190.q0",
-   "excerpt": "To ask the Secretary of State for Defence, how much defence-related shipbuilding activity is being undertaken by Harland and Wolff in Northern Ireland."
+   "debate": "Written Answers &#8212; Ministry of Defence: Russia: Defence",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42214.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his interview in the Financial Times, published on 10 November 2026, what steps has he taken to establish a military-to-military backchanne"
   },
   {
    "id": "obesejecty",
    "name": "Ben Obese-Jecty",
-   "debate": "Written Answers &#8212; Ministry of Defence: HMS Protector",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41660.h&amp;s=defence#g41660.q0",
-   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 6 November 2026 to Question 39435 on HMS Protector, what systems require investment to ensure continued service; what estimate he h"
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Space Technology",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42211.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to his Department's press release entitled UK military satellite Titania launches into orbit following &#163;3bn space investment into defence"
+  },
+  {
+   "id": "akehurst",
+   "name": "Luke Akehurst",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-12.42917.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, when he expects the Defence Readiness Bill to be introduced to Parliament."
+  },
+  {
+   "id": "akehurst",
+   "name": "Luke Akehurst",
+   "debate": "Written Answers &#8212; Ministry of Defence: BOWMAN Combat Radio System: Procurement",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-12.42911.h&amp;s=defence#g42911.q0",
+   "excerpt": "To ask the Secretary of State for Defence, when he expects to finalise a contract to replace or upgrade the Bowman tactical communications system."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Seized Articles",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43784.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 6 October 2026 to question 22809 on Defence: Seized Articles, what was the total value of the contract of which &#163;1,039,000 had"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Challenger Tanks",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43779.h&amp;s=defence#g43779.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Accredited Official Statistics &#8220;UK armed forces equipment and formations 2026&#8221;, published on 20 August 2026, Worksheet 5: L"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ajax Vehicles: Procurement",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42624.h&amp;s=defence#g42624.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 10 November 2026, to question 40028 on Armoured Fighting Vehicles: Procurement, on what dates in 2026 were payments made to General"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Unmanned Air Systems: Procurement",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42602.h&amp;s=defence#g42602.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 3 November 2026 to question 38687 on Guided Weapons: Unmanned Air Systems, what progress has he made in upgrading Orcus to the late"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Seized Articles",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42583.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 6 October 2026 to Question 22809 on Defence: Seized Articles, who was the supplier subsequently investigated by the Polish authorit"
   },
   {
    "id": "sanderson",
    "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Ukraine: Guided Weapons",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41168.h&amp;s=defence#g41168.q0",
-   "excerpt": "To ask the Secretary of State for Defence, how many jobs have been created to date by the Thales air defence missile contract in Belfast."
+   "debate": "Written Answers &#8212; Ministry of Defence: A&amp;P Group: South Tyneside",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42475.h&amp;s=defence#g42475.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the contribution of A&amp;P Tyne to Royal Navy ship support capability."
   },
   {
    "id": "sanderson",
    "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Training",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41198.h&amp;s=defence",
-   "excerpt": "To ask the Secretary of State for Defence, what recent discussions he has had with Queen's University Belfast on defence skills development."
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Tees Valley",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42472.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, how much MOD expenditure was invested in the Teesside area in 2025-2026."
   },
   {
    "id": "sanderson",
    "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Ukraine: Guided Weapons",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41167.h&amp;s=defence#g41167.q0",
-   "excerpt": "To ask the Secretary of State for Defence, how many missiles are expected to be produced in Belfast under the air defence missile contract for Ukraine."
+   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence: Cook Defence Systems",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42468.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, how many contracts his Department has awarded to Cook Defence Systems in the last 12 months."
   },
   {
    "id": "sanderson",
    "name": "Stuart Anderson",
-   "debate": "Written Answers &#8212; Ministry of Defence: Guided Weapons: Northern Ireland",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41170.h&amp;s=defence#g41170.q0",
-   "excerpt": "To ask the Secretary of State for Defence, what estimate he has made of future missile production capacity in Northern Ireland."
+   "debate": "Written Answers &#8212; Ministry of Defence: Unemployment: Veterans",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42465.h&amp;s=defence#g42465.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of employment barriers faced by veterans."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Boxer Vehicles: Procurement",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42443.h&amp;s=defence#g42443.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 26 October 2026 to Question 36639 on Boxer Vehicles: Procurement, if he intends to order a further batch of Boxer including new var"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Meteor Missiles",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42212.h&amp;s=defence#g42212.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the press release UK and France Sign Agreement to Develop Next-Generation Air-to-Air Missile, published on 1 April 2026, what progress has "
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Attorney General's Office: Defence: Seized Articles",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-11.42622.h&amp;s=defence",
+   "excerpt": "To ask the Attorney General, pursuant to the answer of 5 November 2026, to question 39309 on Defence: Seized Articles, if she will outline for what reason the Law Officers&#8217; Convention applies to"
   },
   {
    "id": "pollard",
    "name": "Luke Pollard",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Wales",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41162.h&amp;s=armed+forces#g41162.r0",
-   "excerpt": "The Government is committed to growing the defence sector across the UK, including in Wales. Defence expenditure directly supported 4,900 industry jobs in Wales in 2024/25, up 25% from the previous ye"
+   "debate": "Written Ministerial Statements &#8212; Ministry of Defence: Delivering the Strategic Defence Review Always On Munitions: UK Energetic Materials Manufacturing",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wms/?id=2026-11-19.hcws489.h&amp;s=defence",
+   "excerpt": "I am pleased to inform the House that the Government has today opened the first capital grant window to support new energetic materials production in the United Kingdom. This is the next major step in"
+  },
+  {
+   "id": "streeting",
+   "name": "Wes Streeting",
+   "debate": "Written Ministerial Statements &#8212; Ministry of Defence: China Defence Minister visit",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wms/?id=2026-11-19.hcws486.h&amp;s=defence",
+   "excerpt": "Today, I am hosting the Chinese Minister of National Defence, Admiral Dong Jun. It is the first visit of its kind for 26 years, when Labour was last in Government. Some will ask whether we should enga"
+  },
+  {
+   "id": "coaker",
+   "name": "Lord Coaker",
+   "debate": "Upcoming Business &#8211; Lords: Main Chamber",
+   "date": "2026-12-01",
+   "link": "https://www.theyworkforyou.com/calendar/?d=2026-12-01#cal57311",
+   "excerpt": "uk"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Challenger Tanks",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43779.h&amp;s=armed+forces#g43779.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Accredited Official Statistics &#8220;UK armed forces equipment and formations 2026&#8221;, published on 20 August 2026, Worksheet 5: L"
   },
   {
    "id": "pollard",
    "name": "Luke Pollard",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Northern Ireland",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41199.h&amp;s=armed+forces#g41199.r0",
-   "excerpt": "Northern Ireland is already benefiting from employment growth in the defence sector as defence spending in Northern Ireland rises. Ministry of Defence (MOD) expenditure directly supported 1,000 indust"
-  },
-  {
-   "id": "pollard",
-   "name": "Luke Pollard",
-   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Northern Ireland",
-   "date": "2026-11-18",
-   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41174.h&amp;s=MoD+procurement#g41174.r0",
-   "excerpt": "Defence has committed to increasing spending with SMEs by an additional &#163;2.5 billion by 2028 and we want SMEs in Northern Ireland to benefit fairly from rising defence investment. Defence supply "
+   "debate": "Written Ministerial Statements &#8212; Ministry of Defence: Delivering the Strategic Defence Review Always On Munitions: UK Energetic Materials Manufacturing",
+   "date": "2026-11-19",
+   "link": "https://www.theyworkforyou.com/wms/?id=2026-11-19.hcws489.h&amp;s=armed+forces#ghcws489.0",
+   "excerpt": "I am pleased to inform the House that the Government has today opened the first capital grant window to support new energetic materials production in the United Kingdom. This is the next major step in"
   }
  ]
 }
