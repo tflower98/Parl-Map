@@ -1,7 +1,167 @@
 {
- "checkedAt": "2026-11-23T10:58:55.040Z",
+ "checkedAt": "2026-11-24T12:45:31.496Z",
  "lookbackDays": 2,
  "hits": [
+  {
+   "id": "tugendhat",
+   "name": "Tom Tugendhat",
+   "debate": "Myanmar",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-23a.66.0&amp;s=defence#g68.1",
+   "excerpt": "Let me start by thanking the Foreign Secretary for advance sight of his statement. I am responding to it in place of the shadow Foreign Secretary, my right hon. Friend the Member for Tonbridge (Tom Tu"
+  },
+  {
+   "id": "dhesi",
+   "name": "Tan Dhesi",
+   "debate": "UK-EU Summit",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-23a.23.0&amp;s=defence#g36.0",
+   "excerpt": "I welcome the Prime Minister&#8217;s statement on the UK-EU summit. Given that Slough is the youth capital of Britain, I particularly welcome the youth experience scheme and ongoing talks about the yo"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: Employment",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-02.39990.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, how many young people entered defence-related employment in 2025/26."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: India: Guided Weapons",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-10.41172.h&amp;s=defence#g41172.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the potential economic impact on Northern Ireland of the air defence missile and launcher deal with India."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Challenger Tanks: Exports",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43233.h&amp;s=defence#g43233.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what progress he has made in securing an export deal for the upgraded Challenger 3 turret."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Minesweepers: Procurement",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43231.h&amp;s=defence#g43231.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what the expected timeline is for the delivery of (a) the first and (b) subsequent mine-hunting ships from Norway."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Unmanned Air Systems: Radar",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43194.h&amp;s=defence#g43194.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment has he made of the potential use of the Loyal Eye radar on board an MQ-9B."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Boxer Vehicles: Weight Limits",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43117.h&amp;s=defence#g43117.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what is the maximum gross vehicle weight that can be recovered using the straight rigid pull recovery towbar by each type of Boxer variant used by the Britis"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Electronic Warfare",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43116.h&amp;s=defence#g43116.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 10 November 2026, to question 40256 on Electronic Warfare, what progress he has made in supporting MBDA UK's efforts to find an int"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Roll-on Roll-off Ships: Procurement",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43113.h&amp;s=defence#g43113.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 2 November 2026, to question 38186 on Roll-on Roll-off Ships: Procurement, when he plans to make a decision on the future provision"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Military Aid: Fires",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43112.h&amp;s=defence#g43112.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to the Third Report of the Environment, Food and Rural Affairs Committee of session 2026-27 entitled A burning issue: managing wildfire risk, "
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Artillery: Procurement",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43110.h&amp;s=defence#g43110.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 6 November 2026, to Question 39433 on Artillery: Production, whether the scope of that framework includes new gun barrels."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Patrol Craft",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-13.43109.h&amp;s=defence#g43109.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the Answer of 11 November 2026, to Question 39974 on Patrol Craft, by when he plans to have completed the review of future OPV procurement and de"
+  },
+  {
+   "id": "dhesi",
+   "name": "Tan Dhesi",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ascension Island and St Helena: Airports",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43804.h&amp;s=defence#g43804.q0",
+   "excerpt": "To ask the Secretary of State for Defence, whether his Department has responded to Air Accidents Investigation Branch Safety Recommendations 2026-009 and 2026-010 on the nomination of Wideawake Airfie"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence and National Security",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43723.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what progress has been made on the Government's proposed National Conversation on Defence."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence: National Security",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43721.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what role Defence plays within national resilience planning arrangements."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Hybrid Warfare",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43719.h&amp;s=defence#g43719.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment has been made of the UK's resilience to grey-zone activity conducted by hostile states."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Hybrid Warfare",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43718.h&amp;s=defence#g43718.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what steps his Department is taking to improve national resilience against hybrid threats."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43716.h&amp;s=defence#g43716.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the adequacy of homeland defence force requirements."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Military Aircraft",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43711.h&amp;s=defence#g43711.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the effectiveness of strategic lift requirements in a NATO contingency."
+  },
   {
    "id": "coaker",
    "name": "Lord Coaker",
@@ -9,6 +169,62 @@
    "date": "2026-12-01",
    "link": "https://www.theyworkforyou.com/calendar/?d=2026-12-01#cal57311",
    "excerpt": "uk"
+  },
+  {
+   "id": "bailey",
+   "name": "Calvin Bailey",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence: Public Relations",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-18.44547.h&amp;s=armed+forces#g44547.r0",
+   "excerpt": "The Department wishes to clarify that the previous reference to three external agencies concerned three instances involving a single supplier, British Forces Broadcasting Services (BFBS), rather than "
+  },
+  {
+   "id": "bailey",
+   "name": "Calvin Bailey",
+   "debate": "Written Answers &#8212; Ministry of Defence: Gurkhas: Pay and Workplace Pensions",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.43989.h&amp;s=armed+forces#g43989.r0",
+   "excerpt": "Historical terms and conditions of service for Gurkhas, including pay and pensions, reflected arrangements inherited from the British Indian Army at the time of the Tripartite Agreement in 1947 betwee"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43716.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the adequacy of homeland defence force requirements."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Military Aircraft",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43711.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the effectiveness of strategic lift requirements in a NATO contingency."
+  },
+  {
+   "id": "pollard",
+   "name": "Luke Pollard",
+   "debate": "Written Answers &#8212; Ministry of Defence: Lasers: Weapons",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43411.h&amp;s=armed+forces#g43411.r0",
+   "excerpt": "The DragonFire programme continues to make progress, building on successful trials and demonstrating the UK's world-leading expertise in directed energy weapons. As part of the transition to a Hybrid "
+  },
+  {
+   "id": "coaker",
+   "name": "Lord Coaker",
+   "debate": "Written Answers &#8212; Ministry of Defence: Army",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-09.HL5041.h&amp;s=armed+forces#gHL5041.q0",
+   "excerpt": "To ask His Majesty's Government, further to&#160;the Written Answer by&#160;Lord Coaker on 3 November (HL4219), why the Ministry of Defence has not published a unit level breakdown of workforce liabil"
+  },
+  {
+   "id": "goldie",
+   "name": "Baroness Goldie",
+   "debate": "Written Answers &#8212; Ministry of Defence: Army",
+   "date": "2026-11-23",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-09.HL5041.h&amp;s=armed+forces#gHL5041.q0",
+   "excerpt": "To ask His Majesty's Government, further to&#160;the Written Answer by&#160;Lord Coaker on 3 November (HL4219), why the Ministry of Defence has not published a unit level breakdown of workforce liabil"
   }
  ]
 }
