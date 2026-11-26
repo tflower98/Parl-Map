@@ -1,7 +1,175 @@
 {
- "checkedAt": "2026-11-25T11:31:25.840Z",
+ "checkedAt": "2026-11-26T11:13:10.838Z",
  "lookbackDays": 2,
  "hits": [
+  {
+   "id": "brickell",
+   "name": "Phil Brickell",
+   "debate": "Restoration and Renewal of the Palace of Westminster",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/debates/?id=2026-11-25a.381.1&amp;s=defence#g407.1",
+   "excerpt": "The hon. Member is talking about the &#163;3 billion that the NAO has said is for phase 1. We have taken seven years to go from one option in the original legislation to four options. Now, those in th"
+  },
+  {
+   "id": "brickell",
+   "name": "Phil Brickell",
+   "debate": "Lobbying Transparency and Public Confidence &#8212; [Sir Desmond Swayne in the Chair]",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/whall/?id=2026-11-25a.137.0&amp;s=defence#g145.1",
+   "excerpt": "It is an honour and a pleasure to have you in the Chair, Sir Desmond. I thank my hon. Friend the Member for Bolton West (Phil Brickell) for bringing this debate to Westminster Hall. Given the ethos of"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ministry of Defence Police: Seized Articles",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-06-22.11878.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, how many items classified as Attractive to Criminal and Terrorist Organisations have been (a) seized and (b) recovered by Ministry of Defence Police in each "
+  },
+  {
+   "id": "madders",
+   "name": "Justin Madders",
+   "debate": "Written Answers &#8212; Department for Transport: Driving Tests: Armed Forces",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43496.h&amp;s=defence#g43496.r0",
+   "excerpt": "Between January 2026 and October 2026, military driving examiners conducted 5,733 practical driving tests for the Driver and Vehicle Standards Agency. Data for November 2026 will not be available unti"
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Department for Business, Innovation, Science and Trade: Department for Business, Innovation, Science and Trade: Assets",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.43883.h&amp;s=defence#g43883.q0",
+   "excerpt": "To ask the Secretary of State for Business, Innovation, Science and Trade, with reference to the Budget 2026, page 32, paragraph 2.7, what surplus assets for disposal have been identified by his Depar"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Navy: Unmanned Marine Systems",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44162.h&amp;s=defence#g44162.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what progress his Department has made on delivering the Royal Navy's Hybrid Navy concept."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Autonomous Weapons and Electronic Warfare",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44165.h&amp;s=defence#g44165.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the survivability of autonomous systems against electronic warfare threats."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Uncrewed Systems",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44157.h&amp;s=defence#g44157.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what proportion of future capability programmes are expected to incorporate autonomous systems."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43707.h&amp;s=defence#g43707.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the readiness of the UK armed forces to respond to NATO force-generation requirements."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Deployment",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-12.42959.h&amp;s=defence#g42959.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the ability of the Armed Forces to sustain operations in Europe for six months."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Telecommunications Cables: Seas and Oceans",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44155.h&amp;s=defence#g44155.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what contribution his Department is making to the protection of critical undersea infrastructure."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43714.h&amp;s=defence#g43714.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what readiness lessons his Department has identified from recent multinational exercises."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Unmanned Air Systems: Procurement",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44161.h&amp;s=defence#g44161.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what lessons from Ukraine have informed the procurement of tactical drones."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Uncrewed Systems",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44158.h&amp;s=defence#g44158.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what progress his Department has made on developing a Defence-wide doctrine for uncrewed warfare."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43717.h&amp;s=defence#g43717.q0",
+   "excerpt": "To ask the Secretary of State for Defence, whether he plans to publish readiness performance indicators annually."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Defence",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43713.h&amp;s=defence",
+   "excerpt": "To ask the Secretary of State for Defence, what progress his Department has been made on establishing a warfighting culture."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Rifles: Procurement",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44252.h&amp;s=defence#g44252.q0",
+   "excerpt": "To ask the Secretary of State for Defence, if Project Grayburn will be subject to the Government&#8217;s new offsets policy."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ammunition",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44166.h&amp;s=defence#g44166.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what steps his Department plans to take to expand the armed forces' loitering munition capability."
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Challenger Tanks: Decommissioning",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.43897.h&amp;s=defence#g43897.q0",
+   "excerpt": "To ask the Secretary of State for Defence, pursuant to the answer of 14 September 2926, to question 28497 on Challenger Tanks: Decommissioning, whether the Minister for Defence Readiness and Industry "
+  },
+  {
+   "id": "obesejecty",
+   "name": "Ben Obese-Jecty",
+   "debate": "Written Answers &#8212; Ministry of Defence: Frigates: Decommissioning",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.43896.h&amp;s=defence#g43896.q0",
+   "excerpt": "To ask the Secretary of State for Defence, with reference to Volume 495: debated on Friday 3 July 2009 on Frigates, what is the current out of service date for each remaining ship listed."
+  },
+  {
+   "id": "jarvis",
+   "name": "Dan Jarvis",
+   "debate": "Written Answers &#8212; Cabinet Office: Infrastructure: Cybercrime",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44172.h&amp;s=defence#g44172.r0",
+   "excerpt": "The Government is working to improve resilience to cyber risks across the UK economy and drive organisations to take effective action. We are scaling up our work to make the internet automatically saf"
+  },
   {
    "id": "coaker",
    "name": "Lord Coaker",
@@ -9,6 +177,94 @@
    "date": "2026-12-01",
    "link": "https://www.theyworkforyou.com/calendar/?d=2026-12-01#cal57311",
    "excerpt": "uk"
+  },
+  {
+   "id": "akehurst",
+   "name": "Luke Akehurst",
+   "debate": "Rights of Rohingya People",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/whall/?id=2026-11-25a.199.0&amp;s=armed+forces#g208.0",
+   "excerpt": "It is a privilege to serve under your chairmanship, Sir Jeremy. I start by declaring my long-standing membership of the Burma Campaign. I am grateful to my hon. Friend the Member for Bethnal Green and"
+  },
+  {
+   "id": "roome",
+   "name": "Ian Roome",
+   "debate": "RFA Sir Galahad Board of Inquiry: Records Management and Disclosure &#8212; [Sir Jeremy Wright in the Chair]",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/whall/?id=2026-11-25a.166.0&amp;s=armed+forces#g183.1",
+   "excerpt": "I thank the hon. Member for Newport East (Jessica Morden) for securing this important debate. I appreciate that she has spoken about this cause many times and worked on behalf of many bereaved familie"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43707.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the readiness of the UK armed forces to respond to NATO force-generation requirements."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces: Deployment",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-12.42959.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, what assessment he has made of the ability of the Armed Forces to sustain operations in Europe for six months."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43714.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, what readiness lessons his Department has identified from recent multinational exercises."
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Armed Forces",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-16.43717.h&amp;s=armed+forces",
+   "excerpt": "To ask the Secretary of State for Defence, whether he plans to publish readiness performance indicators annually."
+  },
+  {
+   "id": "bailey",
+   "name": "Calvin Bailey",
+   "debate": "Written Answers &#8212; Ministry of Defence: Veterans: Disability Aids",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44212.h&amp;s=armed+forces#g44212.r0",
+   "excerpt": "The Veterans&#8217; Mobility Fund is designed to support veterans with physical disabilities resulting from illness or injury sustained during service by providing grants or equipment not usually avai"
+  },
+  {
+   "id": "sanderson",
+   "name": "Stuart Anderson",
+   "debate": "Written Answers &#8212; Ministry of Defence: Ammunition",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44166.h&amp;s=armed+forces#g44166.q0",
+   "excerpt": "To ask the Secretary of State for Defence, what steps his Department plans to take to expand the armed forces' loitering munition capability."
+  },
+  {
+   "id": "jarvis",
+   "name": "Dan Jarvis",
+   "debate": "Written Answers &#8212; Cabinet Office: Infrastructure: Cybercrime",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44172.h&amp;s=armed+forces#g44172.r0",
+   "excerpt": "The Government is working to improve resilience to cyber risks across the UK economy and drive organisations to take effective action. We are scaling up our work to make the internet automatically saf"
+  },
+  {
+   "id": "coaker",
+   "name": "Lord Coaker",
+   "debate": "Written Answers &#8212; Ministry of Defence: Uncrewed Systems: Procurement",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-18.HL5554.h&amp;s=armed+forces#gHL5554.r0",
+   "excerpt": "The &#163;25 million investment will rapidly deliver drones, counter-drone systems and other battlefield technologies to the Armed Forces to boost the UKs deterrence and keep Britain secure. UK indust"
+  },
+  {
+   "id": "pollard",
+   "name": "Luke Pollard",
+   "debate": "Written Answers &#8212; Ministry of Defence: Rifles: Procurement",
+   "date": "2026-11-25",
+   "link": "https://www.theyworkforyou.com/wrans/?id=2026-11-17.44252.h&amp;s=MoD+procurement#g44252.r0",
+   "excerpt": "Project GRAYBURN remains in its concept phase, which is ongoing and is expected to conclude by summer 2027. Therefore, it is yet to be determined whether the UK Offset Policy will be applied to the pr"
   }
  ]
 }
